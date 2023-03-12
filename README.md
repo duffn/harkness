@@ -2,7 +2,7 @@
 
 A full-featured and painstakingly documented library for working (playing) with the [Marvel API](https://developer.marvel.com/docs).
 
-![main](https://github.com/duffn/harkness/actions/workflows/test.yml/badge.svg) [![codecov](https://codecov.io/gh/duffn/harkness/branch/main/graph/badge.svg?token=9XUA33QIM2)](https://codecov.io/gh/duffn/harkness)
+![main](https://github.com/duffn/harkness/actions/workflows/test.yml/badge.svg) [![codecov](https://codecov.io/gh/duffn/harkness/branch/main/graph/badge.svg?token=9XUA33QIM2)](https://codecov.io/gh/duffn/harkness) [![Gem Version](https://badge.fury.io/rb/harkness.svg)](https://badge.fury.io/rb/harkness)
 
 ## Installation
 
