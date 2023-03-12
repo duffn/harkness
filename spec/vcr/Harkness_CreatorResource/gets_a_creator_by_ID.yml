@@ -1,0 +1,87 @@
+---
+http_interactions:
+  - request:
+      method: get
+      uri: https://gateway.marvel.com/v1/public/creators/8098?apikey=abcd&hash=a09f8647b1786ba2816888715a24ccc6&ts=1678320000
+      body:
+        encoding: US-ASCII
+        string: ""
+      headers:
+        User-Agent:
+          - Faraday v2.7.4
+        Accept-Encoding:
+          - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+        Accept:
+          - "*/*"
+    response:
+      status:
+        code: 200
+        message: OK
+      headers:
+        Etag:
+          - 0c74165f27b4e5c27d2ed8a33f837adf6d042e39
+        Content-Type:
+          - application/json; charset=utf-8
+        Date:
+          - Sat, 11 Mar 2023 23:03:21 GMT
+        Connection:
+          - keep-alive
+        Transfer-Encoding:
+          - chunked
+      body:
+        encoding: UTF-8
+        string:
+          '{"code":200,"status":"Ok","copyright":"© 2023 MARVEL","attributionText":"Data
+          provided by Marvel. © 2023 MARVEL","attributionHTML":"<a href=\"http://marvel.com\">Data
+          provided by Marvel. © 2023 MARVEL</a>","etag":"0c74165f27b4e5c27d2ed8a33f837adf6d042e39","data":{"offset":0,"limit":20,"total":1,"count":1,"results":[{"id":8098,"firstName":"Bengal","middleName":"","lastName":"","suffix":"","fullName":"Bengal","modified":"2016-09-12T10:46:58-0400","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","comics":{"available":23,"collectionURI":"http://gateway.marvel.com/v1/public/creators/8098/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56424","name":"All-New
+          Wolverine (2015) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56430","name":"All-New
+          Wolverine (2015) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56436","name":"All-New
+          Wolverine (2015) #5"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56438","name":"All-New
+          Wolverine (2015) #7"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56439","name":"All-New
+          Wolverine (2015) #8"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56440","name":"All-New
+          Wolverine (2015) #9"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56441","name":"All-New
+          Wolverine (2015) #10"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56442","name":"All-New
+          Wolverine (2015) #11"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56443","name":"All-New
+          Wolverine (2015) #12"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/61342","name":"All-New
+          Wolverine (2015) #13 (Bengal Connecting Variant a)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/61345","name":"All-New
+          Wolverine (2015) #14 (Bengal Connecting Variant B)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/61346","name":"All-New
+          Wolverine (2015) #15 (Bengal Connecting Variant C)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/61347","name":"All-New
+          Wolverine (2015) #16 (Bengal Connecting Variant D)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/61348","name":"All-New
+          Wolverine (2015) #17 (Bengal Connecting Variant E)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/51410","name":"Avengers
+          (2012) #34.2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/51411","name":"Avengers
+          (2012) #34.2 (Araujo Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/51934","name":"Guardians
+          Team-Up (2015) #8"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/54859","name":"Siege
+          (2015) #1 (BENGAL ANT-SIZED VARIANT)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55683","name":"Spider-Gwen
+          (2015) #7"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55684","name":"Spider-Gwen
+          (2015) #8"}],"returned":20},"series":{"available":9,"collectionURI":"http://gateway.marvel.com/v1/public/creators/8098/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/20682","name":"All-New
+          Wolverine (2015 - 2018)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/16452","name":"Avengers
+          (2012 - 2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/20448","name":"Black
+          Widow (2016 - 2017)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/19453","name":"Guardians
+          Team-Up (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/19608","name":"Siege
+          (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/20505","name":"Spider-Gwen
+          (2015 - 2018)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/23871","name":"Spider-Gwen
+          Vol. 2 (2018)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/26022","name":"Spider-Gwen:
+          Ghost-Spider Vol. 2 - Impossible Year (2019)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/19676","name":"Spider-Man
+          & the X-Men (2014 - 2015)"}],"returned":9},"stories":{"available":27,"collectionURI":"http://gateway.marvel.com/v1/public/creators/8098/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/71285","name":"Interior
+          #71285","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/81864","name":"Sky
+          Doll Space Ship #1","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/114397","name":"cover
+          from Avengers (2012) #34.2","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/114398","name":"story
+          from Avengers (2012) #34.2","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/114400","name":"story
+          from Avengers (2012) #34.2 (ARAUJO VARIANT)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115445","name":"cover
+          from Guardians Team-Up (2015) #8","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115446","name":"story
+          from Guardians Team-Up (2015) #8","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116667","name":"cover
+          from Spider-Man & the X-Men (2014) #1 (BENGAL VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/120935","name":"cover
+          from Night Watch of S.H.I.E.L.D. (2015) #1 (TBD ARTIST ANT-SIZED VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122410","name":"story
+          from Spider-Gwen (2015) #7","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122412","name":"story
+          from Spider-Gwen (2015) #8","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123703","name":"cover
+          from All-New Wolverine (2015) #1","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123715","name":"cover
+          from All-New Wolverine (2015) #2","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123728","name":"story
+          from All-New Wolverine (2015) #5","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123731","name":"cover
+          from All-New Wolverine (2015) #7","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123733","name":"cover
+          from All-New Wolverine (2015) #8","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123735","name":"cover
+          from All-New Wolverine (2015) #9","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123737","name":"cover
+          from All-New Wolverine (2015) #10","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123739","name":"cover
+          from All-New Wolverine (2015) #11","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123741","name":"cover
+          from All-New Wolverine (2015) #12","type":"cover"}],"returned":20},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/creators/8098/events","items":[],"returned":0},"urls":[{"type":"detail","url":"http://marvel.com/comics/creators/8098/bengal?utm_campaign=apiRef&utm_source=abcd"}]}]}}'
+    recorded_at: Thu, 09 Mar 2023 00:00:00 GMT
+recorded_with: VCR 6.1.0

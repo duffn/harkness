@@ -1,0 +1,312 @@
+---
+http_interactions:
+  - request:
+      method: get
+      uri: https://gateway.marvel.com/v1/public/series/2116/events?apikey=abcd&hash=a09f8647b1786ba2816888715a24ccc6&ts=1678320000
+      body:
+        encoding: US-ASCII
+        string: ""
+      headers:
+        User-Agent:
+          - Faraday v2.7.4
+        Accept-Encoding:
+          - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+        Accept:
+          - "*/*"
+    response:
+      status:
+        code: 200
+        message: OK
+      headers:
+        Etag:
+          - 91e11426ff1921b7ce9860d28a645c68b8019a61
+        Content-Type:
+          - application/json; charset=utf-8
+        Date:
+          - Sun, 12 Mar 2023 15:07:09 GMT
+        Connection:
+          - keep-alive
+        Transfer-Encoding:
+          - chunked
+      body:
+        encoding: UTF-8
+        string:
+          '{"code":200,"status":"Ok","copyright":"© 2023 MARVEL","attributionText":"Data
+          provided by Marvel. © 2023 MARVEL","attributionHTML":"<a href=\"http://marvel.com\">Data
+          provided by Marvel. © 2023 MARVEL</a>","etag":"91e11426ff1921b7ce9860d28a645c68b8019a61","data":{"offset":0,"limit":20,"total":3,"count":3,"results":[{"id":116,"title":"Acts
+          of Vengeance!","description":"Loki sets about convincing the super-villains
+          of Earth to attack heroes other than those they normally fight in an attempt
+          to destroy the Avengers to absolve his guilt over inadvertently creating the
+          team in the first place.","resourceURI":"http://gateway.marvel.com/v1/public/events/116","urls":[{"type":"detail","url":"http://marvel.com/comics/events/116/acts_of_vengeance?utm_campaign=apiRef&utm_source=abcd"},{"type":"wiki","url":"http://marvel.com/universe/Acts_of_Vengeance!?utm_campaign=apiRef&utm_source=abcd"}],"modified":"2013-06-28T16:31:24-0400","start":"1989-12-10
+          00:00:00","end":"2008-01-04 00:00:00","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/9/40/51ca10d996b8b","extension":"jpg"},"creators":{"available":102,"collectionURI":"http://gateway.marvel.com/v1/public/events/116/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/2707","name":"Jeff
+          Albrecht","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/2077","name":"Hilary
+          Barta","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/1277","name":"Bret
+          Blevins","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/5823","name":"Danilo
+          Bulanadi","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/87","name":"Mark
+          Bagley","role":"penciler"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/211","name":"Mark
+          Bright","role":"penciler"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/2043","name":"Eliot
+          Brown","role":"penciler"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/1216","name":"Rich
+          Buckler","role":"penciler"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/1827","name":"John
+          Byrne","role":"penciler"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/2713","name":"Gary
+          Barnum","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/1231","name":"Kurt
+          Busiek","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/452","name":"Virtual
+          Calligr","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/44","name":"Chris
+          Claremont","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/954","name":"Gerry
+          Conway","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/1935","name":"Paul
+          Becton","role":"colorist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/1909","name":"Steve
+          Buccellato","role":"colorist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/1871","name":"Ken
+          Bruzenak","role":"letterer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/1887","name":"Janice
+          Chiang","role":"letterer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/105","name":"Sal
+          Buscema","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/3415","name":"John
+          Calimee","role":"penciller (cover)"}],"returned":20},"characters":{"available":108,"collectionURI":"http://gateway.marvel.com/v1/public/events/116/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009435","name":"Alicia
+          Masters"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1010370","name":"Alpha
+          Flight"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009152","name":"Ancient
+          One"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009156","name":"Apocalypse"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009159","name":"Archangel"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009165","name":"Avengers"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1011456","name":"Balder"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009168","name":"Banshee"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009175","name":"Beast"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009179","name":"Beetle
+          (Abner Jenkins)"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009329","name":"Ben
+          Grimm"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009186","name":"Black
+          Knight (Sir Percy of Scandia)"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009189","name":"Black
+          Widow"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1010366","name":"Boom
+          Boom"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009167","name":"Bruce
+          Banner"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009213","name":"Bushwacker"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009220","name":"Captain
+          America"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1011027","name":"Captain
+          Universe"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009234","name":"Chameleon"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009239","name":"Clea"}],"returned":20},"stories":{"available":161,"collectionURI":"http://gateway.marvel.com/v1/public/events/116/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/12960","name":"Fantastic
+          Four (1961) #334","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/12961","name":"Shadows
+          of Alarm..!","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/12962","name":"Fantastic
+          Four (1961) #335","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/12963","name":"Death
+          by Debate","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/12964","name":"Fantastic
+          Four (1961) #336","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/12965","name":"Dark
+          Congress!","type":""},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14056","name":"Amazing
+          Spider-Man (1963) #326","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14057","name":"Amazing
+          Spider-Man (1963) #326","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14058","name":"Amazing
+          Spider-Man (1963) #327","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14059","name":"Cunning
+          Attractions!","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14060","name":"Amazing
+          Spider-Man (1963) #328","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14061","name":"Shaw''s
+          Gambit","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14062","name":"Amazing
+          Spider-Man (1963) #329","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14063","name":"Amazing
+          Spider-Man (1963) #329","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14916","name":"AVENGERS
+          (1963) #311","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14917","name":"The
+          Weakest Point","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14918","name":"AVENGERS
+          (1963) #312","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14919","name":"Has
+          the Whole World Gone Mad?!?","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14920","name":"AVENGERS
+          (1963) #313","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14921","name":"Thieves
+          Honor","type":"interiorStory"}],"returned":20},"comics":{"available":53,"collectionURI":"http://gateway.marvel.com/v1/public/events/116/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/12744","name":"Alpha
+          Flight (1983) #79"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/12746","name":"Alpha
+          Flight (1983) #80"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7188","name":"Avengers
+          (1963) #311"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7189","name":"Avengers
+          (1963) #312"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7190","name":"Avengers
+          (1963) #313"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/6933","name":"Avengers
+          Annual (1967) #19"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17774","name":"Avengers
+          Annual (1967) #19 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17795","name":"West
+          Coast Avengers (1985) #53"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17796","name":"West
+          Coast Avengers (1985) #54"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17797","name":"West
+          Coast Avengers (1985) #55"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17695","name":"AVENGERS
+          WEST COAST: DARKER THAN SCARLET TPB (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7746","name":"Captain
+          America (1968) #365"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7747","name":"Captain
+          America (1968) #366"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7748","name":"Captain
+          America (1968) #367"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/8268","name":"Daredevil
+          (1964) #275"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/8269","name":"Daredevil
+          (1964) #276"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/20170","name":"Doctor
+          Strange, Sorcerer Supreme (1988) #11"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/20171","name":"Doctor
+          Strange, Sorcerer Supreme (1988) #12"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/20172","name":"Doctor
+          Strange, Sorcerer Supreme (1988) #13"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/13155","name":"Fantastic
+          Four (1961) #334"}],"returned":20},"series":{"available":22,"collectionURI":"http://gateway.marvel.com/v1/public/events/116/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/2116","name":"Alpha
+          Flight (1983 - 1994)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1991","name":"Avengers
+          (1963 - 1996)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1988","name":"Avengers
+          Annual (1967 - 1994)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3462","name":"AVENGERS
+          WEST COAST: DARKER THAN SCARLET TPB (2008)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1996","name":"Captain
+          America (1968 - 1996)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2002","name":"Daredevil
+          (1964 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3741","name":"Doctor
+          Strange, Sorcerer Supreme (1988 - 1996)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2121","name":"Fantastic
+          Four (1961 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2021","name":"Incredible
+          Hulk (1962 - 1999)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2029","name":"Iron
+          Man (1968 - 1996)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2055","name":"New
+          Mutants (1983 - 1991)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2271","name":"Peter
+          Parker, the Spectacular Spider-Man (1976 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/5860","name":"Punisher
+          War Journal (1988 - 1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3695","name":"Quasar
+          (1989 - 1994)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2288","name":"Silver
+          Surfer (1987 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1987","name":"The
+          Amazing Spider-Man (1963 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2083","name":"Thor
+          (1966 - 1996)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2258","name":"Uncanny
+          X-Men (1963 - 2011)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2092","name":"Web
+          of Spider-Man (1985 - 1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3630","name":"West
+          Coast Avengers (1985 - 1994)"}],"returned":20},"next":{"resourceURI":"http://gateway.marvel.com/v1/public/events/240","name":"Days
+          of Future Present"},"previous":{"resourceURI":"http://gateway.marvel.com/v1/public/events/233","name":"Atlantis
+          Attacks"}},{"id":29,"title":"Infinity War","description":"The Magus, the purged,
+          evil side of Adam Warlock believed to have been dead, has returned in order
+          to collect the Infinity Gems and recreate the Infinity Gauntlet itself. He
+          sent evil doppelgangers of Marvel''s superheroes to attack and usurp the originals.
+          Thanos, exiled since his defeat during the Infinity Gauntlet event, learned
+          of the Magus'' plans and set out to aid Adam Warlock and the heroes in defending
+          the universe.","resourceURI":"http://gateway.marvel.com/v1/public/events/29","urls":[{"type":"detail","url":"http://marvel.com/comics/events/29/infinity_war?utm_campaign=apiRef&utm_source=abcd"},{"type":"wiki","url":"http://marvel.com/universe/Infinity_War?utm_campaign=apiRef&utm_source=abcd"}],"modified":"2014-06-10T16:08:04-0400","start":"1992-06-10
+          00:00:00","end":"1992-11-10 00:00:00","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/10/51ca14b3dce00","extension":"jpg"},"creators":{"available":94,"collectionURI":"http://gateway.marvel.com/v1/public/events/29/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/2632","name":"Stein","role":"colorist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/1935","name":"Paul
+          Becton","role":"colorist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/2112","name":"Larry
+          Alexander","role":"penciler"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/1185","name":"Pat
+          Broderick","role":"penciler"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/379","name":"Greg
+          Capullo","role":"penciler"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/270","name":"Gene
+          Colan","role":"penciler"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4201","name":"Bob
+          Almond","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/11063","name":"Terry
+          Kevin Austin","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/3701","name":"Ken
+          Branch","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/5823","name":"Danilo
+          Bulanadi","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/3074","name":"Ralph
+          Cabrera","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/2386","name":"Harry
+          Candelario","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4769","name":"Tom
+          Christopher","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/2047","name":"Craig
+          Anderson","role":"editor"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8953","name":"Lynaire
+          Brust","role":"editor"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/2687","name":"Jon
+          Babcock","role":"letterer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/3626","name":"Pat
+          Brosseau","role":"letterer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/1871","name":"Ken
+          Bruzenak","role":"letterer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/1887","name":"Janice
+          Chiang","role":"letterer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/2089","name":"Joey
+          Cavalieri","role":"writer"}],"returned":20},"characters":{"available":58,"collectionURI":"http://gateway.marvel.com/v1/public/events/29/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1010354","name":"Adam
+          Warlock"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1010370","name":"Alpha
+          Flight"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009152","name":"Ancient
+          One"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009159","name":"Archangel"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009163","name":"Aurora"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009165","name":"Avengers"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009175","name":"Beast"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009186","name":"Black
+          Knight (Sir Percy of Scandia)"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009218","name":"Calypso"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009220","name":"Captain
+          America"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009239","name":"Clea"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009243","name":"Colossus"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009257","name":"Cyclops"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009262","name":"Daredevil"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009269","name":"Death"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009274","name":"Diamondback
+          (Rachel Leighton)"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009282","name":"Doctor
+          Strange"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009297","name":"Falcon"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009299","name":"Fantastic
+          Four"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009312","name":"Galactus"}],"returned":20},"stories":{"available":154,"collectionURI":"http://gateway.marvel.com/v1/public/events/29/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13094","name":"Destroy!","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13095","name":"The
+          Enemy Within!","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13096","name":"Fantastic
+          Forum","type":"letters"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13097","name":"Bullpen
+          Bulletins","type":"promo"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13098","name":"Pay
+          As Low As 96¢ Per Copy","type":"promo"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13099","name":"[Ads]","type":"ad"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13100","name":"At
+          the Mercy of the Puppet Master!","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13101","name":"By
+          Reed ... Betrayed!","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13102","name":"Fantastic
+          Forum","type":"letters"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13103","name":"Bullpen
+          Bulletins","type":"promo"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13104","name":"Get
+          4 Titles For the Price of 3.","type":"promo"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13105","name":"[Ads]","type":"ad"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13106","name":"Day
+          of the Doppelgangers","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13107","name":"Day
+          of the Dark Side!","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13108","name":"Fantastic
+          Forum","type":"letters"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13109","name":"Bullpen
+          Bulletins","type":"promo"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13110","name":"Get
+          4 Titles For the Price of 3.","type":"promo"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13111","name":"[Ads]","type":"ad"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13112","name":"[Long
+          Live Malice!]","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13113","name":"With
+          Malice Toward All!","type":"interiorStory"}],"returned":20},"comics":{"available":40,"collectionURI":"http://gateway.marvel.com/v1/public/events/29/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/12650","name":"Alpha
+          Flight (1983) #110"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/12651","name":"Alpha
+          Flight (1983) #111"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/12652","name":"Alpha
+          Flight (1983) #112"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7789","name":"Captain
+          America (1968) #408"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/8308","name":"Daredevil
+          (1964) #310"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/20204","name":"Doctor
+          Strange, Sorcerer Supreme (1988) #42"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/20205","name":"Doctor
+          Strange, Sorcerer Supreme (1988) #43"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/20206","name":"Doctor
+          Strange, Sorcerer Supreme (1988) #44"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/20207","name":"Doctor
+          Strange, Sorcerer Supreme (1988) #45"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/20208","name":"Doctor
+          Strange, Sorcerer Supreme (1988) #46"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/20209","name":"Doctor
+          Strange, Sorcerer Supreme (1988) #47"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/13190","name":"Fantastic
+          Four (1961) #366"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/13191","name":"Fantastic
+          Four (1961) #367"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/13192","name":"Fantastic
+          Four (1961) #368"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/13193","name":"Fantastic
+          Four (1961) #369"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/13195","name":"Fantastic
+          Four (1961) #370"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/9292","name":"Infinity
+          War (1992) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/9293","name":"Infinity
+          War (1992) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/9294","name":"Infinity
+          War (1992) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/9295","name":"Infinity
+          War (1992) #4"}],"returned":20},"series":{"available":13,"collectionURI":"http://gateway.marvel.com/v1/public/events/29/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/2116","name":"Alpha
+          Flight (1983 - 1994)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1996","name":"Captain
+          America (1968 - 1996)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2002","name":"Daredevil
+          (1964 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3741","name":"Doctor
+          Strange, Sorcerer Supreme (1988 - 1996)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2121","name":"Fantastic
+          Four (1961 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2024","name":"Infinity
+          War (1992)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3289","name":"INFINITY
+          WAR TPB (2005)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2039","name":"Marvel
+          Comics Presents (1988 - 1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3695","name":"Quasar
+          (1989 - 1994)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2288","name":"Silver
+          Surfer (1987 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2069","name":"Spider-Man
+          (1990 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3654","name":"Warlock
+          and the Infinity Watch (1992 - 1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3645","name":"Wonder
+          Man (1991 - 1994)"}],"returned":13},"next":{"resourceURI":"http://gateway.marvel.com/v1/public/events/151","name":"Maximum
+          Carnage"},"previous":{"resourceURI":"http://gateway.marvel.com/v1/public/events/253","name":"Infinity
+          Gauntlet"}},{"id":271,"title":"Secret Wars II","description":"The omnipotent
+          Beyonder comes to Earth to better understand the concept of desire as the
+          heroes assemble to combat the threat he poses.","resourceURI":"http://gateway.marvel.com/v1/public/events/271","urls":[{"type":"detail","url":"http://marvel.com/comics/events/271/secret_wars_ii?utm_campaign=apiRef&utm_source=abcd"},{"type":"wiki","url":"http://marvel.com/universe/Secret_Wars_II?utm_campaign=apiRef&utm_source=abcd"}],"modified":"2015-01-21T17:09:37-0500","start":"1985-07-10
+          00:00:00","end":"2009-05-13 00:00:00","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/f/60/51cdec7c4d64d","extension":"jpg"},"creators":{"available":85,"collectionURI":"http://gateway.marvel.com/v1/public/events/271/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/3389","name":"Ian
+          Akin","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/5823","name":"Danilo
+          Bulanadi","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/9985","name":"Kim
+          Demulder","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/1865","name":"Diana
+          Albers","role":"letterer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/3632","name":"Lois
+          Buhalis","role":"letterer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/1887","name":"Janice
+          Chiang","role":"letterer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/5365","name":"Phil
+          Hugh Felix","role":"letterer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/651","name":"Brent
+          Anderson","role":"penciller"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/2047","name":"Craig
+          Anderson","role":"editor"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/3652","name":"Mark
+          Badger","role":"penciler"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/1216","name":"Rich
+          Buckler","role":"penciler"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/1612","name":"John
+          Buscema","role":"penciler"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/7119","name":"Paul
+          Chadwick","role":"penciler"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/5764","name":"Ron
+          Frenz","role":"penciler"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/2263","name":"James
+          Fry","role":"penciler"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/1935","name":"Paul
+          Becton","role":"colorist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/1827","name":"John
+          Byrne","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/44","name":"Chris
+          Claremont","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/9565","name":"Tom
+          Defalco","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/6049","name":"Danny
+          Fingeroth","role":"writer"}],"returned":20},"characters":{"available":68,"collectionURI":"http://gateway.marvel.com/v1/public/events/271/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1010354","name":"Adam
+          Warlock"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1010370","name":"Alpha
+          Flight"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009165","name":"Avengers"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1011138","name":"Beyonder"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009186","name":"Black
+          Knight (Sir Percy of Scandia)"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009219","name":"Cannonball"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009220","name":"Captain
+          America"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009224","name":"Captain
+          Marvel (Mar-Vell)"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009232","name":"Ch''od"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009241","name":"Cloak"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009243","name":"Colossus"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009257","name":"Cyclops"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009258","name":"Dagger"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009453","name":"Dani
+          Moonstar"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009262","name":"Daredevil"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009267","name":"Dazzler"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1011023","name":"Defenders"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009281","name":"Doctor
+          Doom"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009282","name":"Doctor
+          Strange"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009299","name":"Fantastic
+          Four"}],"returned":20},"stories":{"available":111,"collectionURI":"http://gateway.marvel.com/v1/public/events/271/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/12838","name":"Inwards
+          to Infinity!","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/12839","name":"Towards
+          Infinity!","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/12844","name":"Cover
+          #12844","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/12845","name":"Hero","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/12850","name":"Doctor
+          Doom Versus the Beyonder","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/12851","name":"Full
+          Circle","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13922","name":"Amazing
+          Spider-Man (1963) #268","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13923","name":"This
+          Gold is Mine!","type":""},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13934","name":"Amazing
+          Spider-Man (1963) #273","type":""},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13935","name":"","type":""},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13936","name":"Amazing
+          Spider-Man (1963) #274","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13937","name":"","type":""},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14801","name":"Avengers
+          (1963) #260","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14802","name":"Assault
+          On Sanctuary II","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14803","name":"Avengers
+          (1963) #261","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14804","name":"Earth
+          and Beyond","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14811","name":"Avengers
+          (1963) #265","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14812","name":"Eve
+          of Destruction","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14813","name":"Avengers
+          (1963) #266","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14814","name":"And
+          the War''s Desolation","type":"interiorStory"}],"returned":20},"comics":{"available":41,"collectionURI":"http://gateway.marvel.com/v1/public/events/271/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/12688","name":"Alpha
+          Flight (1983) #28"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7131","name":"Avengers
+          (1963) #260"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7132","name":"Avengers
+          (1963) #261"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7136","name":"Avengers
+          (1963) #265"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7137","name":"Avengers
+          (1963) #266"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7689","name":"Captain
+          America (1968) #308"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/62785","name":"Cloak
+          and Dagger (1985) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/8211","name":"Daredevil
+          (1964) #223"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/20452","name":"Dazzler
+          (1981) #40"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/20321","name":"Defenders
+          (1972) #152"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/20158","name":"Doctor
+          Strange (1974) #74"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/13097","name":"Fantastic
+          Four (1961) #282"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/13100","name":"Fantastic
+          Four (1961) #285"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/13103","name":"Fantastic
+          Four (1961) #288"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/9123","name":"Incredible
+          Hulk (1962) #312"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/9435","name":"Iron
+          Man (1968) #197"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/10367","name":"New
+          Mutants (1983) #30"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/10373","name":"New
+          Mutants (1983) #36"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/10374","name":"New
+          Mutants (1983) #37"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/14556","name":"Peter
+          Parker, the Spectacular Spider-Man (1976) #111"}],"returned":20},"series":{"available":22,"collectionURI":"http://gateway.marvel.com/v1/public/events/271/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/2116","name":"Alpha
+          Flight (1983 - 1994)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1991","name":"Avengers
+          (1963 - 1996)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1996","name":"Captain
+          America (1968 - 1996)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/14157","name":"Cloak
+          and Dagger (1985 - 1987)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2002","name":"Daredevil
+          (1964 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3745","name":"Dazzler
+          (1981 - 1986)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3743","name":"Defenders
+          (1972 - 1986)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3740","name":"Doctor
+          Strange (1974 - 1988)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2121","name":"Fantastic
+          Four (1961 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2021","name":"Incredible
+          Hulk (1962 - 1999)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2029","name":"Iron
+          Man (1968 - 1996)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2055","name":"New
+          Mutants (1983 - 1991)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2271","name":"Peter
+          Parker, the Spectacular Spider-Man (1976 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/15186","name":"Power
+          Pack (1984 - 1991)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3695","name":"Quasar
+          (1989 - 1994)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3694","name":"Secret
+          Wars II (1985)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/6860","name":"SECRET
+          WARS II OMNIBUS HC BYRNE COVER [DM ONLY] (2009 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1987","name":"The
+          Amazing Spider-Man (1963 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3667","name":"Thing
+          (1983 - 1986)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2083","name":"Thor
+          (1966 - 1996)"}],"returned":20},"next":{"resourceURI":"http://gateway.marvel.com/v1/public/events/263","name":"Mutant
+          Massacre"},"previous":{"resourceURI":"http://gateway.marvel.com/v1/public/events/270","name":"Secret
+          Wars"}}]}}'
+    recorded_at: Thu, 09 Mar 2023 00:00:00 GMT
+recorded_with: VCR 6.1.0

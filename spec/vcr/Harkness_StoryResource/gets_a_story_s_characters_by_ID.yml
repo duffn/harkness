@@ -1,0 +1,287 @@
+---
+http_interactions:
+  - request:
+      method: get
+      uri: https://gateway.marvel.com/v1/public/stories/1315/characters?apikey=abcd&hash=a09f8647b1786ba2816888715a24ccc6&ts=1678320000
+      body:
+        encoding: US-ASCII
+        string: ""
+      headers:
+        User-Agent:
+          - Faraday v2.7.4
+        Accept-Encoding:
+          - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+        Accept:
+          - "*/*"
+    response:
+      status:
+        code: 200
+        message: OK
+      headers:
+        Etag:
+          - "08d0bd4357f7f59313b372124d478738716d5ec7"
+        Content-Type:
+          - application/json; charset=utf-8
+        Date:
+          - Sun, 12 Mar 2023 15:22:11 GMT
+        Connection:
+          - keep-alive
+        Transfer-Encoding:
+          - chunked
+      body:
+        encoding: UTF-8
+        string:
+          '{"code":200,"status":"Ok","copyright":"© 2023 MARVEL","attributionText":"Data
+          provided by Marvel. © 2023 MARVEL","attributionHTML":"<a href=\"http://marvel.com\">Data
+          provided by Marvel. © 2023 MARVEL</a>","etag":"08d0bd4357f7f59313b372124d478738716d5ec7","data":{"offset":0,"limit":20,"total":5,"count":5,"results":[{"id":1010916,"name":"Carnage
+          (Ultimate)","description":"","modified":"1969-12-31T19:00:00-0500","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/3/00/4c003571c756c","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/characters/1010916","comics":{"available":7,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1010916/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/600","name":"Ultimate
+          Spider-Man (2000) #62"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/538","name":"Ultimate
+          Spider-Man (2000) #63"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/759","name":"Ultimate
+          Spider-Man (2000) #64"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/5218","name":"Ultimate
+          Spider-Man (2000) #101"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/5374","name":"Ultimate
+          Spider-Man (2000) #102"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/22","name":"Ultimate
+          Spider-Man Vol. 11: Carnage (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/16199","name":"Ultimate
+          Spider-Man Vol. 17: Clone Saga (Trade Paperback)"}],"returned":7},"series":{"available":3,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1010916/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/466","name":"Ultimate
+          Spider-Man (2000 - 2009)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1221","name":"Ultimate
+          Spider-Man Vol. 11: Carnage (2004)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2692","name":"Ultimate
+          Spider-Man Vol. 17: Clone Saga (2007)"}],"returned":3},"stories":{"available":9,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1010916/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1314","name":"Ultimate
+          Spider-Man (2000) #63","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1315","name":"Interior
+          #1315","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1316","name":"Ultimate
+          Spider-Man (2000) #62","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1317","name":"Interior
+          #1317","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1326","name":"Ultimate
+          Spider-Man (2000) #64","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1327","name":"Interior
+          #1327","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1398","name":"Ultimate
+          Spider-Man (2000) #101","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1399","name":"5
+          of ? - The Clone Saga","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1401","name":"6
+          of ? - The Clone Saga","type":"interiorStory"}],"returned":9},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1010916/events","items":[],"returned":0},"urls":[{"type":"detail","url":"http://marvel.com/characters/397/carnage?utm_campaign=apiRef&utm_source=abcd"},{"type":"wiki","url":"http://marvel.com/universe/Carnage_%28Ultimate%29?utm_campaign=apiRef&utm_source=abcd"},{"type":"comiclink","url":"http://marvel.com/comics/characters/1010916/carnage_ultimate?utm_campaign=apiRef&utm_source=abcd"}]},{"id":1009244,"name":"Curt
+          Conners","description":"","modified":"1969-12-31T19:00:00-0500","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009244","comics":{"available":18,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1009244/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/40138","name":"Amazing
+          Spider-Man (1999) #688"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/40112","name":"Amazing
+          Spider-Man (1999) #689"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/40121","name":"Amazing
+          Spider-Man (1999) #690"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/6295","name":"Sensational
+          Spider-Man (2006) #37"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/1133","name":"SPIDER-MAN
+          LEGENDS VOL. 2: TODD MCFARLANE BOOK 2 TPB (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17331","name":"Spider-Man,
+          Peter Parker: Back in Black (2007)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/6146","name":"Spider-Man:
+          Birth of Venom (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/6642","name":"The
+          Amazing Spider-Man (1963) #243"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/6652","name":"The
+          Amazing Spider-Man (1963) #252"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/6718","name":"The
+          Amazing Spider-Man (1963) #311"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/6719","name":"The
+          Amazing Spider-Man (1963) #312"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/6720","name":"The
+          Amazing Spider-Man (1963) #313"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/6832","name":"The
+          Amazing Spider-Man (1963) #414"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/717","name":"Ultimate
+          Spider-Man (2000) #61"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/600","name":"Ultimate
+          Spider-Man (2000) #62"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/538","name":"Ultimate
+          Spider-Man (2000) #63"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/759","name":"Ultimate
+          Spider-Man (2000) #64"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/22","name":"Ultimate
+          Spider-Man Vol. 11: Carnage (Trade Paperback)"}],"returned":18},"series":{"available":8,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1009244/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/454","name":"Amazing
+          Spider-Man (1999 - 2013)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/722","name":"Sensational
+          Spider-Man (2006 - 2007)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/192","name":"SPIDER-MAN
+          LEGENDS VOL. 2: TODD MCFARLANE BOOK 2 TPB (2003)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3133","name":"Spider-Man,
+          Peter Parker: Back in Black (2007)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1921","name":"Spider-Man:
+          Birth of Venom (2007)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1987","name":"The
+          Amazing Spider-Man (1963 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/466","name":"Ultimate
+          Spider-Man (2000 - 2009)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1221","name":"Ultimate
+          Spider-Man Vol. 11: Carnage (2004)"}],"returned":8},"stories":{"available":16,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1009244/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1315","name":"Interior
+          #1315","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1317","name":"Interior
+          #1317","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1325","name":"Interior
+          #1325","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1327","name":"Interior
+          #1327","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/8135","name":"SENSATIONAL
+          SPIDER-MAN (2006) #37","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13868","name":"Amazing
+          Spider-Man (1963) #243","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13888","name":"Amazing
+          Spider-Man (1963) #252","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/13889","name":"Homecoming","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14024","name":"Amazing
+          Spider-Man (1963) #311","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14026","name":"Amazing
+          Spider-Man (1963) #312","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14028","name":"Amazing
+          Spider-Man (1963) #313","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/66195","name":"Amazing
+          Spider-Man (1963) #243","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/66277","name":"Amazing
+          Spider-Man (1963) #414","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/91021","name":"Amazing
+          Spider-Man (1999) #689","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/91039","name":"Amazing
+          Spider-Man (1999) #690","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/91073","name":"Amazing
+          Spider-Man (1999) #688","type":"cover"}],"returned":16},"events":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1009244/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/252","name":"Inferno"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/270","name":"Secret
+          Wars"}],"returned":2},"urls":[{"type":"detail","url":"http://marvel.com/characters/2694/curt_conners?utm_campaign=apiRef&utm_source=abcd"},{"type":"comiclink","url":"http://marvel.com/comics/characters/1009244/curt_conners?utm_campaign=apiRef&utm_source=abcd"}]},{"id":1011203,"name":"Mary
+          Jane Watson (Ultimate)","description":"","modified":"2011-05-03T13:02:57-0400","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/e/f0/4ce5a53fae2a5","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/characters/1011203","comics":{"available":45,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1011203/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/38400","name":"Ultimate
+          Comics Spider-Man (2011) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/37461","name":"Ultimate
+          Comics Spider-Man (2009) #150"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/37465","name":"Ultimate
+          Comics Spider-Man (2009) #156"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/37458","name":"Ultimate
+          Comics Spider-Man (2009) #158"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/40363","name":"Ultimate
+          Comics Spider-Man (2009) #160"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/39967","name":"Ultimate
+          Fallout (2011) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/40098","name":"Ultimate
+          Fallout (2011) #1 (Diamond Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/40031","name":"Ultimate
+          Fallout (2011) #1 (Djurdjevic Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/14846","name":"Ultimate
+          Spider-Man (2000) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/14839","name":"Ultimate
+          Spider-Man (2000) #13"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/14851","name":"Ultimate
+          Spider-Man (2000) #24"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/14858","name":"Ultimate
+          Spider-Man (2000) #30"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/717","name":"Ultimate
+          Spider-Man (2000) #61"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/600","name":"Ultimate
+          Spider-Man (2000) #62"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/538","name":"Ultimate
+          Spider-Man (2000) #63"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/787","name":"Ultimate
+          Spider-Man (2000) #65"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/876","name":"Ultimate
+          Spider-Man (2000) #66"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/12","name":"Ultimate
+          Spider-Man (2000) #68"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/13","name":"Ultimate
+          Spider-Man (2000) #69"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/1416","name":"Ultimate
+          Spider-Man (2000) #70"}],"returned":20},"series":{"available":16,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1011203/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/8509","name":"Ultimate
+          Comics Spider-Man (2009 - 2012)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/13831","name":"Ultimate
+          Comics Spider-Man (2011 - 2013)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/14807","name":"Ultimate
+          Fallout (2011)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/466","name":"Ultimate
+          Spider-Man (2000 - 2009)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1919","name":"Ultimate
+          Spider-Man Ultimate Collection Book 1 (2007)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1221","name":"Ultimate
+          Spider-Man Vol. 11: Carnage (2004)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1383","name":"Ultimate
+          Spider-Man Vol. 12: Superstars (2005)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1426","name":"Ultimate
+          Spider-Man Vol. 15: Silver Sable (2006)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1618","name":"Ultimate
+          Spider-Man Vol. 16: Deadpool (2006)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2692","name":"Ultimate
+          Spider-Man Vol. 17: Clone Saga (2007)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2922","name":"ULTIMATE
+          SPIDER-MAN VOL. 18: ULTIMATE KNIGHTS TPB (2007)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/74","name":"Ultimate
+          Spider-Man Vol. 1: Power & Responsibility (1999)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/78","name":"ULTIMATE
+          SPIDER-MAN VOL. 4: LEGACY TPB (2002)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3887","name":"Ultimate
+          Spider-Man Vol. 9 (2008)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2280","name":"Ultimate
+          Spider-Man: Free Comic Book Day Edition (2002)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/474","name":"Ultimate
+          X-Men (2001 - 2009)"}],"returned":16},"stories":{"available":36,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1011203/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1291","name":"1
+          of 2 - Human Torch","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1293","name":"2
+          of 2 - Human Torch","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1314","name":"Ultimate
+          Spider-Man (2000) #63","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1315","name":"Interior
+          #1315","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1317","name":"Interior
+          #1317","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1325","name":"Interior
+          #1325","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1329","name":"SELF-CONTAINED
+          STORY!  It’s the Breakfast Club redux as Peter, Mary Jane, Liz, Flash and
+          Kong are busted and given detention. No","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1330","name":"Ultimate
+          Spider-Man (2000) #66","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1335","name":"1
+          of 2 - Sorceror Supreme","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1350","name":"1
+          of 1 - Dumped","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1364","name":"ULTIMATE
+          SPIDER-MAN (2000) #86","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1386","name":"ULTIMATE
+          SPIDER-MAN (2000) #96","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1388","name":"ULTIMATE
+          SPIDER-MAN (2000) #97","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1390","name":"ULTIMATE
+          SPIDER-MAN (2000) #98","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1392","name":"ULTIMATE
+          SPIDER-MAN (2000) #99","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1394","name":"ULTIMATE
+          SPIDER-MAN (2000) #100","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1399","name":"5
+          of ? - The Clone Saga","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1403","name":"7
+          of 8 - The Clone Saga","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1405","name":"8
+          of 8 - The Clone Saga","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/7630","name":"1
+          of 5 - Ultimate Knights","type":"interiorStory"}],"returned":20},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1011203/events","items":[],"returned":0},"urls":[{"type":"detail","url":"http://marvel.com/characters/2727/mary_jane_watson?utm_campaign=apiRef&utm_source=abcd"},{"type":"comiclink","url":"http://marvel.com/comics/characters/1011203/mary_jane_watson_ultimate?utm_campaign=apiRef&utm_source=abcd"}]},{"id":1009491,"name":"Peter
+          Parker","description":"","modified":"2021-07-01T15:07:31-0400","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009491","comics":{"available":195,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1009491/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/6809","name":"The
+          Amazing Spider-Man (1963) #394"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/6810","name":"The
+          Amazing Spider-Man (1963) #395"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/6811","name":"The
+          Amazing Spider-Man (1963) #396"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/6812","name":"The
+          Amazing Spider-Man (1963) #397"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/6813","name":"The
+          Amazing Spider-Man (1963) #398"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/6814","name":"The
+          Amazing Spider-Man (1963) #399"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/392","name":"Amazing
+          Spider-Man (1999) #502"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/290","name":"Amazing
+          Spider-Man (1999) #503"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/413","name":"Amazing
+          Spider-Man (1999) #505"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/441","name":"Amazing
+          Spider-Man (1999) #506"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/491","name":"Amazing
+          Spider-Man (1999) #507"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/721","name":"Amazing
+          Spider-Man (1999) #509"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/530","name":"Amazing
+          Spider-Man (1999) #510"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/24408","name":"Amazing
+          Spider-Man (1999) #601"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/24409","name":"Amazing
+          Spider-Man (1999) #602"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/24410","name":"Amazing
+          Spider-Man (1999) #603"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/24411","name":"Amazing
+          Spider-Man (1999) #604"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/24412","name":"Amazing
+          Spider-Man (1999) #605"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/24415","name":"Amazing
+          Spider-Man (1999) #608"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/24416","name":"Amazing
+          Spider-Man (1999) #609"}],"returned":20},"series":{"available":35,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1009491/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/454","name":"Amazing
+          Spider-Man (1999 - 2013)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/318","name":"Amazing
+          Spider-Man Vol. 6 (2004)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1292","name":"AMAZING
+          SPIDER-MAN VOL. 7: BOOK OF EZEKIEL TPB (2005)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1291","name":"Amazing
+          Spider-Man Vol. 7: The Book of Ezekiel (2004)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1283","name":"Amazing
+          Spider-Man Vol. 8: Sins Past (2005)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1991","name":"Avengers
+          (1963 - 1996)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/485","name":"Captain
+          America (2002 - 2004)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/23704","name":"Daily
+          Bugle (1996 - 1997)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/449","name":"Daredevil
+          (1998 - 2011)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/20","name":"Daredevil
+          Vol. III: Wake Up (1999)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1922","name":"Essential
+          Ms. Marvel Vol. 1 (2007)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/31990","name":"Heroes
+          Reborn: Peter Parker, The Amazing Shutterbug (2021)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2021","name":"Incredible
+          Hulk (1962 - 1999)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1501","name":"MARY
+          JANE VOL. 2: HOMECOMING DIGEST (2005)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/882","name":"Mary
+          Jane: Homecoming (2005)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2050","name":"Ms.
+          Marvel (1977 - 1979)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2271","name":"Peter
+          Parker, the Spectacular Spider-Man (1976 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2060","name":"Peter
+          Parker: Spider-Man (1999 - 2003)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/556","name":"Spectacular
+          Spider-Man (2003 - 2005)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/66","name":"SPIDER-MAN
+          LEGENDS VOL. 1: TODD MCFARLANE BOOK 1 TPB (1999)"}],"returned":20},"stories":{"available":204,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1009491/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1022","name":"Amazing
+          Spider-Man (1999) #502","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1137","name":"Amazing
+          Spider-Man (1999) #505","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1139","name":"Amazing
+          Spider-Man (1999) #506","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1141","name":"Amazing
+          Spider-Man (1999) #507","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1143","name":"Amazing
+          Spider-Man (1999) #510","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1147","name":"Amazing
+          Spider-Man (1999) #509","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1291","name":"1
+          of 2 - Human Torch","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1293","name":"2
+          of 2 - Human Torch","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1314","name":"Ultimate
+          Spider-Man (2000) #63","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1315","name":"Interior
+          #1315","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1325","name":"Interior
+          #1325","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1327","name":"Interior
+          #1327","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1329","name":"SELF-CONTAINED
+          STORY!  It’s the Breakfast Club redux as Peter, Mary Jane, Liz, Flash and
+          Kong are busted and given detention. No","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1330","name":"Ultimate
+          Spider-Man (2000) #66","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1335","name":"1
+          of 2 - Sorceror Supreme","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1399","name":"5
+          of ? - The Clone Saga","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1401","name":"6
+          of ? - The Clone Saga","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1403","name":"7
+          of 8 - The Clone Saga","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1405","name":"8
+          of 8 - The Clone Saga","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1663","name":"Amazing
+          Spider-Man (1999) #503","type":"cover"}],"returned":20},"events":{"available":4,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1009491/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/116","name":"Acts
+          of Vengeance!"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/252","name":"Inferno"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/154","name":"Onslaught"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/270","name":"Secret
+          Wars"}],"returned":4},"urls":[{"type":"detail","url":"http://marvel.com/characters/2748/molly_von_richtofen?utm_campaign=apiRef&utm_source=abcd"},{"type":"comiclink","url":"http://marvel.com/comics/characters/1009491/peter_parker?utm_campaign=apiRef&utm_source=abcd"}]},{"id":1011010,"name":"Spider-Man
+          (Ultimate)","description":"Peter’s relatively normal life changed abruptly
+          during a school trip to Osborn Industries, Inc, where the company had been
+          working on a super soldier serum, the Oz Compound; a spider exposed to it
+          escaped and bit Peter before it was destroyed.","modified":"2014-03-05T13:50:46-0500","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/3/50/531771b4e8c60","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/characters/1011010","comics":{"available":260,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1011010/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/35582","name":"Ultimate
+          Avengers Vs. New Ultimates (2011) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/39343","name":"Ultimate
+          Avengers Vs. New Ultimates (2011) #1 (2nd Printing Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/38503","name":"Ultimate
+          Avengers Vs. New Ultimates (2011) #2 (HITCH VARIANT)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/40246","name":"Ultimate
+          Avengers Vs. New Ultimates (2011) #2 (2nd Printing Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/38500","name":"Ultimate
+          Avengers Vs. New Ultimates (2011) #3 (CHO VARIANT)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/40245","name":"Ultimate
+          Avengers Vs. New Ultimates (2011) #3 (2nd Printing Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/36127","name":"Ultimate
+          Avengers Vs. New Ultimates (2011) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/38502","name":"Ultimate
+          Avengers Vs. New Ultimates (2011) #4 (HITCH VARIANT)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/36350","name":"Ultimate
+          Avengers Vs. New Ultimates (2011) #5"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/36125","name":"Ultimate
+          Avengers Vs. New Ultimates (2011) #6"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/38501","name":"Ultimate
+          Avengers Vs. New Ultimates (2011) #6 (Hitch Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/39468","name":"Ultimate
+          Comics Avengers Vs. New Ultimates: Death of Spider-Man (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/30215","name":"Ultimate
+          Comics Doom (2010) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/30206","name":"Ultimate
+          Comics Enemy (2010) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/32674","name":"Ultimate
+          Comics Enemy (2010) #1 (VILLAIN VARIANT)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/32676","name":"Ultimate
+          Comics Enemy (2010) #1 (FOILOGRAM VARIANT)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/30207","name":"Ultimate
+          Comics Enemy (2010) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/30208","name":"Ultimate
+          Comics Enemy (2010) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/30209","name":"Ultimate
+          Comics Enemy (2010) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/30210","name":"Ultimate
+          Comics Mystery (2010) #1"}],"returned":20},"series":{"available":45,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1011010/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/12615","name":"Ultimate
+          Avengers Vs. New Ultimates (2011)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/14423","name":"Ultimate
+          Comics Avengers Vs. New Ultimates: Death of Spider-Man (2011)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/9958","name":"Ultimate
+          Comics Doom (2010 - 2011)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/9196","name":"Ultimate
+          Comics Enemy (2010)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/9957","name":"Ultimate
+          Comics Mystery (2010)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/10532","name":"Ultimate
+          Comics New Ultimates: Thor Reborn (2011)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/8509","name":"Ultimate
+          Comics Spider-Man (2009 - 2012)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/13831","name":"Ultimate
+          Comics Spider-Man (2011 - 2013)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/14807","name":"Ultimate
+          Fallout (2011)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2311","name":"Ultimate
+          Marvel Team-Up (2001 - 2002)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1823","name":"Ultimate
+          Marvel Team-Up Ultimate Collection (2006)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1124","name":"Ultimate
+          Power (2006 - 2008)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/466","name":"Ultimate
+          Spider-Man (2000 - 2009)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1054","name":"Ultimate
+          Spider-Man Annual (2005 - 2008)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/14744","name":"Ultimate
+          Spider-Man MGC (2011)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1919","name":"Ultimate
+          Spider-Man Ultimate Collection Book 1 (2007)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1220","name":"ULTIMATE
+          SPIDER-MAN VOL. 10: HOLLYWOOD TPB (2008 - 2004)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1221","name":"Ultimate
+          Spider-Man Vol. 11: Carnage (2004)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1383","name":"Ultimate
+          Spider-Man Vol. 12: Superstars (2005)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1397","name":"Ultimate
+          Spider-Man Vol. 13: Hobgoblin (2005)"}],"returned":20},"stories":{"available":351,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1011010/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/528","name":"Interior
+          #528","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/529","name":"Interior
+          #529","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1290","name":"Ultimate
+          Spider-Man (2000) #68","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1291","name":"1
+          of 2 - Human Torch","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1292","name":"Ultimate
+          Spider-Man (2000) #69","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1293","name":"2
+          of 2 - Human Torch","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1307","name":"Interior
+          #1307","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1309","name":"Interior
+          #1309","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1311","name":"Interior
+          #1311","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1313","name":"Interior
+          #1313","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1314","name":"Ultimate
+          Spider-Man (2000) #63","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1315","name":"Interior
+          #1315","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1316","name":"Ultimate
+          Spider-Man (2000) #62","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1317","name":"Interior
+          #1317","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1319","name":"Interior
+          #1319","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1321","name":"Interior
+          #1321","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1323","name":"Interior
+          #1323","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1324","name":"Ultimate
+          Spider-Man (2000) #61","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1325","name":"Interior
+          #1325","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1326","name":"Ultimate
+          Spider-Man (2000) #64","type":"cover"}],"returned":20},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1011010/events","items":[],"returned":0},"urls":[{"type":"detail","url":"http://marvel.com/characters/54/spider-man?utm_campaign=apiRef&utm_source=abcd"},{"type":"wiki","url":"http://marvel.com/universe/Spider-Man_(Ultimate)?utm_campaign=apiRef&utm_source=abcd"},{"type":"comiclink","url":"http://marvel.com/comics/characters/1011010/spider-man_ultimate?utm_campaign=apiRef&utm_source=abcd"}]}]}}'
+    recorded_at: Thu, 09 Mar 2023 00:00:00 GMT
+recorded_with: VCR 6.1.0

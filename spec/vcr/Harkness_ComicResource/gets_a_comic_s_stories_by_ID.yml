@@ -1,0 +1,59 @@
+---
+http_interactions:
+  - request:
+      method: get
+      uri: https://gateway.marvel.com/v1/public/comics/1332/stories?apikey=abcd&hash=a09f8647b1786ba2816888715a24ccc6&ts=1678320000
+      body:
+        encoding: US-ASCII
+        string: ""
+      headers:
+        User-Agent:
+          - Faraday v2.7.4
+        Accept-Encoding:
+          - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+        Accept:
+          - "*/*"
+    response:
+      status:
+        code: 200
+        message: OK
+      headers:
+        Etag:
+          - 19c17fa6ba5e4ff29139b28dc692c9f8a5dd5b46
+        Content-Type:
+          - application/json; charset=utf-8
+        Date:
+          - Sun, 12 Mar 2023 02:21:05 GMT
+        Connection:
+          - keep-alive
+        Transfer-Encoding:
+          - chunked
+      body:
+        encoding: UTF-8
+        string:
+          '{"code":200,"status":"Ok","copyright":"© 2023 MARVEL","attributionText":"Data
+          provided by Marvel. © 2023 MARVEL","attributionHTML":"<a href=\"http://marvel.com\">Data
+          provided by Marvel. © 2023 MARVEL</a>","etag":"19c17fa6ba5e4ff29139b28dc692c9f8a5dd5b46","data":{"offset":0,"limit":20,"total":3,"count":3,"results":[{"id":15472,"title":"Days
+          of Future Past","description":"Rachel Summers sends Kitty Pryde back in time
+          from 2013 to warn the X-Men that the new Brotherhood of Evil Mutants will
+          try to kill Senator Kelly and begin a chain of events that spells doom for
+          mutants.","resourceURI":"http://gateway.marvel.com/v1/public/stories/15472","type":"story","modified":"1969-12-31T19:00:00-0500","thumbnail":null,"creators":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/15472/creators","items":[],"returned":0},"characters":{"available":10,"collectionURI":"http://gateway.marvel.com/v1/public/stories/15472/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009159","name":"Archangel"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009164","name":"Avalanche"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009199","name":"Blob"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009243","name":"Colossus"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009271","name":"Destiny"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009472","name":"Nightcrawler"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009522","name":"Pyro"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009629","name":"Storm"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009718","name":"Wolverine"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009726","name":"X-Men"}],"returned":10},"series":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/stories/15472/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/2258","name":"Uncanny
+          X-Men (1963 - 2011)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1327","name":"X-Men:
+          Days of Future Past (2004)"}],"returned":2},"comics":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/stories/15472/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/12460","name":"Uncanny
+          X-Men (1963) #141"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/1332","name":"X-Men:
+          Days of Future Past (Trade Paperback)"}],"returned":2},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/15472/events","items":[],"returned":0},"originalIssue":{"resourceURI":"http://gateway.marvel.com/v1/public/comics/12460","name":"Uncanny
+          X-Men (1963) #141"}},{"id":27788,"title":"Mind Out of Time!","description":"The
+          Brotherhood make its play against Senator Kelly; Rachel Summers (in Kitty
+          Pryde''s body) helps the X-Men defeat Mystique and her crew (thus changing
+          the future); Kitty returns from 2013.","resourceURI":"http://gateway.marvel.com/v1/public/stories/27788","type":"story","modified":"1969-12-31T19:00:00-0500","thumbnail":null,"creators":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/27788/creators","items":[],"returned":0},"characters":{"available":10,"collectionURI":"http://gateway.marvel.com/v1/public/stories/27788/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009159","name":"Archangel"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009164","name":"Avalanche"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009199","name":"Blob"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009243","name":"Colossus"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009271","name":"Destiny"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009472","name":"Nightcrawler"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009522","name":"Pyro"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009629","name":"Storm"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009718","name":"Wolverine"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009726","name":"X-Men"}],"returned":10},"series":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/stories/27788/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/2258","name":"Uncanny
+          X-Men (1963 - 2011)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1327","name":"X-Men:
+          Days of Future Past (2004)"}],"returned":2},"comics":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/stories/27788/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/13683","name":"Uncanny
+          X-Men (1963) #142"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/1332","name":"X-Men:
+          Days of Future Past (Trade Paperback)"}],"returned":2},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/27788/events","items":[],"returned":0},"originalIssue":{"resourceURI":"http://gateway.marvel.com/v1/public/comics/13683","name":"Uncanny
+          X-Men (1963) #142"}},{"id":65738,"title":"X-MEN: DAYS OF FUTURE PAST TPB 0
+          cover","description":"","resourceURI":"http://gateway.marvel.com/v1/public/stories/65738","type":"cover","modified":"2017-02-28T14:30:28-0500","thumbnail":null,"creators":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/65738/creators","items":[],"returned":0},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/65738/characters","items":[],"returned":0},"series":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/65738/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/1327","name":"X-Men:
+          Days of Future Past (2004)"}],"returned":1},"comics":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/65738/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/1332","name":"X-Men:
+          Days of Future Past (Trade Paperback)"}],"returned":1},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/65738/events","items":[],"returned":0},"originalIssue":{"resourceURI":"http://gateway.marvel.com/v1/public/comics/1332","name":"X-Men:
+          Days of Future Past (Trade Paperback)"}}]}}'
+    recorded_at: Thu, 09 Mar 2023 00:00:00 GMT
+recorded_with: VCR 6.1.0

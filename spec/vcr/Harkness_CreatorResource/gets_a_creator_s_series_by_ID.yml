@@ -1,0 +1,455 @@
+---
+http_interactions:
+  - request:
+      method: get
+      uri: https://gateway.marvel.com/v1/public/creators/8098/series?apikey=abcd&hash=a09f8647b1786ba2816888715a24ccc6&ts=1678320000
+      body:
+        encoding: US-ASCII
+        string: ""
+      headers:
+        User-Agent:
+          - Faraday v2.7.4
+        Accept-Encoding:
+          - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+        Accept:
+          - "*/*"
+    response:
+      status:
+        code: 200
+        message: OK
+      headers:
+        Etag:
+          - b98a111f35d43c080ed14d048d9fc5fbdc971f77
+        Content-Type:
+          - application/json; charset=utf-8
+        Date:
+          - Sun, 12 Mar 2023 14:30:15 GMT
+        Connection:
+          - keep-alive
+        Transfer-Encoding:
+          - chunked
+      body:
+        encoding: UTF-8
+        string:
+          '{"code":200,"status":"Ok","copyright":"© 2023 MARVEL","attributionText":"Data
+          provided by Marvel. © 2023 MARVEL","attributionHTML":"<a href=\"http://marvel.com\">Data
+          provided by Marvel. © 2023 MARVEL</a>","etag":"b98a111f35d43c080ed14d048d9fc5fbdc971f77","data":{"offset":0,"limit":20,"total":9,"count":9,"results":[{"id":20682,"title":"All-New
+          Wolverine (2015 - 2018)","description":null,"resourceURI":"http://gateway.marvel.com/v1/public/series/20682","urls":[{"type":"detail","url":"http://marvel.com/comics/series/20682/all-new_wolverine_2015_-_2018?utm_campaign=apiRef&utm_source=abcd"}],"startYear":2015,"endYear":2018,"rating":"","type":"","modified":"2018-08-15T12:09:14-0400","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/c/50/5a8dec75f41c0","extension":"jpg"},"creators":{"available":49,"collectionURI":"http://gateway.marvel.com/v1/public/series/20682/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12208","name":"Arthur
+          Adams","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8849","name":"Joyce
+          Chin","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/11482","name":"Jesus
+          Aburtov","role":"colorist (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12989","name":"Jordie
+          Bellaire","role":"colorist (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13021","name":"David
+          Curiel","role":"colorist (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13250","name":"Romulo
+          Fajardo Jr.","role":"colorist (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13162","name":"Erick
+          Arciniega","role":"colorist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/11543","name":"Dan
+          Brown","role":"colorist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/10454","name":"Nathan
+          Fairbairn","role":"colorist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12981","name":"Michael
+          Garland","role":"colorist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/87","name":"Mark
+          Bagley","role":"penciler"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13025","name":"Bengal","role":"penciler
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/9096","name":"Michael
+          Cho","role":"penciler (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/277","name":"Terry
+          Dodson","role":"penciler (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13031","name":"Juann
+          Cabal","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13060","name":"Marc
+          Deering","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12460","name":"Marco
+          Failla","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/592","name":"Rachel
+          Dodson","role":"inker (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12581","name":"Chris
+          Eliopoulos","role":"letterer (cover)"}],"returned":20},"characters":{"available":19,"collectionURI":"http://gateway.marvel.com/v1/public/series/20682/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009153","name":"Angel
+          (Warren Worthington III)"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009208","name":"Brood"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009220","name":"Captain
+          America"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1011001","name":"Daken"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009268","name":"Deadpool"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009281","name":"Doctor
+          Doom"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009282","name":"Doctor
+          Strange"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1010735","name":"Drax"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009313","name":"Gambit"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1011299","name":"Guardians
+          of the Galaxy"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1017844","name":"Honey
+          Badger (Gabrielle Kinney)"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1017831","name":"Ironheart
+          (Riri Williams)"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009471","name":"Nick
+          Fury"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1017810","name":"Old
+          Man Logan (Earth-807128)"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009554","name":"Sabretooth"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1010860","name":"Squirrel
+          Girl"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009679","name":"Tyger
+          Tiger"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009707","name":"Wasp"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009722","name":"X-23"}],"returned":19},"stories":{"available":102,"collectionURI":"http://gateway.marvel.com/v1/public/series/20682/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123703","name":"cover
+          from All-New Wolverine (2015) #1","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123704","name":"story
+          from All-New Wolverine (2015) #1","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123705","name":"cover
+          from All-New Wolverine (2015) #1 (TBD ARTIST VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123706","name":"story
+          from All-New Wolverine (2015) #1 (TBD ARTIST VARIANT)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123715","name":"cover
+          from All-New Wolverine (2015) #2","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123716","name":"story
+          from All-New Wolverine (2015) #2","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123719","name":"cover
+          from All-New Wolverine (2015) #3","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123720","name":"story
+          from All-New Wolverine (2015) #3","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123725","name":"cover
+          from All-New Wolverine (2015) #4","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123726","name":"story
+          from All-New Wolverine (2015) #4","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123727","name":"cover
+          from All-New Wolverine (2015) #5","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123728","name":"story
+          from All-New Wolverine (2015) #5","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123729","name":"cover
+          from All-New Wolverine (2015) #6","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123730","name":"story
+          from All-New Wolverine (2015) #6","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123731","name":"cover
+          from All-New Wolverine (2015) #7","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123732","name":"story
+          from All-New Wolverine (2015) #7","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123733","name":"cover
+          from All-New Wolverine (2015) #8","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123734","name":"story
+          from All-New Wolverine (2015) #8","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123735","name":"cover
+          from All-New Wolverine (2015) #9","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123736","name":"story
+          from All-New Wolverine (2015) #9","type":"interiorStory"}],"returned":20},"comics":{"available":51,"collectionURI":"http://gateway.marvel.com/v1/public/series/20682/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56424","name":"All-New
+          Wolverine (2015) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56425","name":"All-New
+          Wolverine (2015) #1 (Adams Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56430","name":"All-New
+          Wolverine (2015) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/58869","name":"All-New
+          Wolverine (2015) #2 (Bengal 2nd Printing Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56432","name":"All-New
+          Wolverine (2015) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/59165","name":"All-New
+          Wolverine (2015) #3 (Bengal 2nd Printing Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56435","name":"All-New
+          Wolverine (2015) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56436","name":"All-New
+          Wolverine (2015) #5"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/58194","name":"All-New
+          Wolverine (2015) #5 (Michael Cho Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56437","name":"All-New
+          Wolverine (2015) #6"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/58641","name":"All-New
+          Wolverine (2015) #6 (Tbd Artist Wop Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56438","name":"All-New
+          Wolverine (2015) #7"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56439","name":"All-New
+          Wolverine (2015) #8"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56440","name":"All-New
+          Wolverine (2015) #9"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/59863","name":"All-New
+          Wolverine (2015) #9 (Chin Cw Reenactment Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56441","name":"All-New
+          Wolverine (2015) #10"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56442","name":"All-New
+          Wolverine (2015) #11"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/60195","name":"All-New
+          Wolverine (2015) #11 (Parker Marvel Tsum Tsum Takeover Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56443","name":"All-New
+          Wolverine (2015) #12"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56444","name":"All-New
+          Wolverine (2015) #13"}],"returned":20},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/series/20682/events","items":[],"returned":0},"next":null,"previous":null},{"id":16452,"title":"Avengers
+          (2012 - 2015)","description":"It''s a new day and a new beginning for the
+          Earth''s Mightiest Heroes, with a brand new team that''s bigger and better
+          than ever before! And they won''t just be ''Earth''s Mightiest Heroes'', either
+          - when the galaxy is in danger, the Avengers will answer the call!","resourceURI":"http://gateway.marvel.com/v1/public/series/16452","urls":[{"type":"detail","url":"http://marvel.com/comics/series/16452/avengers_2012_-_2015?utm_campaign=apiRef&utm_source=abcd"}],"startYear":2012,"endYear":2015,"rating":"Rated
+          T+","type":"ongoing","modified":"2018-08-15T11:57:36-0400","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/9/70/50feba5a77285","extension":"jpg"},"creators":{"available":50,"collectionURI":"http://gateway.marvel.com/v1/public/series/16452/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12374","name":"Agustin
+          Alessio","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/11575","name":"Kris
+          Anka","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12297","name":"Andre
+          Lima Araujo","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/412","name":"Carlo
+          Barberi","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/648","name":"Simone
+          Bianchi","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/162","name":"John
+          Cassaday","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/10275","name":"Leonel
+          Castellani","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/357","name":"Jim
+          Cheung","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/16","name":"Alan
+          Davis","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/1004","name":"Daniel
+          Acuna","role":"penciler (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13068","name":"J.
+          Scott Campbell","role":"penciler (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/2133","name":"Tom
+          Brevoort","role":"editor"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/694","name":"Mark
+          Brooks","role":"colorist (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8504","name":"Frank
+          D''ARMATA","role":"colorist (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/452","name":"Virtual
+          Calligr","role":"letterer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/1133","name":"Stefano
+          Caselli","role":"artist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/312","name":"Mike
+          Deodato","role":"artist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13567","name":"Mike
+          Deodato Jr.","role":"inker (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12174","name":"Al
+          Ewing","role":"writer"}],"returned":20},"characters":{"available":4,"collectionURI":"http://gateway.marvel.com/v1/public/series/16452/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009165","name":"Avengers"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1011027","name":"Captain
+          Universe"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009599","name":"Skrulls"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1011307","name":"Star
+          Brand"}],"returned":4},"stories":{"available":237,"collectionURI":"http://gateway.marvel.com/v1/public/series/16452/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/98250","name":"Avengers
+          #1 cover","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/98251","name":"Avengers
+          #1 interior","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/100595","name":"cover
+          from Avengers (2012) #1","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/100596","name":"story
+          from Avengers (2012) #1","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/100599","name":"cover
+          from Avengers (2012) #1 (BLANK COVER VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/100600","name":"story
+          from Avengers (2012) #1 (BLANK COVER VARIANT)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/100601","name":"cover
+          from Avengers (2012) #1 (MCNIVEN VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/100602","name":"story
+          from Avengers (2012) #1 (MCNIVEN VARIANT)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/100603","name":"cover
+          from Avengers (2012) #1 (PERSONALIZED VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/100604","name":"story
+          from Avengers (2012) #1 (PERSONALIZED VARIANT)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/100607","name":"cover
+          from Avengers (2012) #1 (TBD ARTIST SKETCH VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/100608","name":"story
+          from Avengers (2012) #1 (TBD ARTIST SKETCH VARIANT)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/100609","name":"cover
+          from Avengers (2012) #1 (RIBIC VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/100610","name":"story
+          from Avengers (2012) #1 (RIBIC VARIANT)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/100611","name":"cover
+          from Avengers (2012) #1 (MIDTOWN VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/100612","name":"story
+          from Avengers (2012) #1 (MIDTOWN VARIANT)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/100613","name":"cover
+          from Avengers (2012) #2","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/100614","name":"story
+          from Avengers (2012) #2","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/100617","name":"cover
+          from Avengers (2012) #2 (JRJR VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/100618","name":"story
+          from Avengers (2012) #2 (JRJR VARIANT)","type":"interiorStory"}],"returned":20},"comics":{"available":119,"collectionURI":"http://gateway.marvel.com/v1/public/series/16452/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/43528","name":"Avengers
+          (2012) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/44647","name":"Avengers
+          (2012) #1 (Midtown Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/46855","name":"Avengers
+          (2012) #1 (Deadpool Gangnam Style Sketch Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/44646","name":"Avengers
+          (2012) #1 (Ribic Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/46980","name":"Avengers
+          (2012) #1 (Hastings Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/44643","name":"Avengers
+          (2012) #1 (Personalized Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/43530","name":"Avengers
+          (2012) #1 (Young Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/47038","name":"Avengers
+          (2012) #1 (2nd Printing Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/43531","name":"Avengers
+          (2012) #1 (Mcniven Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/44645","name":"Avengers
+          (2012) #1 (Tbd Artist Sketch Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/46854","name":"Avengers
+          (2012) #1 (Deadpool Gangnam Style Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/43529","name":"Avengers
+          (2012) #1 (Blank Cover Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/43532","name":"Avengers
+          (2012) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/47351","name":"Avengers
+          (2012) #2 (2nd Printing Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/44651","name":"Avengers
+          (2012) #2 (Ribic Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/44649","name":"Avengers
+          (2012) #2 (Jrjr Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/43533","name":"Avengers
+          (2012) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/47499","name":"Avengers
+          (2012) #3 (2nd Printing Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/45835","name":"Avengers
+          (2012) #3 (Brooks Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/45837","name":"Avengers
+          (2012) #3 (Avengers 50th Anniversary Variant)"}],"returned":20},"events":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/series/16452/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/315","name":"Infinity"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/319","name":"Original
+          Sin"}],"returned":2},"next":null,"previous":null},{"id":20448,"title":"Black
+          Widow (2016 - 2017)","description":null,"resourceURI":"http://gateway.marvel.com/v1/public/series/20448","urls":[{"type":"detail","url":"http://marvel.com/comics/series/20448/black_widow_2016_-_2017?utm_campaign=apiRef&utm_source=abcd"}],"startYear":2016,"endYear":2017,"rating":"","type":"","modified":"2019-08-21T11:46:02-0400","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/3/d0/5d5d672e66433","extension":"jpg"},"creators":{"available":11,"collectionURI":"http://gateway.marvel.com/v1/public/series/20448/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/1298","name":"June
+          Brigman","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/5160","name":"Philip
+          J. Noto","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12698","name":"Yasmine
+          Putri","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/5251","name":"Vc
+          Joe Caramagna","role":"letterer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/11799","name":"Nathan
+          Edmondson","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/119","name":"Mark
+          Waid","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8221","name":"Chris
+          Samnee","role":"penciler (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12339","name":"Kevin
+          Wada","role":"penciler (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/11921","name":"Jacob
+          Thomas","role":"editor"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/10279","name":"Matthew
+          Wilson","role":"colorist (cover)"}],"returned":11},"characters":{"available":3,"collectionURI":"http://gateway.marvel.com/v1/public/series/20448/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009189","name":"Black
+          Widow"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009368","name":"Iron
+          Man"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1010740","name":"Winter
+          Soldier"}],"returned":3},"stories":{"available":40,"collectionURI":"http://gateway.marvel.com/v1/public/series/20448/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/121789","name":"cover
+          from Black Widow (2016) #1","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/121790","name":"story
+          from Black Widow (2016) #1","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/121793","name":"cover
+          from Black Widow (2016) #2","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/121794","name":"story
+          from Black Widow (2016) #2","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/121797","name":"cover
+          from Black Widow (2016) #3","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/121798","name":"story
+          from Black Widow (2016) #3","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/121799","name":"cover
+          from Black Widow (2016) #4","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/121800","name":"story
+          from Black Widow (2016) #4","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/121801","name":"cover
+          from Black Widow (2016) #5","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/121802","name":"story
+          from Black Widow (2016) #5","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/121803","name":"cover
+          from Black Widow (2016) #6","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/121804","name":"story
+          from Black Widow (2016) #6","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/121805","name":"cover
+          from Black Widow (2016) #7","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/121806","name":"story
+          from Black Widow (2016) #7","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/121807","name":"cover
+          from Black Widow (2016) #8","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/121808","name":"story
+          from Black Widow (2016) #8","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/121809","name":"cover
+          from Black Widow (2016) #9","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/121810","name":"story
+          from Black Widow (2016) #9","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/121811","name":"cover
+          from Black Widow (2016) #10","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/121812","name":"story
+          from Black Widow (2016) #10","type":"interiorStory"}],"returned":20},"comics":{"available":20,"collectionURI":"http://gateway.marvel.com/v1/public/series/20448/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55373","name":"Black
+          Widow (2016) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/58344","name":"Black
+          Widow (2016) #1 (Lotay Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/58656","name":"Black
+          Widow (2016) #1 (Tbd Artist Wop Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/58657","name":"Black
+          Widow (2016) #1 (Christopher Action Figure Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/58658","name":"Black
+          Widow (2016) #1 (Young Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55914","name":"Black
+          Widow (2016) #1 (Noto Hip-&#8203;Hop Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55375","name":"Black
+          Widow (2016) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55377","name":"Black
+          Widow (2016) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55378","name":"Black
+          Widow (2016) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55379","name":"Black
+          Widow (2016) #5"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55380","name":"Black
+          Widow (2016) #6"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55381","name":"Black
+          Widow (2016) #7"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/62027","name":"Black
+          Widow (2016) #7 (Noto Champions Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/62028","name":"Black
+          Widow (2016) #7 (Brigman Classic Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/62029","name":"Black
+          Widow (2016) #7 (Putri Story Thus Far Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55382","name":"Black
+          Widow (2016) #8"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55383","name":"Black
+          Widow (2016) #9"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55384","name":"Black
+          Widow (2016) #10"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55385","name":"Black
+          Widow (2016) #11"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55386","name":"Black
+          Widow (2016) #12"}],"returned":20},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/series/20448/events","items":[],"returned":0},"next":null,"previous":null},{"id":19453,"title":"Guardians
+          Team-Up (2015)","description":null,"resourceURI":"http://gateway.marvel.com/v1/public/series/19453","urls":[{"type":"detail","url":"http://marvel.com/comics/series/19453/guardians_team-up_2015?utm_campaign=apiRef&utm_source=abcd"}],"startYear":2015,"endYear":2015,"rating":"","type":"","modified":"2019-09-12T16:41:11-0400","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/7/10/5506f6e77f7c1","extension":"jpg"},"creators":{"available":27,"collectionURI":"http://gateway.marvel.com/v1/public/series/19453/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12208","name":"Arthur
+          Adams","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/365","name":"Pasqual
+          Ferry","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/3996","name":"Jose
+          Ladronn","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12392","name":"David
+          Lopez","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/757","name":"Clay
+          Mann","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/243","name":"Mike
+          Mayhew","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/805","name":"Mike
+          Norton","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/2985","name":"Javier
+          Pulido","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/72","name":"Humberto
+          Ramos","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/24","name":"Brian
+          Michael Bendis","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12442","name":"Ray
+          Fawkes","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12419","name":"Nick
+          Giovannetti","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/11530","name":"Sam
+          Humphries","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/485","name":"Andy
+          Lanning","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/796","name":"John
+          Layman","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/9443","name":"Shawn
+          Crystal","role":"artist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12694","name":"Gustavo
+          Duarte","role":"artist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12705","name":"Diogo
+          Saido","role":"artist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12456","name":"Katie
+          Kubert","role":"editor"}],"returned":20},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/series/19453/characters","items":[],"returned":0},"stories":{"available":33,"collectionURI":"http://gateway.marvel.com/v1/public/series/19453/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115415","name":"cover
+          from Guardians Team-Up (2015) #1","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115416","name":"story
+          from Guardians Team-Up (2015) #1","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115419","name":"cover
+          from Guardians Team-Up (2015) #1 (YOUNG VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115420","name":"story
+          from Guardians Team-Up (2015) #1 (YOUNG VARIANT)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115421","name":"cover
+          from Guardians Team-Up (2015) #1 (FERRY VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115422","name":"story
+          from Guardians Team-Up (2015) #1 (FERRY VARIANT)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115423","name":"cover
+          from Guardians Team-Up (2015) #1 (LADRONN INHUMAN 50TH ANNIVERSARY VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115424","name":"story
+          from Guardians Team-Up (2015) #1 (LADRONN INHUMAN 50TH ANNIVERSARY VARIANT)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115425","name":"cover
+          from Guardians Team-Up (2015) #2","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115426","name":"story
+          from Guardians Team-Up (2015) #2","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115429","name":"cover
+          from Guardians Team-Up (2015) #2 (TBD ARTIST VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115430","name":"story
+          from Guardians Team-Up (2015) #2 (TBD ARTIST VARIANT)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115431","name":"cover
+          from Guardians Team-Up (2015) #3","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115432","name":"story
+          from Guardians Team-Up (2015) #3","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115433","name":"cover
+          from Guardians Team-Up (2015) #3 (TBD ARTIST VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115434","name":"story
+          from Guardians Team-Up (2015) #3 (TBD ARTIST VARIANT)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115435","name":"cover
+          from Guardians Team-Up (2015) #3 (SORRENTINO COSMIC CHARACTER VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115436","name":"story
+          from Guardians Team-Up (2015) #3 (SORRENTINO COSMIC CHARACTER VARIANT)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115437","name":"cover
+          from Guardians Team-Up (2015) #4","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115438","name":"story
+          from Guardians Team-Up (2015) #4","type":"interiorStory"}],"returned":20},"comics":{"available":16,"collectionURI":"http://gateway.marvel.com/v1/public/series/19453/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/51919","name":"Guardians
+          Team-Up (2015) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/51921","name":"Guardians
+          Team-Up (2015) #1 (Young Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/51922","name":"Guardians
+          Team-Up (2015) #1 (Ferry Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/51923","name":"Guardians
+          Team-Up (2015) #1 (Ladronn Inhuman 50th Anniversary Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/51924","name":"Guardians
+          Team-Up (2015) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/51926","name":"Guardians
+          Team-Up (2015) #2 (Renaud Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/51927","name":"Guardians
+          Team-Up (2015) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/51928","name":"Guardians
+          Team-Up (2015) #3 (Duarte Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/51929","name":"Guardians
+          Team-Up (2015) #3 (Sorrentino Cosmically Enhanced Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/51930","name":"Guardians
+          Team-Up (2015) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/51931","name":"Guardians
+          Team-Up (2015) #5"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/51932","name":"Guardians
+          Team-Up (2015) #6"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/51933","name":"Guardians
+          Team-Up (2015) #7"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/51934","name":"Guardians
+          Team-Up (2015) #8"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55100","name":"Guardians
+          Team-Up (2015) #9"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55101","name":"Guardians
+          Team-Up (2015) #10"}],"returned":16},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/series/19453/events","items":[],"returned":0},"next":null,"previous":null},{"id":19608,"title":"Siege
+          (2015)","description":null,"resourceURI":"http://gateway.marvel.com/v1/public/series/19608","urls":[{"type":"detail","url":"http://marvel.com/comics/series/19608/siege_2015?utm_campaign=apiRef&utm_source=abcd"}],"startYear":2015,"endYear":2015,"rating":"","type":"","modified":"2019-10-01T19:18:55-0400","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/7/c0/55df3d8798c94","extension":"jpg"},"creators":{"available":16,"collectionURI":"http://gateway.marvel.com/v1/public/series/19608/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12775","name":"W.
+          Scott Forbes","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/5160","name":"Philip
+          J. Noto","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12471","name":"Filipe
+          Andrade","role":"artist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12823","name":"Jorge
+          Coelho","role":"colorist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12991","name":"Rachelle
+          Rosenberg","role":"colorist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12888","name":"James
+          Stokoe","role":"colorist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13221","name":"Julian
+          Tedesco","role":"colorist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4267","name":"Andy
+          Troy","role":"colorist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/10172","name":"Vc
+          Clayton Cowles","role":"letterer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12922","name":"W.
+          Scott Forbes","role":"penciler (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13101","name":"Andrew
+          C. Robinson","role":"penciler (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8901","name":"Kieron
+          Gillen","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13242","name":"Michael
+          Kaluta","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13505","name":"Juan
+          Prieto","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/11921","name":"Jacob
+          Thomas","role":"editor"}],"returned":16},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/series/19608/characters","items":[],"returned":0},"stories":{"available":16,"collectionURI":"http://gateway.marvel.com/v1/public/series/19608/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116139","name":"cover
+          from Night Watch of S.H.I.E.L.D. (2015) #1","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116140","name":"story
+          from Night Watch of S.H.I.E.L.D. (2015) #1","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116141","name":"cover
+          from Night Watch of S.H.I.E.L.D. (2015) #2","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116142","name":"story
+          from Night Watch of S.H.I.E.L.D. (2015) #2","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116145","name":"cover
+          from Night Watch of S.H.I.E.L.D. (2015) #4","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116146","name":"story
+          from Night Watch of S.H.I.E.L.D. (2015) #4","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/120845","name":"cover
+          from Night Watch of S.H.I.E.L.D. (2015) #1 (TBD ARTIST MAOS VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/120846","name":"story
+          from Night Watch of S.H.I.E.L.D. (2015) #1 (TBD ARTIST MAOS VARIANT)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/120935","name":"cover
+          from Night Watch of S.H.I.E.L.D. (2015) #1 (TBD ARTIST ANT-SIZED VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/120936","name":"story
+          from Night Watch of S.H.I.E.L.D. (2015) #1 (TBD ARTIST ANT-SIZED VARIANT)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122315","name":"cover
+          from Night Watch of S.H.I.E.L.D. (2015) #1 (ROBINSON VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122316","name":"story
+          from Night Watch of S.H.I.E.L.D. (2015) #1 (ROBINSON VARIANT)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123555","name":"cover
+          from Night Watch of S.H.I.E.L.D. (2015) #3 (TBD ARTIST VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123556","name":"story
+          from Night Watch of S.H.I.E.L.D. (2015) #3 (TBD ARTIST VARIANT)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/126105","name":"SIEGE
+          3 (SW, WITH DIGITAL CODE)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/126106","name":"SIEGE
+          3 (SW, WITH DIGITAL CODE)","type":"interiorStory"}],"returned":16},"comics":{"available":7,"collectionURI":"http://gateway.marvel.com/v1/public/series/19608/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/52281","name":"Siege
+          (2015) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/54812","name":"Siege
+          (2015) #1 (BUDICH MAOS VARIANT)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/54859","name":"Siege
+          (2015) #1 (BENGAL ANT-SIZED VARIANT)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/52282","name":"Siege
+          (2015) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/52283","name":"Siege
+          (2015) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56296","name":"Siege
+          (2015) #3 (Noto Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/52284","name":"Siege
+          (2015) #4"}],"returned":7},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/series/19608/events","items":[],"returned":0},"next":null,"previous":null},{"id":20505,"title":"Spider-Gwen
+          (2015 - 2018)","description":null,"resourceURI":"http://gateway.marvel.com/v1/public/series/20505","urls":[{"type":"detail","url":"http://marvel.com/comics/series/20505/spider-gwen_2015_-_2018?utm_campaign=apiRef&utm_source=abcd"}],"startYear":2015,"endYear":2018,"rating":"","type":"","modified":"2018-12-13T16:07:05-0500","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/5/80/5aa95ceebdc9c","extension":"jpg"},"creators":{"available":28,"collectionURI":"http://gateway.marvel.com/v1/public/series/20505/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13465","name":"Lauren
+          Affe","role":"colorist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13163","name":"Jordan
+          Gibson","role":"colorist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13036","name":"Emilio
+          Lopez","role":"colorist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/11575","name":"Kris
+          Anka","role":"inker (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13274","name":"Ema
+          Lupacchino","role":"inker (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/87","name":"Mark
+          Bagley","role":"penciler"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13024","name":"Hannah
+          Blumenreich","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12823","name":"Jorge
+          Coelho","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/359","name":"John
+          Dell","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12782","name":"Veronica
+          Fish","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13265","name":"Olivia
+          Margraf","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13068","name":"J.
+          Scott Campbell","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/9096","name":"Michael
+          Cho","role":"painter (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/10172","name":"Vc
+          Clayton Cowles","role":"letterer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12993","name":"Vc
+          Travis Lanham","role":"letterer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12239","name":"Guru
+          Efx","role":"colorist (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/11306","name":"Jason
+          Latour","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12457","name":"Edward
+          Devin Lewis","role":"editor"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4300","name":"Nick
+          Lowe","role":"editor"}],"returned":20},"characters":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/series/20505/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1017603","name":"Spider-Gwen
+          (Gwen Stacy)"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1016181","name":"Spider-Man
+          (Miles Morales)"}],"returned":2},"stories":{"available":82,"collectionURI":"http://gateway.marvel.com/v1/public/series/20505/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122391","name":"cover
+          from Spider-Gwen (2015) #1","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122392","name":"story
+          from Spider-Gwen (2015) #1","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122395","name":"cover
+          from Spider-Gwen (2015) #2","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122396","name":"story
+          from Spider-Gwen (2015) #2","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122399","name":"cover
+          from Spider-Gwen (2015) #3","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122400","name":"story
+          from Spider-Gwen (2015) #3","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122401","name":"cover
+          from Spider-Gwen (2015) #4","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122402","name":"story
+          from Spider-Gwen (2015) #4","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122403","name":"cover
+          from Spider-Gwen (2015) #5","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122404","name":"story
+          from Spider-Gwen (2015) #5","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122407","name":"cover
+          from Spider-Gwen (2015) #6","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122408","name":"story
+          from Spider-Gwen (2015) #6","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122409","name":"cover
+          from Spider-Gwen (2015) #7","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122410","name":"story
+          from Spider-Gwen (2015) #7","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122411","name":"cover
+          from Spider-Gwen (2015) #8","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122412","name":"story
+          from Spider-Gwen (2015) #8","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122413","name":"cover
+          from Spider-Gwen (2015) #9","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122414","name":"story
+          from Spider-Gwen (2015) #9","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122415","name":"cover
+          from Spider-Gwen (2015) #10","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122416","name":"story
+          from Spider-Gwen (2015) #10","type":"interiorStory"}],"returned":20},"comics":{"available":41,"collectionURI":"http://gateway.marvel.com/v1/public/series/20505/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/57464","name":"Spider-Gwen
+          (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55674","name":"Spider-Gwen
+          (2015) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/57118","name":"Spider-Gwen
+          (2015) #1 (Young Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55676","name":"Spider-Gwen
+          (2015) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55678","name":"Spider-Gwen
+          (2015) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/58978","name":"Spider-Gwen
+          (2015) #3 (Rodriguez 2nd Printing Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55679","name":"Spider-Gwen
+          (2015) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/59329","name":"Spider-Gwen
+          (2015) #4 (Rodriguez 2nd Printing Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55680","name":"Spider-Gwen
+          (2015) #5"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/58248","name":"Spider-Gwen
+          (2015) #5 (Michael Cho Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55682","name":"Spider-Gwen
+          (2015) #6"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/58791","name":"Spider-Gwen
+          (2015) #6 (Lupacchino Wop Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55683","name":"Spider-Gwen
+          (2015) #7"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55684","name":"Spider-Gwen
+          (2015) #8"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55685","name":"Spider-Gwen
+          (2015) #9"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55686","name":"Spider-Gwen
+          (2015) #10"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55687","name":"Spider-Gwen
+          (2015) #11"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/60320","name":"Spider-Gwen
+          (2015) #11 (Pope Black Panther Variant Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55688","name":"Spider-Gwen
+          (2015) #12"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55689","name":"Spider-Gwen
+          (2015) #13"}],"returned":20},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/series/20505/events","items":[],"returned":0},"next":null,"previous":null},{"id":23871,"title":"Spider-Gwen
+          Vol. 2 (2018)","description":null,"resourceURI":"http://gateway.marvel.com/v1/public/series/23871","urls":[{"type":"detail","url":"http://marvel.com/comics/series/23871/spider-gwen_vol_2_2018?utm_campaign=apiRef&utm_source=abcd"}],"startYear":2018,"endYear":2018,"rating":"","type":"collection","modified":"2017-12-18T18:22:10-0500","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available","extension":"jpg"},"creators":{"available":7,"collectionURI":"http://gateway.marvel.com/v1/public/series/23871/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/9031","name":"Marcio
+          Takara","role":"penciller"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12848","name":"Chris
+          Visions","role":"penciller"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/11306","name":"Jason
+          Latour","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12447","name":"Tom
+          Taylor","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12399","name":"Robbi
+          Rodriguez","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4430","name":"Jeff
+          Youngquist","role":"editor"}],"returned":7},"characters":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/series/23871/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1017603","name":"Spider-Gwen
+          (Gwen Stacy)"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1011347","name":"Spider-Ham
+          (Larval Earth)"}],"returned":2},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/series/23871/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/142572","name":"cover
+          from SPIDER-GWEN VOL. 2 HC (2018) #2","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/142573","name":"story
+          from SPIDER-GWEN VOL. 2 HC (2018) #2","type":"interiorStory"}],"returned":2},"comics":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/series/23871/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/65726","name":"Spider-Gwen
+          Vol. 2 (Hardcover)"}],"returned":1},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/series/23871/events","items":[],"returned":0},"next":null,"previous":null},{"id":26022,"title":"Spider-Gwen:
+          Ghost-Spider Vol. 2 - Impossible Year (2019)","description":null,"resourceURI":"http://gateway.marvel.com/v1/public/series/26022","urls":[{"type":"detail","url":"http://marvel.com/comics/series/26022/spider-gwen_ghost-spider_vol_2_-_impossible_year_2019?utm_campaign=apiRef&utm_source=abcd"}],"startYear":2019,"endYear":2019,"rating":"","type":"collection","modified":"2019-08-29T17:16:35-0400","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available","extension":"jpg"},"creators":{"available":4,"collectionURI":"http://gateway.marvel.com/v1/public/series/26022/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13556","name":"Seanan
+          Mcguire","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/495","name":"Takeshi
+          Miyazawa","role":"penciller"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4430","name":"Jeff
+          Youngquist","role":"editor"}],"returned":4},"characters":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/series/26022/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1017603","name":"Spider-Gwen
+          (Gwen Stacy)"}],"returned":1},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/series/26022/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/158772","name":"cover
+          from SPIDER-GWEN VOL. 2 TPB (2019) #2","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/158773","name":"story
+          from SPIDER-GWEN VOL. 2 TPB (2019) #2","type":"interiorStory"}],"returned":2},"comics":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/series/26022/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/71398","name":"Spider-Gwen:
+          Ghost-Spider Vol. 2 - Impossible Year (Trade Paperback)"}],"returned":1},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/series/26022/events","items":[],"returned":0},"next":null,"previous":null},{"id":19676,"title":"Spider-Man
+          & the X-Men (2014 - 2015)","description":null,"resourceURI":"http://gateway.marvel.com/v1/public/series/19676","urls":[{"type":"detail","url":"http://marvel.com/comics/series/19676/spider-man_the_x-men_2014_-_2015?utm_campaign=apiRef&utm_source=abcd"}],"startYear":2014,"endYear":2015,"rating":"","type":"","modified":"2019-10-01T19:32:38-0400","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/6/50/546f7dbd52160","extension":"jpg"},"creators":{"available":11,"collectionURI":"http://gateway.marvel.com/v1/public/series/19676/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/11875","name":"Nick
+          Bradshaw","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12437","name":"Stacey
+          Lee","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/11354","name":"Declan
+          Shalvey","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/7190","name":"Skottie
+          Young","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/10172","name":"Vc
+          Clayton Cowles","role":"letterer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12460","name":"Marco
+          Failla","role":"artist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12489","name":"R.B.
+          Silva","role":"artist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12996","name":"Ian
+          Herring","role":"colorist (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13164","name":"Elliott
+          Kalan","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12456","name":"Katie
+          Kubert","role":"editor"}],"returned":11},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/series/19676/characters","items":[],"returned":0},"stories":{"available":20,"collectionURI":"http://gateway.marvel.com/v1/public/series/19676/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116661","name":"cover
+          from Spider-Man & the X-Men (2014) #1","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116662","name":"story
+          from Spider-Man & the X-Men (2014) #1","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116665","name":"cover
+          from Spider-Man & the X-Men (2014) #1 (YOUNG VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116666","name":"story
+          from Spider-Man & the X-Men (2014) #1 (YOUNG VARIANT)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116667","name":"cover
+          from Spider-Man & the X-Men (2014) #1 (BENGAL VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116668","name":"story
+          from Spider-Man & the X-Men (2014) #1 (BENGAL VARIANT)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116671","name":"cover
+          from Spider-Man & the X-Men (2014) #2","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116672","name":"story
+          from Spider-Man & the X-Men (2014) #2","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116673","name":"cover
+          from Spider-Man & the X-Men (2014) #2 (TBD ARTIST VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116674","name":"story
+          from Spider-Man & the X-Men (2014) #2 (TBD ARTIST VARIANT)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116675","name":"cover
+          from Spider-Man & the X-Men (2014) #3","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116676","name":"story
+          from Spider-Man & the X-Men (2014) #3","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116677","name":"cover
+          from Spider-Man & the X-Men (2014) #3 (TBD ARTIST VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116678","name":"story
+          from Spider-Man & the X-Men (2014) #3 (TBD ARTIST VARIANT)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116679","name":"cover
+          from Spider-Man & the X-Men (2014) #4","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116680","name":"story
+          from Spider-Man & the X-Men (2014) #4","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116681","name":"cover
+          from Spider-Man & the X-Men (2014) #5","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116682","name":"story
+          from Spider-Man & the X-Men (2014) #5","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116683","name":"cover
+          from Spider-Man & the X-Men (2014) #6","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116684","name":"story
+          from Spider-Man & the X-Men (2014) #6","type":"interiorStory"}],"returned":20},"comics":{"available":10,"collectionURI":"http://gateway.marvel.com/v1/public/series/19676/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/52542","name":"Spider-Man
+          & the X-Men (2014) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/52544","name":"Spider-Man
+          & the X-Men (2014) #1 (Young Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/52545","name":"Spider-Man
+          & the X-Men (2014) #1 (Bengal Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/52547","name":"Spider-Man
+          & the X-Men (2014) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/52548","name":"Spider-Man
+          & the X-Men (2014) #2 (March Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/52549","name":"Spider-Man
+          & the X-Men (2014) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/52550","name":"Spider-Man
+          & the X-Men (2014) #3 (Shalvey Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/52551","name":"Spider-Man
+          & the X-Men (2014) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/52552","name":"Spider-Man
+          & the X-Men (2014) #5"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/52553","name":"Spider-Man
+          & the X-Men (2014) #6"}],"returned":10},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/series/19676/events","items":[],"returned":0},"next":null,"previous":null}]}}'
+    recorded_at: Thu, 09 Mar 2023 00:00:00 GMT
+recorded_with: VCR 6.1.0

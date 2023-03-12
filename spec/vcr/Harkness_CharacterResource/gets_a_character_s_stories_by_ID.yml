@@ -1,0 +1,49 @@
+---
+http_interactions:
+  - request:
+      method: get
+      uri: https://gateway.marvel.com/v1/public/characters/1009178/stories?apikey=abcd&hash=a09f8647b1786ba2816888715a24ccc6&ts=1678320000
+      body:
+        encoding: US-ASCII
+        string: ""
+      headers:
+        User-Agent:
+          - Faraday v2.7.4
+        Accept-Encoding:
+          - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+        Accept:
+          - "*/*"
+    response:
+      status:
+        code: 200
+        message: OK
+      headers:
+        Etag:
+          - c511587fd02cd4a9b6e059a37e2b19fc0ac25f69
+        Content-Type:
+          - application/json; charset=utf-8
+        Date:
+          - Sun, 12 Mar 2023 02:12:07 GMT
+        Connection:
+          - keep-alive
+        Transfer-Encoding:
+          - chunked
+      body:
+        encoding: UTF-8
+        string:
+          '{"code":200,"status":"Ok","copyright":"© 2023 MARVEL","attributionText":"Data
+          provided by Marvel. © 2023 MARVEL","attributionHTML":"<a href=\"http://marvel.com\">Data
+          provided by Marvel. © 2023 MARVEL</a>","etag":"c511587fd02cd4a9b6e059a37e2b19fc0ac25f69","data":{"offset":0,"limit":20,"total":1,"count":1,"results":[{"id":28072,"title":"Fresh
+          Upstart","description":"X-Men Gold Team is formed (X-Men Blue appear in the
+          new X-Men #1); Trevor Fitzroy of the Upstarts sends Sentinels to slaughter
+          Donald Pierce and the Reavers as well as the White Queen and the Hellions
+          (and doesn''t do a shabby job of taking out both).","resourceURI":"http://gateway.marvel.com/v1/public/stories/28072","type":"story","modified":"1969-12-31T19:00:00-0500","thumbnail":null,"creators":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/28072/creators","items":[],"returned":0},"characters":{"available":12,"collectionURI":"http://gateway.marvel.com/v1/public/stories/28072/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009159","name":"Archangel"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009178","name":"Beef"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009243","name":"Colossus"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009310","name":"Emma
+          Frost"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009291","name":"Empath"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009340","name":"Hellfire
+          Club"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009362","name":"Iceman"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009373","name":"Jetstream"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009393","name":"Lady
+          Deathstrike"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009502","name":"Pretty
+          Boy"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009647","name":"Tarot"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009726","name":"X-Men"}],"returned":12},"series":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/28072/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/2258","name":"Uncanny
+          X-Men (1963 - 2011)"}],"returned":1},"comics":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/28072/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/13822","name":"Uncanny
+          X-Men (1963) #281"}],"returned":1},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/28072/events","items":[],"returned":0},"originalIssue":{"resourceURI":"http://gateway.marvel.com/v1/public/comics/13822","name":"Uncanny
+          X-Men (1963) #281"}}]}}'
+    recorded_at: Thu, 09 Mar 2023 00:00:00 GMT
+recorded_with: VCR 6.1.0

@@ -1,0 +1,383 @@
+---
+http_interactions:
+  - request:
+      method: get
+      uri: https://gateway.marvel.com/v1/public/creators/8098/comics?apikey=abcd&hash=a09f8647b1786ba2816888715a24ccc6&ts=1678320000
+      body:
+        encoding: US-ASCII
+        string: ""
+      headers:
+        User-Agent:
+          - Faraday v2.7.4
+        Accept-Encoding:
+          - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+        Accept:
+          - "*/*"
+    response:
+      status:
+        code: 200
+        message: OK
+      headers:
+        Etag:
+          - f8ca2905ae5e0b793af6fb03c701be717f0345f1
+        Content-Type:
+          - application/json; charset=utf-8
+        Date:
+          - Sun, 12 Mar 2023 14:30:13 GMT
+        Connection:
+          - keep-alive
+        Transfer-Encoding:
+          - chunked
+      body:
+        encoding: UTF-8
+        string:
+          '{"code":200,"status":"Ok","copyright":"© 2023 MARVEL","attributionText":"Data
+          provided by Marvel. © 2023 MARVEL","attributionHTML":"<a href=\"http://marvel.com\">Data
+          provided by Marvel. © 2023 MARVEL</a>","etag":"f8ca2905ae5e0b793af6fb03c701be717f0345f1","data":{"offset":0,"limit":20,"total":23,"count":20,"results":[{"id":71398,"digitalId":52607,"title":"Spider-Gwen:
+          Ghost-Spider Vol. 2 - Impossible Year (Trade Paperback)","issueNumber":0,"variantDescription":"","description":null,"modified":"2019-09-03T09:42:20-0400","isbn":"978-1-302-91477-6","upc":"","diamondCode":"JUN191055","ean":"9781302
+          914776 51799","issn":"","format":"Trade Paperback","pageCount":136,"textObjects":[],"resourceURI":"http://gateway.marvel.com/v1/public/comics/71398","urls":[{"type":"detail","url":"http://marvel.com/comics/collection/71398/spider-gwen_ghost-spider_vol_2_-_impossible_year_trade_paperback?utm_campaign=apiRef&utm_source=abcd"},{"type":"purchase","url":"http://comicstore.marvel.com/SPIDER-GWEN-GHOST-SPIDER-VOL-2-IMPOSSIBLE-YEAR-TPB-0/digital-comic/52607?utm_campaign=apiRef&utm_source=abcd"},{"type":"reader","url":"http://marvel.com/digitalcomics/view.htm?iid=52607&utm_campaign=apiRef&utm_source=abcd"}],"series":{"resourceURI":"http://gateway.marvel.com/v1/public/series/26022","name":"Spider-Gwen:
+          Ghost-Spider Vol. 2 - Impossible Year (2019)"},"variants":[],"collections":[],"collectedIssues":[],"dates":[{"type":"onsaleDate","date":"2019-09-04T00:00:00-0400"},{"type":"focDate","date":"2019-07-15T00:00:00-0400"},{"type":"unlimitedDate","date":"2019-10-10T12:17:00-0400"},{"type":"digitalPurchaseDate","date":"2019-10-10T12:17:00-0400"}],"prices":[{"type":"printPrice","price":17.99}],"thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/5/f0/5d66a13030c9e","extension":"jpg"},"images":[{"path":"http://i.annihil.us/u/prod/marvel/i/mg/5/f0/5d66a13030c9e","extension":"jpg"}],"creators":{"available":4,"collectionURI":"http://gateway.marvel.com/v1/public/comics/71398/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13556","name":"Seanan
+          Mcguire","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/495","name":"Takeshi
+          Miyazawa","role":"penciller"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4430","name":"Jeff
+          Youngquist","role":"editor"}],"returned":4},"characters":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/comics/71398/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1017603","name":"Spider-Gwen
+          (Gwen Stacy)"}],"returned":1},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/71398/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/158772","name":"cover
+          from SPIDER-GWEN VOL. 2 TPB (2019) #2","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/158773","name":"story
+          from SPIDER-GWEN VOL. 2 TPB (2019) #2","type":"interiorStory"}],"returned":2},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/71398/events","items":[],"returned":0}},{"id":65726,"digitalId":0,"title":"Spider-Gwen
+          Vol. 2 (Hardcover)","issueNumber":0,"variantDescription":"","description":"Gwen
+          Stacy has lost her spider-powers - making this a very bad time to find herself
+          in Frank Castle''s crosshairs! So when the Mary Janes head to a haunted house,
+          is Gwen along for the fun, or will she be one of the ghosts? Thanksgiving
+          should be a happy time with friends and family - unless crime lord Matt Murdock
+          and his ninjas crash the party! Is it time for Gwen to put a stop to the Kingpin
+          of Crime, or does Matt have a thing or two to teach her? Next, the Mary Janes
+          get loud, and Gwen spends some time with her ever-expanding social circle:
+          Captain America! She-Hulk?! Her BPFF (best pig friend forever) Spider-Ham!
+          And her new body-swapping bud, the All-New Wolverine! Collecting SPIDER-GWEN
+          (2015B) #7-15 and ANNUAL #1, and ALL-NEW WOLVERINE ANNUAL #1.","modified":"2017-12-18T18:24:37-0500","isbn":"978-1-302-90900-0","upc":"","diamondCode":"JUL171191","ean":"9781302
+          909000 53499","issn":"","format":"Hardcover","pageCount":272,"textObjects":[{"type":"issue_solicit_text","language":"en-us","text":"Gwen
+          Stacy has lost her spider-powers - making this a very bad time to find herself
+          in Frank Castle''s crosshairs! So when the Mary Janes head to a haunted house,
+          is Gwen along for the fun, or will she be one of the ghosts? Thanksgiving
+          should be a happy time with friends and family - unless crime lord Matt Murdock
+          and his ninjas crash the party! Is it time for Gwen to put a stop to the Kingpin
+          of Crime, or does Matt have a thing or two to teach her? Next, the Mary Janes
+          get loud, and Gwen spends some time with her ever-expanding social circle:
+          Captain America! She-Hulk?! Her BPFF (best pig friend forever) Spider-Ham!
+          And her new body-swapping bud, the All-New Wolverine! Collecting SPIDER-GWEN
+          (2015B) #7-15 and ANNUAL #1, and ALL-NEW WOLVERINE ANNUAL #1."}],"resourceURI":"http://gateway.marvel.com/v1/public/comics/65726","urls":[{"type":"detail","url":"http://marvel.com/comics/collection/65726/spider-gwen_vol_2_hardcover?utm_campaign=apiRef&utm_source=abcd"}],"series":{"resourceURI":"http://gateway.marvel.com/v1/public/series/23871","name":"Spider-Gwen
+          Vol. 2 (2018)"},"variants":[],"collections":[],"collectedIssues":[],"dates":[{"type":"onsaleDate","date":"2018-01-03T00:00:00-0500"},{"type":"focDate","date":"2017-09-04T00:00:00-0400"}],"prices":[{"type":"printPrice","price":34.99}],"thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/3/30/5a38501b855e2","extension":"jpg"},"images":[{"path":"http://i.annihil.us/u/prod/marvel/i/mg/3/30/5a38501b855e2","extension":"jpg"}],"creators":{"available":7,"collectionURI":"http://gateway.marvel.com/v1/public/comics/65726/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/9031","name":"Marcio
+          Takara","role":"penciller"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12848","name":"Chris
+          Visions","role":"penciller"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/11306","name":"Jason
+          Latour","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12447","name":"Tom
+          Taylor","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12399","name":"Robbi
+          Rodriguez","role":"penciller (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4430","name":"Jeff
+          Youngquist","role":"editor"}],"returned":7},"characters":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/65726/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1017603","name":"Spider-Gwen
+          (Gwen Stacy)"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1011347","name":"Spider-Ham
+          (Larval Earth)"}],"returned":2},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/65726/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/142572","name":"cover
+          from SPIDER-GWEN VOL. 2 HC (2018) #2","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/142573","name":"story
+          from SPIDER-GWEN VOL. 2 HC (2018) #2","type":"interiorStory"}],"returned":2},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/65726/events","items":[],"returned":0}},{"id":61348,"digitalId":0,"title":"All-New
+          Wolverine (2015) #17 (Bengal Connecting Variant E)","issueNumber":17,"variantDescription":"Bengal
+          Connecting Variant E","description":null,"modified":"2017-02-02T14:36:34-0500","isbn":"","upc":"75960608359601721","diamondCode":"","ean":"","issn":"","format":"Comic","pageCount":32,"textObjects":[],"resourceURI":"http://gateway.marvel.com/v1/public/comics/61348","urls":[{"type":"detail","url":"http://marvel.com/comics/issue/61348/all-new_wolverine_2015_17_bengal_connecting_variant_e/bengal_connecting_variant_e?utm_campaign=apiRef&utm_source=abcd"}],"series":{"resourceURI":"http://gateway.marvel.com/v1/public/series/20682","name":"All-New
+          Wolverine (2015 - 2018)"},"variants":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/60507","name":"All-New
+          Wolverine (2015) #17"}],"collections":[],"collectedIssues":[],"dates":[{"type":"onsaleDate","date":"2017-02-08T00:00:00-0500"},{"type":"focDate","date":"2017-01-18T00:00:00-0500"}],"prices":[{"type":"printPrice","price":3.99}],"thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available","extension":"jpg"},"images":[],"creators":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/61348/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4600","name":"Mark
+          Paniccia","role":"editor"}],"returned":2},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/61348/characters","items":[],"returned":0},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/61348/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/133106","name":"cover
+          from All-New Wolverine (2015) #17 (TBD ARTIST CONNECTING VARIANT E)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/133107","name":"story
+          from All-New Wolverine (2015) #17 (TBD ARTIST CONNECTING VARIANT E)","type":"interiorStory"}],"returned":2},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/61348/events","items":[],"returned":0}},{"id":61347,"digitalId":0,"title":"All-New
+          Wolverine (2015) #16 (Bengal Connecting Variant D)","issueNumber":16,"variantDescription":"Bengal
+          Connecting Variant D","description":null,"modified":"2017-01-05T15:03:40-0500","isbn":"","upc":"75960608359601621","diamondCode":"","ean":"","issn":"","format":"Comic","pageCount":32,"textObjects":[],"resourceURI":"http://gateway.marvel.com/v1/public/comics/61347","urls":[{"type":"detail","url":"http://marvel.com/comics/issue/61347/all-new_wolverine_2015_16_bengal_connecting_variant_d/bengal_connecting_variant_d?utm_campaign=apiRef&utm_source=abcd"}],"series":{"resourceURI":"http://gateway.marvel.com/v1/public/series/20682","name":"All-New
+          Wolverine (2015 - 2018)"},"variants":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56447","name":"All-New
+          Wolverine (2015) #16"}],"collections":[],"collectedIssues":[],"dates":[{"type":"onsaleDate","date":"2017-01-04T00:00:00-0500"},{"type":"focDate","date":"2016-12-21T00:00:00-0500"}],"prices":[{"type":"printPrice","price":3.99}],"thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available","extension":"jpg"},"images":[],"creators":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/61347/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4600","name":"Mark
+          Paniccia","role":"editor"}],"returned":2},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/61347/characters","items":[],"returned":0},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/61347/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/133104","name":"cover
+          from All-New Wolverine (2015) #16 (TBD ARTIST CONNECTING VARIANT D)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/133105","name":"story
+          from All-New Wolverine (2015) #16 (TBD ARTIST CONNECTING VARIANT D)","type":"interiorStory"}],"returned":2},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/61347/events","items":[],"returned":0}},{"id":61346,"digitalId":0,"title":"All-New
+          Wolverine (2015) #15 (Bengal Connecting Variant C)","issueNumber":15,"variantDescription":"Bengal
+          Connecting Variant C","description":null,"modified":"2016-11-29T17:00:40-0500","isbn":"","upc":"75960608359601521","diamondCode":"","ean":"","issn":"","format":"Comic","pageCount":32,"textObjects":[],"resourceURI":"http://gateway.marvel.com/v1/public/comics/61346","urls":[{"type":"detail","url":"http://marvel.com/comics/issue/61346/all-new_wolverine_2015_15_bengal_connecting_variant_c/bengal_connecting_variant_c?utm_campaign=apiRef&utm_source=abcd"}],"series":{"resourceURI":"http://gateway.marvel.com/v1/public/series/20682","name":"All-New
+          Wolverine (2015 - 2018)"},"variants":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56446","name":"All-New
+          Wolverine (2015) #15"}],"collections":[],"collectedIssues":[],"dates":[{"type":"onsaleDate","date":"2016-12-07T00:00:00-0500"},{"type":"focDate","date":"2016-11-23T00:00:00-0500"}],"prices":[{"type":"printPrice","price":3.99}],"thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available","extension":"jpg"},"images":[],"creators":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/61346/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4600","name":"Mark
+          Paniccia","role":"editor"}],"returned":2},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/61346/characters","items":[],"returned":0},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/61346/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/133102","name":"cover
+          from All-New Wolverine (2015) #15 (TBD ARTIST CONNECTING VARIANT C)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/133103","name":"story
+          from All-New Wolverine (2015) #15 (TBD ARTIST CONNECTING VARIANT C)","type":"interiorStory"}],"returned":2},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/61346/events","items":[],"returned":0}},{"id":61345,"digitalId":0,"title":"All-New
+          Wolverine (2015) #14 (Bengal Connecting Variant B)","issueNumber":14,"variantDescription":"Bengal
+          Connecting Variant B","description":null,"modified":"2016-11-08T11:09:48-0500","isbn":"","upc":"75960608359601421","diamondCode":"","ean":"","issn":"","format":"Comic","pageCount":32,"textObjects":[],"resourceURI":"http://gateway.marvel.com/v1/public/comics/61345","urls":[{"type":"detail","url":"http://marvel.com/comics/issue/61345/all-new_wolverine_2015_14_bengal_connecting_variant_b/bengal_connecting_variant_b?utm_campaign=apiRef&utm_source=abcd"}],"series":{"resourceURI":"http://gateway.marvel.com/v1/public/series/20682","name":"All-New
+          Wolverine (2015 - 2018)"},"variants":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56445","name":"All-New
+          Wolverine (2015) #14"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/61939","name":"All-New
+          Wolverine (2015) #14 (Yu Variant)"}],"collections":[],"collectedIssues":[],"dates":[{"type":"onsaleDate","date":"2016-11-16T00:00:00-0500"},{"type":"focDate","date":"2016-10-19T00:00:00-0400"}],"prices":[{"type":"printPrice","price":3.99}],"thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available","extension":"jpg"},"images":[],"creators":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/61345/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4600","name":"Mark
+          Paniccia","role":"editor"}],"returned":2},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/61345/characters","items":[],"returned":0},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/61345/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/133100","name":"cover
+          from All-New Wolverine (2015) #14 (TBD ARTIST CONNECTING VARIANT B)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/133101","name":"story
+          from All-New Wolverine (2015) #14 (TBD ARTIST CONNECTING VARIANT B)","type":"interiorStory"}],"returned":2},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/61345/events","items":[],"returned":0}},{"id":61342,"digitalId":0,"title":"All-New
+          Wolverine (2015) #13 (Bengal Connecting Variant a)","issueNumber":13,"variantDescription":"Bengal
+          Connecting Variant a","description":null,"modified":"2016-09-23T16:54:16-0400","isbn":"","upc":"75960608359601321","diamondCode":"","ean":"","issn":"","format":"Comic","pageCount":32,"textObjects":[],"resourceURI":"http://gateway.marvel.com/v1/public/comics/61342","urls":[{"type":"detail","url":"http://marvel.com/comics/issue/61342/all-new_wolverine_2015_13_bengal_connecting_variant_a/bengal_connecting_variant_a?utm_campaign=apiRef&utm_source=abcd"}],"series":{"resourceURI":"http://gateway.marvel.com/v1/public/series/20682","name":"All-New
+          Wolverine (2015 - 2018)"},"variants":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56444","name":"All-New
+          Wolverine (2015) #13"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/61343","name":"All-New
+          Wolverine (2015) #13 (Lim Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/61861","name":"All-New
+          Wolverine (2015) #13 (Art Adams Champions Variant)"}],"collections":[],"collectedIssues":[],"dates":[{"type":"onsaleDate","date":"2016-10-05T00:00:00-0400"},{"type":"focDate","date":"2016-09-21T00:00:00-0400"}],"prices":[{"type":"printPrice","price":3.99}],"thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available","extension":"jpg"},"images":[{"path":"http://i.annihil.us/u/prod/marvel/i/mg/4/90/57d6be4579657","extension":"jpg"}],"creators":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/61342/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4600","name":"Mark
+          Paniccia","role":"editor"}],"returned":2},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/61342/characters","items":[],"returned":0},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/61342/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/133094","name":"cover
+          from All-New Wolverine (2015) #13 (TBD ARTIST CONNECTING VARIANT A)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/133095","name":"story
+          from All-New Wolverine (2015) #13 (TBD ARTIST CONNECTING VARIANT A)","type":"interiorStory"}],"returned":2},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/61342/events","items":[],"returned":0}},{"id":56443,"digitalId":42659,"title":"All-New
+          Wolverine (2015) #12","issueNumber":12,"variantDescription":"","description":"THE
+          ASTONISHING CONCLUSION TO OUR CIVIL WAR II TIE IN! GABBY’s life hangs in the
+          balance, with her death having been predicted to be cut short by none other
+          than OLD MAN LOGAN. As the shocking prediction looks to be coming true, LAURA’s
+          world is torn apart. Old Man Logan might be too old to stand against the fury
+          of the ALL-NEW WOLVERINE.","modified":"2018-04-09T14:56:07-0400","isbn":"","upc":"75960608359601211","diamondCode":"JUL160944","ean":"","issn":"","format":"Comic","pageCount":32,"textObjects":[{"type":"issue_solicit_text","language":"en-us","text":"THE
+          ASTONISHING CONCLUSION TO OUR CIVIL WAR II TIE IN! GABBY’s life hangs in the
+          balance, with her death having been predicted to be cut short by none other
+          than OLD MAN LOGAN. As the shocking prediction looks to be coming true, LAURA’s
+          world is torn apart. Old Man Logan might be too old to stand against the fury
+          of the ALL-NEW WOLVERINE."}],"resourceURI":"http://gateway.marvel.com/v1/public/comics/56443","urls":[{"type":"detail","url":"http://marvel.com/comics/issue/56443/all-new_wolverine_2015_12?utm_campaign=apiRef&utm_source=abcd"},{"type":"purchase","url":"http://comicstore.marvel.com/All-New-Wolverine-12/digital-comic/42659?utm_campaign=apiRef&utm_source=abcd"},{"type":"reader","url":"http://marvel.com/digitalcomics/view.htm?iid=42659&utm_campaign=apiRef&utm_source=abcd"},{"type":"inAppLink","url":"https://applink.marvel.com/issue/42659?utm_campaign=apiRef&utm_source=abcd"}],"series":{"resourceURI":"http://gateway.marvel.com/v1/public/series/20682","name":"All-New
+          Wolverine (2015 - 2018)"},"variants":[],"collections":[],"collectedIssues":[],"dates":[{"type":"onsaleDate","date":"2016-09-21T00:00:00-0400"},{"type":"focDate","date":"2016-09-07T00:00:00-0400"},{"type":"unlimitedDate","date":"2017-03-27T00:00:00-0400"},{"type":"digitalPurchaseDate","date":"2016-09-21T00:00:00-0400"}],"prices":[{"type":"printPrice","price":3.99},{"type":"digitalPurchasePrice","price":3.99}],"thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/8/90/57d2c1c543a1a","extension":"jpg"},"images":[{"path":"http://i.annihil.us/u/prod/marvel/i/mg/8/90/57d2c1c543a1a","extension":"jpg"}],"creators":{"available":4,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56443/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8606","name":"Ig
+          Guara","role":"penciller"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4600","name":"Mark
+          Paniccia","role":"editor"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12447","name":"Tom
+          Taylor","role":"writer"}],"returned":4},"characters":{"available":3,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56443/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1017844","name":"Honey
+          Badger (Gabrielle Kinney)"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1017810","name":"Old
+          Man Logan (Earth-807128)"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009722","name":"X-23"}],"returned":3},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56443/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123741","name":"cover
+          from All-New Wolverine (2015) #12","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123742","name":"story
+          from All-New Wolverine (2015) #12","type":"interiorStory"}],"returned":2},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56443/events","items":[],"returned":0}},{"id":56442,"digitalId":42294,"title":"All-New
+          Wolverine (2015) #11","issueNumber":11,"variantDescription":"","description":"CIVIL
+          WAR II TIE-IN! DESTINY COMES KNOCKING FOR WOLVERINE! LAURA KINNEY has fought
+          all her life to avoid a destiny she did not want. She has fought against instincts
+          that would make her nothing more than a weapon to be used by others, instead
+          becoming a hero — becoming WOLVERINE. But now, destiny intrudes again, this
+          time threatening those dearest to her. And with a SUPER HERO CIVIL WAR tearing
+          her world apart, is there any hope that Wolverine will emerge victorious?
+          Or will she finally succumb to destiny?","modified":"2016-08-08T15:08:36-0400","isbn":"","upc":"75960608359601111","diamondCode":"JUN160814","ean":"","issn":"","format":"Comic","pageCount":32,"textObjects":[{"type":"issue_solicit_text","language":"en-us","text":"CIVIL
+          WAR II TIE-IN! DESTINY COMES KNOCKING FOR WOLVERINE! LAURA KINNEY has fought
+          all her life to avoid a destiny she did not want. She has fought against instincts
+          that would make her nothing more than a weapon to be used by others, instead
+          becoming a hero — becoming WOLVERINE. But now, destiny intrudes again, this
+          time threatening those dearest to her. And with a SUPER HERO CIVIL WAR tearing
+          her world apart, is there any hope that Wolverine will emerge victorious?
+          Or will she finally succumb to destiny?"}],"resourceURI":"http://gateway.marvel.com/v1/public/comics/56442","urls":[{"type":"detail","url":"http://marvel.com/comics/issue/56442/all-new_wolverine_2015_11?utm_campaign=apiRef&utm_source=abcd"},{"type":"purchase","url":"http://comicstore.marvel.com/All-New-Wolverine-11/digital-comic/42294?utm_campaign=apiRef&utm_source=abcd"},{"type":"reader","url":"http://marvel.com/digitalcomics/view.htm?iid=42294&utm_campaign=apiRef&utm_source=abcd"},{"type":"inAppLink","url":"https://applink.marvel.com/issue/42294?utm_campaign=apiRef&utm_source=abcd"}],"series":{"resourceURI":"http://gateway.marvel.com/v1/public/series/20682","name":"All-New
+          Wolverine (2015 - 2018)"},"variants":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/60195","name":"All-New
+          Wolverine (2015) #11 (Parker Marvel Tsum Tsum Takeover Variant)"}],"collections":[],"collectedIssues":[],"dates":[{"type":"onsaleDate","date":"2016-08-17T00:00:00-0400"},{"type":"focDate","date":"2016-08-03T00:00:00-0400"},{"type":"unlimitedDate","date":"2017-02-20T00:00:00-0500"},{"type":"digitalPurchaseDate","date":"2016-08-17T00:00:00-0400"}],"prices":[{"type":"printPrice","price":3.99},{"type":"digitalPurchasePrice","price":3.99}],"thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/c/f0/57a8b4f6af78a","extension":"jpg"},"images":[{"path":"http://i.annihil.us/u/prod/marvel/i/mg/c/f0/57a8b4f6af78a","extension":"jpg"}],"creators":{"available":4,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56442/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8606","name":"Ig
+          Guara","role":"penciller"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4600","name":"Mark
+          Paniccia","role":"editor"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12447","name":"Tom
+          Taylor","role":"writer"}],"returned":4},"characters":{"available":3,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56442/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009220","name":"Captain
+          America"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1017810","name":"Old
+          Man Logan (Earth-807128)"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009722","name":"X-23"}],"returned":3},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56442/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123739","name":"cover
+          from All-New Wolverine (2015) #11","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123740","name":"story
+          from All-New Wolverine (2015) #11","type":"interiorStory"}],"returned":2},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56442/events","items":[],"returned":0}},{"id":56441,"digitalId":42090,"title":"All-New
+          Wolverine (2015) #10","issueNumber":10,"variantDescription":"","description":"CIVIL
+          WAR II TIE-IN! Which side will WOLVERINE choose when a terrible prophecy puts
+          someone she loves into the crosshairs of her allies? How far is LAURA willing
+          to go to protect her loved ones? Teaming up with OLD MAN LOGAN, Laura is prepared
+          to fight the very future itself to change her destiny.","modified":"2016-07-12T16:49:57-0400","isbn":"","upc":"75960608359601011","diamondCode":"MAY160771","ean":"","issn":"","format":"Comic","pageCount":40,"textObjects":[{"type":"issue_solicit_text","language":"en-us","text":"CIVIL
+          WAR II TIE-IN! Which side will WOLVERINE choose when a terrible prophecy puts
+          someone she loves into the crosshairs of her allies? How far is LAURA willing
+          to go to protect her loved ones? Teaming up with OLD MAN LOGAN, Laura is prepared
+          to fight the very future itself to change her destiny."}],"resourceURI":"http://gateway.marvel.com/v1/public/comics/56441","urls":[{"type":"detail","url":"http://marvel.com/comics/issue/56441/all-new_wolverine_2015_10?utm_campaign=apiRef&utm_source=abcd"},{"type":"purchase","url":"http://comicstore.marvel.com/All-New-Wolverine-10/digital-comic/42090?utm_campaign=apiRef&utm_source=abcd"},{"type":"reader","url":"http://marvel.com/digitalcomics/view.htm?iid=42090&utm_campaign=apiRef&utm_source=abcd"},{"type":"inAppLink","url":"https://applink.marvel.com/issue/42090?utm_campaign=apiRef&utm_source=abcd"}],"series":{"resourceURI":"http://gateway.marvel.com/v1/public/series/20682","name":"All-New
+          Wolverine (2015 - 2018)"},"variants":[],"collections":[],"collectedIssues":[],"dates":[{"type":"onsaleDate","date":"2016-07-20T00:00:00-0400"},{"type":"focDate","date":"2016-07-06T00:00:00-0400"},{"type":"unlimitedDate","date":"2017-01-23T00:00:00-0500"},{"type":"digitalPurchaseDate","date":"2016-07-20T00:00:00-0400"}],"prices":[{"type":"printPrice","price":4.99},{"type":"digitalPurchasePrice","price":4.99}],"thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/4/50/5785574ac2e79","extension":"jpg"},"images":[{"path":"http://i.annihil.us/u/prod/marvel/i/mg/4/50/5785574ac2e79","extension":"jpg"},{"path":"http://i.annihil.us/u/prod/marvel/i/mg/d/20/576d931215006","extension":"jpg"},{"path":"http://i.annihil.us/u/prod/marvel/i/mg/a/70/576d92efcf098","extension":"jpg"},{"path":"http://i.annihil.us/u/prod/marvel/i/mg/c/f0/576d92ccb8f5b","extension":"jpg"},{"path":"http://i.annihil.us/u/prod/marvel/i/mg/d/03/576d92a398231","extension":"jpg"},{"path":"http://i.annihil.us/u/prod/marvel/i/mg/d/40/576d9237ddfee","extension":"jpg"}],"creators":{"available":4,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56441/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8606","name":"Ig
+          Guara","role":"penciller"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4600","name":"Mark
+          Paniccia","role":"editor"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12447","name":"Tom
+          Taylor","role":"writer"}],"returned":4},"characters":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56441/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1017810","name":"Old
+          Man Logan (Earth-807128)"}],"returned":1},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56441/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123737","name":"cover
+          from All-New Wolverine (2015) #10","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123738","name":"story
+          from All-New Wolverine (2015) #10","type":"interiorStory"}],"returned":2},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56441/events","items":[],"returned":0}},{"id":56440,"digitalId":41733,"title":"All-New
+          Wolverine (2015) #9","issueNumber":9,"variantDescription":"","description":"On
+          the road to CIVIL WAR II! LAURA and LOGAN. We’ve seen it before. But this
+          isn’t the man Laura once knew. OLD MAN LOGAN has stepped out of a dystopian
+          future and into our world. His past full of horrors, he’s about to bring a
+          lot of baggage, and carnage, Laura’s way. With a CIVIL WAR set to divide the
+          heroes’ world, will Old Man Logan and WOLVERINE stand together against the
+          coming nightmare? Or will they shred each other apart?","modified":"2018-04-09T14:59:50-0400","isbn":"","upc":"75960608359600911","diamondCode":"APR160905","ean":"","issn":"","format":"Comic","pageCount":32,"textObjects":[{"type":"issue_solicit_text","language":"en-us","text":"On
+          the road to CIVIL WAR II! LAURA and LOGAN. We’ve seen it before. But this
+          isn’t the man Laura once knew. OLD MAN LOGAN has stepped out of a dystopian
+          future and into our world. His past full of horrors, he’s about to bring a
+          lot of baggage, and carnage, Laura’s way. With a CIVIL WAR set to divide the
+          heroes’ world, will Old Man Logan and WOLVERINE stand together against the
+          coming nightmare? Or will they shred each other apart?"}],"resourceURI":"http://gateway.marvel.com/v1/public/comics/56440","urls":[{"type":"detail","url":"http://marvel.com/comics/issue/56440/all-new_wolverine_2015_9?utm_campaign=apiRef&utm_source=abcd"},{"type":"purchase","url":"http://comicstore.marvel.com/All-New-Wolverine-9/digital-comic/41733?utm_campaign=apiRef&utm_source=abcd"},{"type":"reader","url":"http://marvel.com/digitalcomics/view.htm?iid=41733&utm_campaign=apiRef&utm_source=abcd"},{"type":"inAppLink","url":"https://applink.marvel.com/issue/41733?utm_campaign=apiRef&utm_source=abcd"}],"series":{"resourceURI":"http://gateway.marvel.com/v1/public/series/20682","name":"All-New
+          Wolverine (2015 - 2018)"},"variants":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/59863","name":"All-New
+          Wolverine (2015) #9 (Chin Cw Reenactment Variant)"}],"collections":[],"collectedIssues":[],"dates":[{"type":"onsaleDate","date":"2016-06-01T00:00:00-0400"},{"type":"focDate","date":"2016-05-18T00:00:00-0400"},{"type":"unlimitedDate","date":"2016-12-05T00:00:00-0500"},{"type":"digitalPurchaseDate","date":"2016-06-01T00:00:00-0400"}],"prices":[{"type":"printPrice","price":3.99},{"type":"digitalPurchasePrice","price":3.99}],"thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/2/e0/573a22912dd32","extension":"jpg"},"images":[{"path":"http://i.annihil.us/u/prod/marvel/i/mg/2/e0/573a22912dd32","extension":"jpg"}],"creators":{"available":4,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56440/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4600","name":"Mark
+          Paniccia","role":"editor"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/9031","name":"Marcio
+          Takara","role":"penciller"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12447","name":"Tom
+          Taylor","role":"writer"}],"returned":4},"characters":{"available":3,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56440/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1017844","name":"Honey
+          Badger (Gabrielle Kinney)"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1017810","name":"Old
+          Man Logan (Earth-807128)"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009722","name":"X-23"}],"returned":3},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56440/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123735","name":"cover
+          from All-New Wolverine (2015) #9","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123736","name":"story
+          from All-New Wolverine (2015) #9","type":"interiorStory"}],"returned":2},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56440/events","items":[],"returned":0}},{"id":56439,"digitalId":41568,"title":"All-New
+          Wolverine (2015) #8","issueNumber":8,"variantDescription":"","description":"WAY
+          OF THE SHADOW! What is the thing LAURA KINNEY fears most? Is she truly the
+          BEST AT WHAT SHE DOES? There is only one WOLVERINE. Or is there?!!","modified":"2016-05-03T12:43:49-0400","isbn":"","upc":"75960608359600811","diamondCode":"MAR160871","ean":"","issn":"","format":"Comic","pageCount":32,"textObjects":[{"type":"issue_solicit_text","language":"en-us","text":"WAY
+          OF THE SHADOW! What is the thing LAURA KINNEY fears most? Is she truly the
+          BEST AT WHAT SHE DOES? There is only one WOLVERINE. Or is there?!!"}],"resourceURI":"http://gateway.marvel.com/v1/public/comics/56439","urls":[{"type":"detail","url":"http://marvel.com/comics/issue/56439/all-new_wolverine_2015_8?utm_campaign=apiRef&utm_source=abcd"},{"type":"purchase","url":"http://comicstore.marvel.com/All-New-Wolverine-8/digital-comic/41568?utm_campaign=apiRef&utm_source=abcd"},{"type":"reader","url":"http://marvel.com/digitalcomics/view.htm?iid=41568&utm_campaign=apiRef&utm_source=abcd"},{"type":"inAppLink","url":"https://applink.marvel.com/issue/41568?utm_campaign=apiRef&utm_source=abcd"}],"series":{"resourceURI":"http://gateway.marvel.com/v1/public/series/20682","name":"All-New
+          Wolverine (2015 - 2018)"},"variants":[],"collections":[],"collectedIssues":[],"dates":[{"type":"onsaleDate","date":"2016-05-18T00:00:00-0400"},{"type":"focDate","date":"2016-05-04T00:00:00-0400"},{"type":"unlimitedDate","date":"2016-11-21T00:00:00-0500"},{"type":"digitalPurchaseDate","date":"2016-05-18T00:00:00-0400"}],"prices":[{"type":"printPrice","price":3.99},{"type":"digitalPurchasePrice","price":3.99}],"thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/9/70/5727c5a8bf0c5","extension":"jpg"},"images":[{"path":"http://i.annihil.us/u/prod/marvel/i/mg/9/70/5727c5a8bf0c5","extension":"jpg"}],"creators":{"available":4,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56439/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4600","name":"Mark
+          Paniccia","role":"editor"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/9031","name":"Marcio
+          Takara","role":"penciller"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12447","name":"Tom
+          Taylor","role":"writer"}],"returned":4},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56439/characters","items":[],"returned":0},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56439/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123733","name":"cover
+          from All-New Wolverine (2015) #8","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123734","name":"story
+          from All-New Wolverine (2015) #8","type":"interiorStory"}],"returned":2},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56439/events","items":[],"returned":0}},{"id":55684,"digitalId":41530,"title":"Spider-Gwen
+          (2015) #8","issueNumber":8,"variantDescription":"","description":"SPIDER-WOMEN
+          PART 5! The Spider-Women return to the Marvel Universe! Silk''s homecoming
+          is cut short, though, when they learn that CINDY MOON of EARTH-65 has paid
+          the MU a visit, too, and she''s caused a few problems for ALL of the Spider-Women.
+          Gwen''s universe has now made itself known-- and it can''t go well for her.","modified":"2016-04-29T14:08:14-0400","isbn":"","upc":"75960608313800811","diamondCode":"MAR160785","ean":"","issn":"","format":"Comic","pageCount":32,"textObjects":[{"type":"issue_solicit_text","language":"en-us","text":"SPIDER-WOMEN
+          PART 5! The Spider-Women return to the Marvel Universe! Silk''s homecoming
+          is cut short, though, when they learn that CINDY MOON of EARTH-65 has paid
+          the MU a visit, too, and she''s caused a few problems for ALL of the Spider-Women.
+          Gwen''s universe has now made itself known-- and it can''t go well for her."}],"resourceURI":"http://gateway.marvel.com/v1/public/comics/55684","urls":[{"type":"detail","url":"http://marvel.com/comics/issue/55684/spider-gwen_2015_8?utm_campaign=apiRef&utm_source=abcd"},{"type":"purchase","url":"http://comicstore.marvel.com/Spider-Gwen-8/digital-comic/41530?utm_campaign=apiRef&utm_source=abcd"},{"type":"reader","url":"http://marvel.com/digitalcomics/view.htm?iid=41530&utm_campaign=apiRef&utm_source=abcd"},{"type":"inAppLink","url":"https://applink.marvel.com/issue/41530?utm_campaign=apiRef&utm_source=abcd"}],"series":{"resourceURI":"http://gateway.marvel.com/v1/public/series/20505","name":"Spider-Gwen
+          (2015 - 2018)"},"variants":[],"collections":[],"collectedIssues":[],"dates":[{"type":"onsaleDate","date":"2016-05-04T00:00:00-0400"},{"type":"focDate","date":"2016-04-20T00:00:00-0400"},{"type":"unlimitedDate","date":"2016-11-07T00:00:00-0500"},{"type":"digitalPurchaseDate","date":"2016-05-04T00:00:00-0400"}],"prices":[{"type":"printPrice","price":3.99},{"type":"digitalPurchasePrice","price":3.99}],"thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/3/a0/571e81438fb34","extension":"jpg"},"images":[{"path":"http://i.annihil.us/u/prod/marvel/i/mg/3/a0/571e81438fb34","extension":"jpg"}],"creators":{"available":4,"collectionURI":"http://gateway.marvel.com/v1/public/comics/55684/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/11306","name":"Jason
+          Latour","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4300","name":"Nick
+          Lowe","role":"editor"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12698","name":"Yasmine
+          Putri","role":"penciller (cover)"}],"returned":4},"characters":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/comics/55684/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1017603","name":"Spider-Gwen
+          (Gwen Stacy)"}],"returned":1},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/55684/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122411","name":"cover
+          from Spider-Gwen (2015) #8","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122412","name":"story
+          from Spider-Gwen (2015) #8","type":"interiorStory"}],"returned":2},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/55684/events","items":[],"returned":0}},{"id":56438,"digitalId":41940,"title":"All-New
+          Wolverine (2015) #7","issueNumber":7,"variantDescription":"","description":"The
+          battle has been fought, and won—but at what cost? As Laura and Gabby attempt
+          to move on with their lives, Wolverine’s past seems destined to catch up with
+          her, and wreak havoc. Logan’s legacy has cast a long shadow, how can Laura
+          hope to step out of it?","modified":"2016-04-22T14:34:50-0400","isbn":"","upc":"75960608359600711","diamondCode":"FEB160910","ean":"","issn":"","format":"Comic","pageCount":32,"textObjects":[{"type":"issue_solicit_text","language":"en-us","text":"The
+          battle has been fought, and won—but at what cost? As Laura and Gabby attempt
+          to move on with their lives, Wolverine’s past seems destined to catch up with
+          her, and wreak havoc. Logan’s legacy has cast a long shadow, how can Laura
+          hope to step out of it?"}],"resourceURI":"http://gateway.marvel.com/v1/public/comics/56438","urls":[{"type":"detail","url":"http://marvel.com/comics/issue/56438/all-new_wolverine_2015_7?utm_campaign=apiRef&utm_source=abcd"},{"type":"purchase","url":"http://comicstore.marvel.com/All-New-Wolverine-7/digital-comic/41940?utm_campaign=apiRef&utm_source=abcd"},{"type":"reader","url":"http://marvel.com/digitalcomics/view.htm?iid=41940&utm_campaign=apiRef&utm_source=abcd"},{"type":"inAppLink","url":"https://applink.marvel.com/issue/41940?utm_campaign=apiRef&utm_source=abcd"}],"series":{"resourceURI":"http://gateway.marvel.com/v1/public/series/20682","name":"All-New
+          Wolverine (2015 - 2018)"},"variants":[],"collections":[],"collectedIssues":[],"dates":[{"type":"onsaleDate","date":"2016-04-27T00:00:00-0400"},{"type":"focDate","date":"2016-04-13T00:00:00-0400"},{"type":"unlimitedDate","date":"2016-10-24T00:00:00-0400"},{"type":"digitalPurchaseDate","date":"2016-04-27T00:00:00-0400"}],"prices":[{"type":"printPrice","price":3.99},{"type":"digitalPurchasePrice","price":3.99}],"thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/3/10/571131c227ee6","extension":"jpg"},"images":[{"path":"http://i.annihil.us/u/prod/marvel/i/mg/3/10/571131c227ee6","extension":"jpg"}],"creators":{"available":4,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56438/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4600","name":"Mark
+          Paniccia","role":"editor"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/9031","name":"Marcio
+          Takara","role":"penciller"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12447","name":"Tom
+          Taylor","role":"writer"}],"returned":4},"characters":{"available":3,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56438/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1017844","name":"Honey
+          Badger (Gabrielle Kinney)"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1010860","name":"Squirrel
+          Girl"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009722","name":"X-23"}],"returned":3},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56438/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123731","name":"cover
+          from All-New Wolverine (2015) #7","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123732","name":"story
+          from All-New Wolverine (2015) #7","type":"interiorStory"}],"returned":2},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56438/events","items":[],"returned":0}},{"id":55683,"digitalId":41688,"title":"Spider-Gwen
+          (2015) #7","issueNumber":7,"variantDescription":"","description":"SPIDER-WOMEN,
+          PART 2! Trapped in Earth-65, Spider-Gwen, Jessica Drew and Spider-Woman search
+          for a way to get Jessica home. Along the way, Jessica gets a tour of Gwen’s
+          life and meets THE MARY JANES!","modified":"2016-04-06T14:59:42-0400","isbn":"","upc":"75960608313800711","diamondCode":"FEB160778","ean":"","issn":"","format":"Comic","pageCount":32,"textObjects":[{"type":"issue_solicit_text","language":"en-us","text":"SPIDER-WOMEN,
+          PART 2! Trapped in Earth-65, Spider-Gwen, Jessica Drew and Spider-Woman search
+          for a way to get Jessica home. Along the way, Jessica gets a tour of Gwen’s
+          life and meets THE MARY JANES!"}],"resourceURI":"http://gateway.marvel.com/v1/public/comics/55683","urls":[{"type":"detail","url":"http://marvel.com/comics/issue/55683/spider-gwen_2015_7?utm_campaign=apiRef&utm_source=abcd"},{"type":"purchase","url":"http://comicstore.marvel.com/Spider-Gwen-7/digital-comic/41688?utm_campaign=apiRef&utm_source=abcd"},{"type":"reader","url":"http://marvel.com/digitalcomics/view.htm?iid=41688&utm_campaign=apiRef&utm_source=abcd"},{"type":"inAppLink","url":"https://applink.marvel.com/issue/41688?utm_campaign=apiRef&utm_source=abcd"}],"series":{"resourceURI":"http://gateway.marvel.com/v1/public/series/20505","name":"Spider-Gwen
+          (2015 - 2018)"},"variants":[],"collections":[],"collectedIssues":[],"dates":[{"type":"onsaleDate","date":"2016-04-13T00:00:00-0400"},{"type":"focDate","date":"2016-03-30T00:00:00-0400"},{"type":"unlimitedDate","date":"2016-10-10T00:00:00-0400"},{"type":"digitalPurchaseDate","date":"2016-04-13T00:00:00-0400"}],"prices":[{"type":"printPrice","price":3.99},{"type":"digitalPurchasePrice","price":3.99}],"thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/c/a0/56faecb27f725","extension":"jpg"},"images":[{"path":"http://i.annihil.us/u/prod/marvel/i/mg/c/a0/56faecb27f725","extension":"jpg"},{"path":"http://i.annihil.us/u/prod/marvel/i/mg/9/50/56da34654bad7","extension":"jpg"}],"creators":{"available":4,"collectionURI":"http://gateway.marvel.com/v1/public/comics/55683/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/11306","name":"Jason
+          Latour","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4300","name":"Nick
+          Lowe","role":"editor"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12698","name":"Yasmine
+          Putri","role":"penciller (cover)"}],"returned":4},"characters":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/comics/55683/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1017603","name":"Spider-Gwen
+          (Gwen Stacy)"}],"returned":1},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/55683/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122409","name":"cover
+          from Spider-Gwen (2015) #7","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/122410","name":"story
+          from Spider-Gwen (2015) #7","type":"interiorStory"}],"returned":2},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/55683/events","items":[],"returned":0}},{"id":56436,"digitalId":41113,"title":"All-New
+          Wolverine (2015) #5","issueNumber":5,"variantDescription":"","description":"Wolverine
+          will have to go where she’s never gone before in order to save the lives of
+          her mysterious three “sisters!” Along her journey, Laura will have to team
+          up with an ally she never expected, and one who has seemingly sworn off the
+          life of a super hero...Say hello to the original Wasp, the one and only JANET
+          VAN DYNE!","modified":"2018-04-09T15:04:37-0400","isbn":"","upc":"75960608359600511","diamondCode":"DEC150851","ean":"","issn":"","format":"Comic","pageCount":32,"textObjects":[{"type":"issue_solicit_text","language":"en-us","text":"Wolverine
+          will have to go where she’s never gone before in order to save the lives of
+          her mysterious three “sisters!” Along her journey, Laura will have to team
+          up with an ally she never expected, and one who has seemingly sworn off the
+          life of a super hero...Say hello to the original Wasp, the one and only JANET
+          VAN DYNE!"}],"resourceURI":"http://gateway.marvel.com/v1/public/comics/56436","urls":[{"type":"detail","url":"http://marvel.com/comics/issue/56436/all-new_wolverine_2015_5?utm_campaign=apiRef&utm_source=abcd"},{"type":"purchase","url":"http://comicstore.marvel.com/All-New-Wolverine-5/digital-comic/41113?utm_campaign=apiRef&utm_source=abcd"},{"type":"reader","url":"http://marvel.com/digitalcomics/view.htm?iid=41113&utm_campaign=apiRef&utm_source=abcd"}],"series":{"resourceURI":"http://gateway.marvel.com/v1/public/series/20682","name":"All-New
+          Wolverine (2015 - 2018)"},"variants":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/58194","name":"All-New
+          Wolverine (2015) #5 (Michael Cho Variant)"}],"collections":[],"collectedIssues":[],"dates":[{"type":"onsaleDate","date":"2016-02-10T00:00:00-0500"},{"type":"focDate","date":"2016-01-27T00:00:00-0500"},{"type":"unlimitedDate","date":"2016-08-15T00:00:00-0400"},{"type":"digitalPurchaseDate","date":"2016-02-05T11:29:00-0500"}],"prices":[{"type":"printPrice","price":3.99}],"thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/6/70/56ab87b37f070","extension":"jpg"},"images":[{"path":"http://i.annihil.us/u/prod/marvel/i/mg/6/70/56ab87b37f070","extension":"jpg"},{"path":"http://i.annihil.us/u/prod/marvel/i/mg/4/60/568fc97a66156","extension":"jpg"}],"creators":{"available":4,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56436/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12392","name":"David
+          Lopez","role":"artist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4600","name":"Mark
+          Paniccia","role":"editor"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12447","name":"Tom
+          Taylor","role":"writer"}],"returned":4},"characters":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56436/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009707","name":"Wasp"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009722","name":"X-23"}],"returned":2},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56436/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123727","name":"cover
+          from All-New Wolverine (2015) #5","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123728","name":"story
+          from All-New Wolverine (2015) #5","type":"interiorStory"}],"returned":2},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56436/events","items":[],"returned":0}},{"id":56430,"digitalId":40534,"title":"All-New
+          Wolverine (2015) #2","issueNumber":2,"variantDescription":"","description":"LAURA
+          KINNEY EMBRACES HER DESTINY. HERE! COMES! WOLVERINE!\nX-23 was created to
+          be a weapon and for a time, that’s all she was. But with the help of her mentor,
+          LOGAN—the original WOLVERINE—she escaped that dark past. Tragically, Logan
+          has fallen, but Laura will continue in his footsteps as a hero. Recent events
+          have her doing everything in her power to keep those around her alive, as
+          violent forces are hell-bent on mutual destruction. If anyone can stop them,
+          it’s Laura. She is the best there is at what she does. She is THE ALL-NEW
+          WOLVERINE.","modified":"2015-11-17T12:15:37-0500","isbn":"","upc":"75960608359600211","diamondCode":"SEP150724","ean":"","issn":"","format":"Comic","pageCount":32,"textObjects":[{"type":"issue_solicit_text","language":"en-us","text":"LAURA
+          KINNEY EMBRACES HER DESTINY. HERE! COMES! WOLVERINE!\nX-23 was created to
+          be a weapon and for a time, that’s all she was. But with the help of her mentor,
+          LOGAN—the original WOLVERINE—she escaped that dark past. Tragically, Logan
+          has fallen, but Laura will continue in his footsteps as a hero. Recent events
+          have her doing everything in her power to keep those around her alive, as
+          violent forces are hell-bent on mutual destruction. If anyone can stop them,
+          it’s Laura. She is the best there is at what she does. She is THE ALL-NEW
+          WOLVERINE."}],"resourceURI":"http://gateway.marvel.com/v1/public/comics/56430","urls":[{"type":"detail","url":"http://marvel.com/comics/issue/56430/all-new_wolverine_2015_2?utm_campaign=apiRef&utm_source=abcd"},{"type":"purchase","url":"http://comicstore.marvel.com/All-New-Wolverine-2/digital-comic/40534?utm_campaign=apiRef&utm_source=abcd"},{"type":"reader","url":"http://marvel.com/digitalcomics/view.htm?iid=40534&utm_campaign=apiRef&utm_source=abcd"},{"type":"inAppLink","url":"https://applink.marvel.com/issue/40534?utm_campaign=apiRef&utm_source=abcd"}],"series":{"resourceURI":"http://gateway.marvel.com/v1/public/series/20682","name":"All-New
+          Wolverine (2015 - 2018)"},"variants":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/58869","name":"All-New
+          Wolverine (2015) #2 (Bengal 2nd Printing Variant)"}],"collections":[],"collectedIssues":[],"dates":[{"type":"onsaleDate","date":"2015-11-25T00:00:00-0500"},{"type":"focDate","date":"2015-11-10T00:00:00-0500"},{"type":"unlimitedDate","date":"2016-05-23T00:00:00-0400"},{"type":"digitalPurchaseDate","date":"2015-11-25T00:00:00-0500"}],"prices":[{"type":"printPrice","price":3.99},{"type":"digitalPurchasePrice","price":3.99}],"thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/9/20/564a4d56b0de3","extension":"jpg"},"images":[{"path":"http://i.annihil.us/u/prod/marvel/i/mg/9/20/564a4d56b0de3","extension":"jpg"}],"creators":{"available":4,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56430/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12392","name":"David
+          Lopez","role":"artist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12780","name":"David
+          Navarrot","role":"artist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12447","name":"Tom
+          Taylor","role":"writer"}],"returned":4},"characters":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56430/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1017844","name":"Honey
+          Badger (Gabrielle Kinney)"},{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009722","name":"X-23"}],"returned":2},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56430/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123715","name":"cover
+          from All-New Wolverine (2015) #2","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123716","name":"story
+          from All-New Wolverine (2015) #2","type":"interiorStory"}],"returned":2},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56430/events","items":[],"returned":0}},{"id":56424,"digitalId":40459,"title":"All-New
+          Wolverine (2015) #1","issueNumber":1,"variantDescription":"","description":"LAURA
+          KINNEY EMBRACES HER DESTINY. HERE! COMES! WOLVERINE!\nX-23 was created to
+          be a weapon and for a time, that''s all she was. But with the help of her
+          mentor, LOGAN-the original WOLVERINE-she escaped that dark past. Tragically,
+          Logan has fallen, but Laura will continue in his footsteps as a hero. Recent
+          events have her doing everything in her power to keep those around her alive,
+          as violent forces are hell-bent on mutual destruction. If anyone can stop
+          them, it''s Laura. She is the best there is at what she does. She is THE ALL-NEW
+          WOLVERINE.","modified":"2018-04-09T15:13:19-0400","isbn":"","upc":"75960608359600111","diamondCode":"SEP150716","ean":"","issn":"","format":"Comic","pageCount":40,"textObjects":[{"type":"issue_solicit_text","language":"en-us","text":"LAURA
+          KINNEY EMBRACES HER DESTINY. HERE! COMES! WOLVERINE!\nX-23 was created to
+          be a weapon and for a time, that''s all she was. But with the help of her
+          mentor, LOGAN-the original WOLVERINE-she escaped that dark past. Tragically,
+          Logan has fallen, but Laura will continue in his footsteps as a hero. Recent
+          events have her doing everything in her power to keep those around her alive,
+          as violent forces are hell-bent on mutual destruction. If anyone can stop
+          them, it''s Laura. She is the best there is at what she does. She is THE ALL-NEW
+          WOLVERINE."}],"resourceURI":"http://gateway.marvel.com/v1/public/comics/56424","urls":[{"type":"detail","url":"http://marvel.com/comics/issue/56424/all-new_wolverine_2015_1?utm_campaign=apiRef&utm_source=abcd"},{"type":"purchase","url":"http://comicstore.marvel.com/All-New-Wolverine-1/digital-comic/40459?utm_campaign=apiRef&utm_source=abcd"},{"type":"reader","url":"http://marvel.com/digitalcomics/view.htm?iid=40459&utm_campaign=apiRef&utm_source=abcd"},{"type":"inAppLink","url":"https://applink.marvel.com/issue/40459?utm_campaign=apiRef&utm_source=abcd"}],"series":{"resourceURI":"http://gateway.marvel.com/v1/public/series/20682","name":"All-New
+          Wolverine (2015 - 2018)"},"variants":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56425","name":"All-New
+          Wolverine (2015) #1 (Adams Variant)"}],"collections":[],"collectedIssues":[],"dates":[{"type":"onsaleDate","date":"2015-11-11T00:00:00-0500"},{"type":"focDate","date":"2015-10-27T00:00:00-0400"},{"type":"unlimitedDate","date":"2016-05-09T00:00:00-0400"},{"type":"digitalPurchaseDate","date":"2015-11-11T00:00:00-0500"}],"prices":[{"type":"printPrice","price":4.99},{"type":"digitalPurchasePrice","price":4.99}],"thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/3/d0/563ba988a0890","extension":"jpg"},"images":[{"path":"http://i.annihil.us/u/prod/marvel/i/mg/3/d0/563ba988a0890","extension":"jpg"},{"path":"http://i.annihil.us/u/prod/marvel/i/mg/1/60/561e8672958f1","extension":"jpg"},{"path":"http://i.annihil.us/u/prod/marvel/i/mg/3/a0/561e8604d66a5","extension":"jpg"},{"path":"http://i.annihil.us/u/prod/marvel/i/mg/6/c0/561e85a9b35e4","extension":"jpg"},{"path":"http://i.annihil.us/u/prod/marvel/i/mg/3/20/561e8530a6d14","extension":"jpg"},{"path":"http://i.annihil.us/u/prod/marvel/i/mg/6/50/561e8460edd22","extension":"jpg"},{"path":"http://i.annihil.us/u/prod/marvel/i/mg/6/70/561e83c047cd5","extension":"jpg"},{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/b0/561bc166ea1ad","extension":"jpg"},{"path":"http://i.annihil.us/u/prod/marvel/i/mg/9/a0/55de1a9757e0c","extension":"jpg"},{"path":"http://i.annihil.us/u/prod/marvel/i/mg/6/00/55de1a62b9016","extension":"jpg"},{"path":"http://i.annihil.us/u/prod/marvel/i/mg/6/40/55de1a2b68093","extension":"jpg"},{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/d0/55de19faa1d11","extension":"jpg"},{"path":"http://i.annihil.us/u/prod/marvel/i/mg/6/40/55de19a5713a4","extension":"jpg"}],"creators":{"available":4,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56424/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12392","name":"David
+          Lopez","role":"artist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12780","name":"David
+          Navarrot","role":"artist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12447","name":"Tom
+          Taylor","role":"writer"}],"returned":4},"characters":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56424/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009722","name":"X-23"}],"returned":1},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56424/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123703","name":"cover
+          from All-New Wolverine (2015) #1","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/123704","name":"story
+          from All-New Wolverine (2015) #1","type":"interiorStory"}],"returned":2},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/56424/events","items":[],"returned":0}},{"id":51934,"digitalId":39445,"title":"Guardians
+          Team-Up (2015) #8","issueNumber":8,"variantDescription":"","description":"-
+          A crippled spaceship with a million souls on board. A ruthless force, blasting
+          it all the way to the ground.\nAnd in the middle: Groot and the Silver Surfer,
+          teamed up for a daring rescue! But what mysterious quest can bring them both
+          together in the midst of this conflict? And what is the prize that they may
+          both be willing to sacrifice themselves for?","modified":"2015-07-21T14:13:24-0400","isbn":"","upc":"75960608191200811","diamondCode":"MAY150792","ean":"","issn":"","format":"Comic","pageCount":32,"textObjects":[{"type":"issue_solicit_text","language":"en-us","text":"-
+          A crippled spaceship with a million souls on board. A ruthless force, blasting
+          it all the way to the ground.\nAnd in the middle: Groot and the Silver Surfer,
+          teamed up for a daring rescue! But what mysterious quest can bring them both
+          together in the midst of this conflict? And what is the prize that they may
+          both be willing to sacrifice themselves for?"}],"resourceURI":"http://gateway.marvel.com/v1/public/comics/51934","urls":[{"type":"detail","url":"http://marvel.com/comics/issue/51934/guardians_team-up_2015_8?utm_campaign=apiRef&utm_source=abcd"},{"type":"purchase","url":"http://comicstore.marvel.com/Guardians-Team-Up-8/digital-comic/39445?utm_campaign=apiRef&utm_source=abcd"},{"type":"reader","url":"http://marvel.com/digitalcomics/view.htm?iid=39445&utm_campaign=apiRef&utm_source=abcd"},{"type":"inAppLink","url":"https://applink.marvel.com/issue/39445?utm_campaign=apiRef&utm_source=abcd"}],"series":{"resourceURI":"http://gateway.marvel.com/v1/public/series/19453","name":"Guardians
+          Team-Up (2015)"},"variants":[],"collections":[],"collectedIssues":[],"dates":[{"type":"onsaleDate","date":"2015-07-29T00:00:00-0400"},{"type":"focDate","date":"2015-07-15T00:00:00-0400"},{"type":"unlimitedDate","date":"2016-01-25T00:00:00-0500"},{"type":"digitalPurchaseDate","date":"2015-07-29T00:00:00-0400"}],"prices":[{"type":"printPrice","price":3.99},{"type":"digitalPurchasePrice","price":3.99}],"thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/6/e0/55ae8a864c915","extension":"jpg"},"images":[{"path":"http://i.annihil.us/u/prod/marvel/i/mg/6/e0/55ae8a864c915","extension":"jpg"},{"path":"http://i.annihil.us/u/prod/marvel/i/mg/7/10/5575db805cd88","extension":"jpg"}],"creators":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/51934/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12442","name":"Ray
+          Fawkes","role":"writer"}],"returned":2},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/51934/characters","items":[],"returned":0},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/51934/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115445","name":"cover
+          from Guardians Team-Up (2015) #8","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/115446","name":"story
+          from Guardians Team-Up (2015) #8","type":"interiorStory"}],"returned":2},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/51934/events","items":[],"returned":0}},{"id":54859,"digitalId":0,"title":"Siege
+          (2015) #1 (BENGAL ANT-SIZED VARIANT)","issueNumber":1,"variantDescription":"BENGAL
+          ANT-SIZED VARIANT","description":"THEY CAN''T EVER WIN. THEY CAN''T AFFORD
+          TO LOSE.\n- THE SHIELD is the only thing that protects the more civilized
+          areas of Battleworld from the ZOMBIE HORDES, DEATH MACHINES, AND ANNIHILATION
+          WAVES.\n-  Anyone who annoys Doom gets sent to The Shield. Anyone who gets
+          sent to the Shield deals with ABIGAIL BRAND.\n- Miss America, Lady Katherine,
+          Kang the Conqueror, Leah Shieldmen, the Endless Summers Company, Leonardo
+          Da Vinci and a cast of thousands will fight to the death to keep Battleworld
+          safe. But don''t worry, Kieron Gillen is writing this book, so I''m sure everything
+          will end happily for everyone.\n- \"Imagine NextWave as a tragedy,\" says
+          Kieron, if anyone asks him about it.","modified":"2015-07-09T16:46:05-0400","isbn":"","upc":"75960608225400131","diamondCode":"MAY150677","ean":"","issn":"","format":"Comic","pageCount":32,"textObjects":[{"type":"issue_solicit_text","language":"en-us","text":"THEY
+          CAN''T EVER WIN. THEY CAN''T AFFORD TO LOSE.\n- THE SHIELD is the only thing
+          that protects the more civilized areas of Battleworld from the ZOMBIE HORDES,
+          DEATH MACHINES, AND ANNIHILATION WAVES.\n-  Anyone who annoys Doom gets sent
+          to The Shield. Anyone who gets sent to the Shield deals with ABIGAIL BRAND.\n-
+          Miss America, Lady Katherine, Kang the Conqueror, Leah Shieldmen, the Endless
+          Summers Company, Leonardo Da Vinci and a cast of thousands will fight to the
+          death to keep Battleworld safe. But don''t worry, Kieron Gillen is writing
+          this book, so I''m sure everything will end happily for everyone.\n- \"Imagine
+          NextWave as a tragedy,\" says Kieron, if anyone asks him about it."}],"resourceURI":"http://gateway.marvel.com/v1/public/comics/54859","urls":[{"type":"detail","url":"http://marvel.com/comics/issue/54859/siege_2015_1_bengal_ant-sized_variant/bengal_ant-sized_variant?utm_campaign=apiRef&utm_source=abcd"}],"series":{"resourceURI":"http://gateway.marvel.com/v1/public/series/19608","name":"Siege
+          (2015)"},"variants":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/54812","name":"Siege
+          (2015) #1 (BUDICH MAOS VARIANT)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/52281","name":"Siege
+          (2015) #1"}],"collections":[],"collectedIssues":[],"dates":[{"type":"onsaleDate","date":"2015-07-15T00:00:00-0400"},{"type":"focDate","date":"2015-06-22T00:00:00-0400"}],"prices":[{"type":"printPrice","price":3.99}],"thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/4/60/559edc4632896","extension":"jpg"},"images":[{"path":"http://i.annihil.us/u/prod/marvel/i/mg/4/60/559edc4632896","extension":"jpg"}],"creators":{"available":3,"collectionURI":"http://gateway.marvel.com/v1/public/comics/54859/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8098","name":"Bengal","role":"penciller
+          (cover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12471","name":"Filipe
+          Andrade","role":"artist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8901","name":"Kieron
+          Gillen","role":"writer"}],"returned":3},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/54859/characters","items":[],"returned":0},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/comics/54859/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/120935","name":"cover
+          from Night Watch of S.H.I.E.L.D. (2015) #1 (TBD ARTIST ANT-SIZED VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/120936","name":"story
+          from Night Watch of S.H.I.E.L.D. (2015) #1 (TBD ARTIST ANT-SIZED VARIANT)","type":"interiorStory"}],"returned":2},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/comics/54859/events","items":[],"returned":0}}]}}'
+    recorded_at: Thu, 09 Mar 2023 00:00:00 GMT
+recorded_with: VCR 6.1.0

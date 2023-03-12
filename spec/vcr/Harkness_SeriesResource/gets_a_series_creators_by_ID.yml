@@ -1,0 +1,357 @@
+---
+http_interactions:
+  - request:
+      method: get
+      uri: https://gateway.marvel.com/v1/public/series/18454/creators?apikey=abcd&hash=a09f8647b1786ba2816888715a24ccc6&ts=1678320000
+      body:
+        encoding: US-ASCII
+        string: ""
+      headers:
+        User-Agent:
+          - Faraday v2.7.4
+        Accept-Encoding:
+          - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+        Accept:
+          - "*/*"
+    response:
+      status:
+        code: 200
+        message: OK
+      headers:
+        Etag:
+          - 5208922e2d5b70452e8b13a04068444f00e2b19e
+        Content-Type:
+          - application/json; charset=utf-8
+        Date:
+          - Sun, 12 Mar 2023 15:04:14 GMT
+        Connection:
+          - keep-alive
+        Transfer-Encoding:
+          - chunked
+      body:
+        encoding: UTF-8
+        string:
+          '{"code":200,"status":"Ok","copyright":"© 2023 MARVEL","attributionText":"Data
+          provided by Marvel. © 2023 MARVEL","attributionHTML":"<a href=\"http://marvel.com\">Data
+          provided by Marvel. © 2023 MARVEL</a>","etag":"5208922e2d5b70452e8b13a04068444f00e2b19e","data":{"offset":0,"limit":20,"total":5,"count":5,"results":[{"id":485,"firstName":"Andy","middleName":"","lastName":"Lanning","suffix":"","fullName":"Andy
+          Lanning","modified":"2014-11-22T15:06:57-0500","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/6/40/4bb827ae64631","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/creators/485","comics":{"available":436,"collectionURI":"http://gateway.marvel.com/v1/public/creators/485/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49180","name":"Marvel
+          100th Anniversary (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49011","name":"100th
+          Anniversary Special (2014) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/20824","name":"Amazing
+          Spider-Man (1999) #552"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/20825","name":"Amazing
+          Spider-Man (1999) #553"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/20826","name":"Amazing
+          Spider-Man (1999) #554"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/21322","name":"Amazing
+          Spider-Man (1999) #562"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/21323","name":"Amazing
+          Spider-Man (1999) #563"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/21503","name":"Amazing
+          Spider-Man (1999) #565"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/21504","name":"Amazing
+          Spider-Man (1999) #566"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/21702","name":"Amazing
+          Spider-Man (1999) #567"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/22865","name":"Amazing
+          Spider-Man (1999) #581"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/23076","name":"Amazing
+          Spider-Man (1999) #582"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/23927","name":"Amazing
+          Spider-Man (1999) #592"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/24133","name":"Amazing
+          Spider-Man (1999) #593"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/24134","name":"Amazing
+          Spider-Man (1999) #594"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/24135","name":"Amazing
+          Spider-Man (1999) #595"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/24136","name":"Amazing
+          Spider-Man (1999) #595 (GRANOV VARIANT)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/24407","name":"Amazing
+          Spider-Man (1999) #600"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/29303","name":"Amazing
+          Spider-Man (1999) #600 (2ND PRINTING VARIANT)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/24413","name":"Amazing
+          Spider-Man (1999) #606"}],"returned":20},"series":{"available":152,"collectionURI":"http://gateway.marvel.com/v1/public/creators/485/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/18454","name":"100th
+          Anniversary Special (2014)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/454","name":"Amazing
+          Spider-Man (1999 - 2013)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2984","name":"Amazing
+          Spider-Man Annual (1964 - 2018)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/5958","name":"Amazing
+          Spider-Man Annual (2008)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/5376","name":"Amazing
+          Spider-Man Family (2008 - 2009)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/6604","name":"Amazing
+          Spider-Man: Extra! (2008 - 2009)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/18285","name":"Annihilation
+          (2014)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/33346","name":"Annihilation
+          Omnibus (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3061","name":"Annihilation:
+          Conquest (2007)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/19274","name":"Annihilation:
+          Conquest (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/24256","name":"Annihilation:
+          The Complete Collection Vol. 1 (2018)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/13025","name":"Annihilators
+          (2010 - 2011)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/15433","name":"Annihilators
+          (2011 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/14818","name":"Annihilators:
+          Earthfall (2011)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/744","name":"Astonishing
+          X-Men (2004 - 2013)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/354","name":"Avengers
+          (1998 - 2004)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/227","name":"Avengers
+          Vol. 2: Red Zone (2003)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1197","name":"Avengers
+          Vol. 4: Lionheart of Avalon (2004)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/271","name":"Avengers
+          Vol. II: Red Zone (2003)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/17966","name":"AVENGERS/IRON
+          MAN: FIRST SIGN TPB (2013)"}],"returned":20},"stories":{"available":488,"collectionURI":"http://gateway.marvel.com/v1/public/creators/485/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/938","name":"1
+          of ? - Distant Music","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/939","name":"1
+          of ? - Distant Music","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/940","name":"2
+          of ? - Distant Music","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/941","name":"2
+          of ? - Distant Music","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/943","name":"3
+          of ? - Distant Music","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/944","name":"Cover
+          #944","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/945","name":"Interior
+          #945","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/946","name":"5
+          of 6 - Distant Music","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/947","name":"5
+          of 6 - Distant Music","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/948","name":"6
+          of 6 - Distant Music","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/949","name":"6
+          of 6 - Distant Music","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/950","name":"1
+          of 6 -","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/951","name":"1
+          of 6 -","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/952","name":"2
+          of 6 -","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/953","name":"2
+          of 6 -","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/954","name":"3
+          of 6 - Hulk Pt. 3","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/955","name":"3
+          of 6 - Hulk Pt. 3","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/957","name":"1
+          of ?","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/959","name":"2
+          of ?","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/961","name":"3
+          of ?","type":"interiorStory"}],"returned":20},"events":{"available":13,"collectionURI":"http://gateway.marvel.com/v1/public/creators/485/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/303","name":"Age
+          of X"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/293","name":"Annihilation:
+          Conquest"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/238","name":"Civil
+          War"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/318","name":"Dark
+          Reign"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/302","name":"Fear
+          Itself"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/255","name":"Initiative"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/295","name":"Realm
+          of Kings"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/269","name":"Secret
+          Invasion"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/309","name":"Shattered
+          Heroes"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/305","name":"Spider-Island"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/294","name":"The
+          Thanos Imperative"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/276","name":"War
+          of Kings"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/308","name":"X-Men:
+          Regenesis"}],"returned":13},"urls":[{"type":"detail","url":"http://marvel.com/comics/creators/485/andy_lanning?utm_campaign=apiRef&utm_source=abcd"}]},{"id":13138,"firstName":"In-Hyuk","middleName":"","lastName":"Lee","suffix":"","fullName":"In-Hyuk
+          Lee","modified":"2023-03-09T10:18:34-0500","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/creators/13138","comics":{"available":129,"collectionURI":"http://gateway.marvel.com/v1/public/creators/13138/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/80067","name":"Future
+          Fight Firsts: Crescent and Io (2019) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49180","name":"Marvel
+          100th Anniversary (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49008","name":"100th
+          Anniversary Special (2014) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49009","name":"100th
+          Anniversary Special (2014) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/103225","name":"A.X.E.:
+          Judgment Day (2022) #5 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/78966","name":"Absolute
+          Carnage (2019) #5 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/89565","name":"Alien
+          (2021) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/89568","name":"Alien
+          (2021) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/89571","name":"Alien
+          (2021) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/89574","name":"Alien
+          (2021) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/89576","name":"Alien
+          (2021) #5"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/89577","name":"Alien
+          (2021) #6"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/89566","name":"Alien
+          Vol. 1: Bloodlines (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/84357","name":"Avengers
+          (2018) #39"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/95977","name":"Avengers
+          (2018) #47 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/105659","name":"Avengers
+          (2018) #64 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/48749","name":"Avengers
+          World (2014) #5"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/77632","name":"Black
+          Cat (2019) #3 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/73400","name":"Black
+          Order (2018) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/73401","name":"Black
+          Order (2018) #5"}],"returned":20},"series":{"available":91,"collectionURI":"http://gateway.marvel.com/v1/public/creators/13138/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/18454","name":"100th
+          Anniversary Special (2014)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/34459","name":"A.X.E.:
+          Judgment Day (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/27272","name":"Absolute
+          Carnage (2019)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/30863","name":"Alien
+          (2021 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/30864","name":"Alien
+          Vol. 1: Bloodlines (2021)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/24229","name":"Avengers
+          (2018 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/18398","name":"Avengers
+          World (2014 - 2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/19601","name":"Avengers:
+          Time Runs Out Vol. 4 (2016)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/27314","name":"Black
+          Cat (2019 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/26475","name":"Black
+          Order (2018 - 2019)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/24291","name":"Black
+          Panther (2018 - 2021)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/27618","name":"Black
+          Panther and the Agents of Wakanda (2019 - 2020)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/34294","name":"Blade:
+          Vampire Nation (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/31545","name":"Captain
+          America Anniversary Tribute (2021)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/26673","name":"Captain
+          Marvel (2019 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/29153","name":"Conan:
+          Serpent War (2019 - 2020)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/31088","name":"Dark
+          Ages (2021 - 2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/31966","name":"Darkhawk:
+          Heart Of The Hawk (2021)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/31898","name":"Death
+          of Doctor Strange (2021 - 2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/32952","name":"Devil''s
+          Reign (2021 - 2022)"}],"returned":20},"stories":{"available":144,"collectionURI":"http://gateway.marvel.com/v1/public/creators/13138/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/107332","name":"cover
+          from Thanos/Inhumans Event (2013) #1 (TBD ARTIST 2 VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/107501","name":"cover
+          from The Deadly Foes of Spider-Man (2013) #7","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/107925","name":"cover
+          from Thanos/Inhumans Event (2013) #2 (GENERALS VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/107937","name":"cover
+          from Thanos/Inhumans Event (2013) #4 (GENERALS VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/107943","name":"cover
+          from Thanos/Inhumans Event (2013) #5 (GENERALS VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/108092","name":"story
+          from Superior Spider-Man Team-Up: (Issues 1-6) (2014)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/109589","name":"cover
+          from Avengers World (2013) #5","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/109633","name":"cover
+          from Iron Man (2012) #28","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/110103","name":"cover
+          from 100th Anniversary Special (2014) #2","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/110104","name":"story
+          from 100th Anniversary Special (2014) #2","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/110105","name":"cover
+          from 100th Anniversary Special (2014) #3","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/110106","name":"story
+          from 100th Anniversary Special (2014) #3","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/110446","name":"story
+          from 100th Anniversary Special (2015)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/110993","name":"cover
+          from The Amazing Spider-Man (1999) #700.5","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/111598","name":"cover
+          from Uncanny Avengers (2012) #18 (TBD ARTIST SKETCH VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/111790","name":"cover
+          from Winter Soldier: TBD (2014) #1 (TBD ARTIST VARIANT)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/112475","name":"Dead
+          Rising 3 #1","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116107","name":"cover
+          from New Avengers (2013) #31","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/116125","name":"cover
+          from New Avengers: Time Runs Out (2016)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/118435","name":"cover
+          from The Superior Foes of Spider-Man (2015)","type":"cover"}],"returned":20},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/creators/13138/events","items":[],"returned":0},"urls":[{"type":"detail","url":"http://marvel.com/comics/creators/13138/in-hyuk_lee?utm_campaign=apiRef&utm_source=abcd"}]},{"id":12392,"firstName":"David","middleName":"","lastName":"Lopez","suffix":"","fullName":"David
+          Lopez","modified":"2016-09-12T10:47:07-0400","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/creators/12392","comics":{"available":179,"collectionURI":"http://gateway.marvel.com/v1/public/creators/12392/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49180","name":"Marvel
+          100th Anniversary (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49011","name":"100th
+          Anniversary Special (2014) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/43501","name":"A+X
+          (2012) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56383","name":"A-Force
+          Presents Vol. 4 (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55094","name":"A-Force
+          Presents Vol. 2 (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55093","name":"A-Force
+          Presents Vol. 1 (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/55095","name":"A-FORCE
+          PRESENTS VOL. 3 TPB (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56424","name":"All-New
+          Wolverine (2015) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56425","name":"All-New
+          Wolverine (2015) #1 (Adams Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56430","name":"All-New
+          Wolverine (2015) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/58869","name":"All-New
+          Wolverine (2015) #2 (Bengal 2nd Printing Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56432","name":"All-New
+          Wolverine (2015) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/59165","name":"All-New
+          Wolverine (2015) #3 (Bengal 2nd Printing Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56435","name":"All-New
+          Wolverine (2015) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56436","name":"All-New
+          Wolverine (2015) #5"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/58194","name":"All-New
+          Wolverine (2015) #5 (Michael Cho Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56437","name":"All-New
+          Wolverine (2015) #6"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/58641","name":"All-New
+          Wolverine (2015) #6 (Tbd Artist Wop Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56444","name":"All-New
+          Wolverine (2015) #13"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56445","name":"All-New
+          Wolverine (2015) #14"}],"returned":20},"series":{"available":78,"collectionURI":"http://gateway.marvel.com/v1/public/creators/12392/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/18454","name":"100th
+          Anniversary Special (2014)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/16450","name":"A+X
+          (2012 - 2014)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/20359","name":"A-Force
+          Presents Vol. 1 (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/20360","name":"A-Force
+          Presents Vol. 2 (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/20361","name":"A-FORCE
+          PRESENTS VOL. 3 TPB (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/20676","name":"A-Force
+          Presents Vol. 4 (2016)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/20682","name":"All-New
+          Wolverine (2015 - 2018)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/20643","name":"All-New
+          Wolverine Vol. 1: The Four Sisters (2016)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/24394","name":"All-New
+          Wolverine Vol. 6: Old Woman Laura (2018)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/32861","name":"Amazing
+          Spider-Man By Wells & Romita Jr. Vol. 2: The New Sinister (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/22997","name":"America
+          (2017 - 2018)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/24229","name":"Avengers
+          (2018 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/27618","name":"Black
+          Panther and the Agents of Wakanda (2019 - 2020)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/26673","name":"Captain
+          Marvel (2019 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/18455","name":"Captain
+          Marvel (2014 - 2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/19349","name":"Captain
+          Marvel & The Carol Corps (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/20301","name":"Captain
+          Marvel & the Carol Corps (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/18437","name":"Captain
+          Marvel Vol. 1: Higher, Further, Faster, More (2014)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/18438","name":"Captain
+          Marvel Vol. 2: Stay Fly (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/22003","name":"Captain
+          Marvel: Earth''s Mightiest Hero Vol. 3 (2017)"}],"returned":20},"stories":{"available":213,"collectionURI":"http://gateway.marvel.com/v1/public/creators/12392/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/57385","name":"Interior
+          #57385","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/80362","name":"Interior
+          #80362","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/83424","name":"WIDOW
+          MAKER (2010) #3","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/83426","name":"WIDOW
+          MAKER (2010) #1","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/92267","name":"Interior
+          #92267","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/92534","name":"X-Men
+          (2010) #37","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/92544","name":"X-Men
+          (2010) #36","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/92552","name":"X-Men
+          (2010) #33","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/92554","name":"X-Men
+          (2010) #32","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/92558","name":"X-Men
+          (2010) #31","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/92560","name":"X-MEN
+          (2010) #30","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/92574","name":"X-Men
+          (2010) #35","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/96983","name":"Interior
+          #96983","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/97188","name":"A+X
+          (2012) #4","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/105878","name":"story
+          from X-Termination Alpha (2013) #1","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/105880","name":"story
+          from X-Termination Omega (2013) #1","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/108866","name":"story
+          from X-Men: Battle of the Atom (2014)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/110051","name":"cover
+          from Captain Marvel (2014)","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/110052","name":"story
+          from Captain Marvel (2014)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/110053","name":"cover
+          from Captain Marvel (2015)","type":"cover"}],"returned":20},"events":{"available":3,"collectionURI":"http://gateway.marvel.com/v1/public/creators/12392/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/336","name":"Secret
+          Empire"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/323","name":"Secret
+          Wars (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/308","name":"X-Men:
+          Regenesis"}],"returned":3},"urls":[{"type":"detail","url":"http://marvel.com/comics/creators/12392/david_lopez?utm_campaign=apiRef&utm_source=abcd"}]},{"id":9432,"firstName":"Sean","middleName":"","lastName":"Ryan","suffix":"","fullName":"Sean
+          Ryan","modified":"2016-08-11T11:42:07-0400","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/9/70/4bb493017fec8","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/creators/9432","comics":{"available":60,"collectionURI":"http://gateway.marvel.com/v1/public/creators/9432/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49180","name":"Marvel
+          100th Anniversary (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49008","name":"100th
+          Anniversary Special (2014) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/48981","name":"A+X
+          Vol. 3: = Outstanding (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/50586","name":"Amazing
+          Spider-Man Annual (2014) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/51334","name":"Amazing
+          Spider-Man Annual (2014) #1 (Bianchi Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/54830","name":"Avengers:
+          No More Bullying (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/96131","name":"The
+          Vitals: True EMS Stories (2021)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/93069","name":"The
+          Vitals: True Nurse Stories (2020)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/77494","name":"M&M’s,
+          Hazelnut Hysteria: One-Shot  (2019)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/2310","name":"Exiles
+          (2001) #68"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/2426","name":"Exiles
+          Vol. 11: Time Breakers (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/84153","name":"Gwen
+          Stacy (2020) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/84462","name":"Gwen
+          Stacy (2020) #1 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/84463","name":"Gwen
+          Stacy (2020) #1 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/84464","name":"Gwen
+          Stacy (2020) #1 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/84685","name":"Gwen
+          Stacy (2020) #1 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/85654","name":"Gwen
+          Stacy (2020) #1 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/84461","name":"Gwen
+          Stacy (2020) #1 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/50618","name":"Iron
+          Man Special (2014) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/25743","name":"Marvel
+          Comics 1: 70th Anniversary Edition (2009) #1"}],"returned":20},"series":{"available":30,"collectionURI":"http://gateway.marvel.com/v1/public/creators/9432/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/18454","name":"100th
+          Anniversary Special (2014)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/18436","name":"A+X
+          Vol. 3: = Outstanding (2014)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/18900","name":"Amazing
+          Spider-Man Annual (2014)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/20270","name":"Avengers:
+          No More Bullying (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/479","name":"Exiles
+          (2001 - 2008)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1462","name":"Exiles
+          Vol. 11: Time Breakers (2005)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/29648","name":"Gwen
+          Stacy (2020)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/18921","name":"Iron
+          Man Special (2014)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/27743","name":"M&M’s,
+          Hazelnut Hysteria: One-Shot  (2019)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/18491","name":"Marvel
+          100th Anniversary (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/7994","name":"Marvel
+          Comics 1: 70th Anniversary Edition (2009)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/26947","name":"Marvel
+          Super Hero Adventures: Spider-Man (2019)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/20844","name":"Nova
+          (2015 - 2016)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/19069","name":"Nova
+          Special (2014)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/20641","name":"Nova:
+          The Human Rocket Vol. 1 - Burn Out (2016)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/20642","name":"Nova:
+          The Human Rocket Vol. 2 - After Burn (2016)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/23101","name":"Peter
+          Parker: The Spectacular Spider-Man (2017 - 2018)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/25965","name":"Peter
+          Parker: The Spectacular Spider-Man Vol. 5 - Spider-Geddon (2019)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/22535","name":"Prowler
+          (2016 - 2017)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/22536","name":"PROWLER:
+          THE CLONE CONSPIRACY TPB (2017)"}],"returned":20},"stories":{"available":97,"collectionURI":"http://gateway.marvel.com/v1/public/creators/9432/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1549","name":"3
+          of 3 - Destroy All Monsters","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/56745","name":"Cover
+          #56745","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/56746","name":"Interior
+          #56746","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/57283","name":"Cover
+          #57283","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/57284","name":"Interior
+          #57284","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/59597","name":"Cover
+          #59597","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/59598","name":"Interior
+          #59598","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/59599","name":"Cover
+          #59599","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/59600","name":"Interior
+          #59600","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/59601","name":"Cover
+          #59601","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/59602","name":"Interior
+          #59602","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/59603","name":"Cover
+          #59603","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/59604","name":"Interior
+          #59604","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/60651","name":"Cover
+          #60651","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/60652","name":"Interior
+          #60652","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/110050","name":"story
+          from A+X (2014)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/110104","name":"story
+          from 100th Anniversary Special (2014) #2","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/110446","name":"story
+          from 100th Anniversary Special (2015)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/113067","name":"story
+          from Uncanny X-Men Special (2014) #1","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/113256","name":"story
+          from Amazing Spider-Man Annual (2014) #1","type":"interiorStory"}],"returned":20},"events":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/creators/9432/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/332","name":"Dead
+          No More: The Clone Conspiracy"}],"returned":1},"urls":[{"type":"detail","url":"http://marvel.com/comics/creators/9432/sean_ryan?utm_campaign=apiRef&utm_source=abcd"}]},{"id":11788,"firstName":"Jennifer","middleName":"","lastName":"Van
+          Meter","suffix":"","fullName":"Jennifer Van Meter","modified":"2013-03-15T11:53:20-0400","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/creators/11788","comics":{"available":30,"collectionURI":"http://gateway.marvel.com/v1/public/creators/11788/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49009","name":"100th
+          Anniversary Special (2014) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/40128","name":"Amazing
+          Spider-Man (1999) #700"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/30021","name":"Amazing
+          Spider-Man Presents: Black Cat (2010) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/30022","name":"Amazing
+          Spider-Man Presents: Black Cat (2010) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/30023","name":"Amazing
+          Spider-Man Presents: Black Cat (2010) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/30024","name":"Amazing
+          Spider-Man Presents: Black Cat (2010) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/42505","name":"SPIDER-MAN:
+          DYING WISH PREMIERE HC (Hardcover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/41686","name":"Avengers:
+          Earth''s Mightiest Heroes Adventures (Digest)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/40422","name":"Avengers:
+          Solo (2011) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/41522","name":"Avengers:
+          Solo (2011) #1 (Movie Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/40416","name":"Avengers:
+          Solo (2011) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/40419","name":"Avengers:
+          Solo (2011) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/40418","name":"Avengers:
+          Solo (2011) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/41903","name":"Avengers:
+          Solo (2011) #4 (Movie Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/40417","name":"Avengers:
+          Solo (2011) #5"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/39621","name":"Fear
+          Itself: Spider-Man (Hardcover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/40104","name":"Fear
+          Itself: The Worthy (2011) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/36741","name":"Marvel
+          Adventures Super Heroes (2010) #21"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/41698","name":"Marvel
+          Universe Avengers: Earth''s Mightiest Heroes (2012) #9"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/25987","name":"Miss
+          America Comics 70th Anniversary Special (2009) #1"}],"returned":20},"series":{"available":18,"collectionURI":"http://gateway.marvel.com/v1/public/creators/11788/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/18454","name":"100th
+          Anniversary Special (2014)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/454","name":"Amazing
+          Spider-Man (1999 - 2013)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/9835","name":"Amazing
+          Spider-Man Presents: Black Cat (2010)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/15546","name":"Avengers:
+          Earth''s Mightiest Heroes Adventures (2011 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/15010","name":"Avengers:
+          Solo (2011 - 2012)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/14589","name":"Fear
+          Itself: Spider-Man (2011 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/13827","name":"Fear
+          Itself: The Worthy (2011)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/12877","name":"Iron
+          Age (2011)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/9718","name":"Marvel
+          Adventures Super Heroes (2010 - 2012)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/15549","name":"Marvel
+          Universe Avengers: Earth''s Mightiest Heroes (2012 - 2013)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/8126","name":"Miss
+          America Comics 70th Anniversary Special (2009)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/16693","name":"Punisher:
+          War Zone (2012 - 2013)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/17539","name":"Savage
+          Wolverine (2013 - 2014)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/18384","name":"Savage
+          Wolverine (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/16250","name":"SPIDER-MAN:
+          DYING WISH PREMIERE HC (2011 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/14019","name":"The
+          Punisher (2011 - 2012)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/18527","name":"Thunderbolts
+          (2006 - 2012)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/9171","name":"Timely
+          70th Anniversary Collection (2010 - Present)"}],"returned":18},"stories":{"available":36,"collectionURI":"http://gateway.marvel.com/v1/public/creators/11788/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/57262","name":"Interior
+          #57262","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/62876","name":"Interior
+          #62876","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/68869","name":"Interior
+          #68869","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/68871","name":"Interior
+          #68871","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/68873","name":"Interior
+          #68873","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/68875","name":"Interior
+          #68875","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/77726","name":"Interior
+          #77726","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/78903","name":"Interior
+          #78903","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/78917","name":"Thunderbolts
+          (2006) #158","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/81483","name":"Interior
+          #81483","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/81786","name":"Interior
+          #81786","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/89924","name":"Interior
+          #89924","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/90054","name":"Interior
+          #90054","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/90056","name":"Interior
+          #90056","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/90650","name":"Interior
+          #90650","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/91005","name":"Fear
+          Itself: the worthy interior","type":""},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/91054","name":"Interior
+          #91054","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/91655","name":"Interior
+          #91655","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/91657","name":"Interior
+          #91657","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/91659","name":"Interior
+          #91659","type":"interiorStory"}],"returned":20},"events":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/creators/11788/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/302","name":"Fear
+          Itself"}],"returned":1},"urls":[{"type":"detail","url":"http://marvel.com/comics/creators/11788/jennifer_van_meter?utm_campaign=apiRef&utm_source=abcd"}]}]}}'
+    recorded_at: Thu, 09 Mar 2023 00:00:00 GMT
+recorded_with: VCR 6.1.0

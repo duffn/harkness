@@ -1,0 +1,86 @@
+---
+http_interactions:
+  - request:
+      method: get
+      uri: https://gateway.marvel.com/v1/public/series/18454/stories?apikey=abcd&hash=a09f8647b1786ba2816888715a24ccc6&ts=1678320000
+      body:
+        encoding: US-ASCII
+        string: ""
+      headers:
+        User-Agent:
+          - Faraday v2.7.4
+        Accept-Encoding:
+          - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+        Accept:
+          - "*/*"
+    response:
+      status:
+        code: 200
+        message: OK
+      headers:
+        Etag:
+          - a8a95f344d246c2cece51987c00134f9542ef6fc
+        Content-Type:
+          - application/json; charset=utf-8
+        Date:
+          - Sun, 12 Mar 2023 15:04:13 GMT
+        Connection:
+          - keep-alive
+        Transfer-Encoding:
+          - chunked
+      body:
+        encoding: UTF-8
+        string:
+          '{"code":200,"status":"Ok","copyright":"© 2023 MARVEL","attributionText":"Data
+          provided by Marvel. © 2023 MARVEL","attributionHTML":"<a href=\"http://marvel.com\">Data
+          provided by Marvel. © 2023 MARVEL</a>","etag":"a8a95f344d246c2cece51987c00134f9542ef6fc","data":{"offset":0,"limit":20,"total":10,"count":10,"results":[{"id":110101,"title":"cover
+          from 100th Anniversary Special (2014) #1","description":"","resourceURI":"http://gateway.marvel.com/v1/public/stories/110101","type":"cover","modified":"2014-06-23T12:09:14-0400","thumbnail":null,"creators":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110101/creators","items":[],"returned":0},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110101/characters","items":[],"returned":0},"series":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110101/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/18454","name":"100th
+          Anniversary Special (2014)"}],"returned":1},"comics":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110101/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49007","name":"100th
+          Anniversary Special (2014) #1"}],"returned":1},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110101/events","items":[],"returned":0},"originalIssue":{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49007","name":"100th
+          Anniversary Special (2014) #1"}},{"id":110102,"title":"story from 100th Anniversary
+          Special (2014) #1","description":"","resourceURI":"http://gateway.marvel.com/v1/public/stories/110102","type":"story","modified":"2014-06-23T12:10:26-0400","thumbnail":null,"creators":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110102/creators","items":[],"returned":0},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110102/characters","items":[],"returned":0},"series":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110102/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/18454","name":"100th
+          Anniversary Special (2014)"}],"returned":1},"comics":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110102/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49007","name":"100th
+          Anniversary Special (2014) #1"}],"returned":1},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110102/events","items":[],"returned":0},"originalIssue":{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49007","name":"100th
+          Anniversary Special (2014) #1"}},{"id":110103,"title":"cover from 100th Anniversary
+          Special (2014) #2","description":"","resourceURI":"http://gateway.marvel.com/v1/public/stories/110103","type":"cover","modified":"2014-06-30T15:47:41-0400","thumbnail":null,"creators":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110103/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13138","name":"In-Hyuk
+          Lee","role":"penciller (cover)"}],"returned":1},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110103/characters","items":[],"returned":0},"series":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110103/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/18454","name":"100th
+          Anniversary Special (2014)"}],"returned":1},"comics":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110103/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49008","name":"100th
+          Anniversary Special (2014) #1"}],"returned":1},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110103/events","items":[],"returned":0},"originalIssue":{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49008","name":"100th
+          Anniversary Special (2014) #1"}},{"id":110104,"title":"story from 100th Anniversary
+          Special (2014) #2","description":"","resourceURI":"http://gateway.marvel.com/v1/public/stories/110104","type":"story","modified":"2014-06-30T15:49:03-0400","thumbnail":null,"creators":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110104/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13138","name":"In-Hyuk
+          Lee","role":"artist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/9432","name":"Sean
+          Ryan","role":"writer"}],"returned":2},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110104/characters","items":[],"returned":0},"series":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110104/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/18454","name":"100th
+          Anniversary Special (2014)"}],"returned":1},"comics":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110104/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49008","name":"100th
+          Anniversary Special (2014) #1"}],"returned":1},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110104/events","items":[],"returned":0},"originalIssue":{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49008","name":"100th
+          Anniversary Special (2014) #1"}},{"id":110105,"title":"cover from 100th Anniversary
+          Special (2014) #3","description":"","resourceURI":"http://gateway.marvel.com/v1/public/stories/110105","type":"cover","modified":"2014-07-07T14:42:37-0400","thumbnail":null,"creators":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110105/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13138","name":"In-Hyuk
+          Lee","role":"penciller (cover)"}],"returned":1},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110105/characters","items":[],"returned":0},"series":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110105/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/18454","name":"100th
+          Anniversary Special (2014)"}],"returned":1},"comics":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110105/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49009","name":"100th
+          Anniversary Special (2014) #1"}],"returned":1},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110105/events","items":[],"returned":0},"originalIssue":{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49009","name":"100th
+          Anniversary Special (2014) #1"}},{"id":110106,"title":"story from 100th Anniversary
+          Special (2014) #3","description":"","resourceURI":"http://gateway.marvel.com/v1/public/stories/110106","type":"story","modified":"2014-07-07T14:43:52-0400","thumbnail":null,"creators":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110106/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/13138","name":"In-Hyuk
+          Lee","role":"artist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/11788","name":"Jennifer
+          Van Meter","role":"writer"}],"returned":2},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110106/characters","items":[],"returned":0},"series":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110106/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/18454","name":"100th
+          Anniversary Special (2014)"}],"returned":1},"comics":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110106/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49009","name":"100th
+          Anniversary Special (2014) #1"}],"returned":1},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110106/events","items":[],"returned":0},"originalIssue":{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49009","name":"100th
+          Anniversary Special (2014) #1"}},{"id":110107,"title":"cover from 100th Anniversary
+          Special (2014) #4","description":"","resourceURI":"http://gateway.marvel.com/v1/public/stories/110107","type":"cover","modified":"2014-07-14T12:37:36-0400","thumbnail":null,"creators":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110107/creators","items":[],"returned":0},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110107/characters","items":[],"returned":0},"series":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110107/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/18454","name":"100th
+          Anniversary Special (2014)"}],"returned":1},"comics":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110107/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49010","name":"100th
+          Anniversary Special (2014) #1"}],"returned":1},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110107/events","items":[],"returned":0},"originalIssue":{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49010","name":"100th
+          Anniversary Special (2014) #1"}},{"id":110108,"title":"story from 100th Anniversary
+          Special (2014) #4","description":"","resourceURI":"http://gateway.marvel.com/v1/public/stories/110108","type":"story","modified":"2014-07-14T12:41:13-0400","thumbnail":null,"creators":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110108/creators","items":[],"returned":0},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110108/characters","items":[],"returned":0},"series":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110108/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/18454","name":"100th
+          Anniversary Special (2014)"}],"returned":1},"comics":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110108/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49010","name":"100th
+          Anniversary Special (2014) #1"}],"returned":1},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110108/events","items":[],"returned":0},"originalIssue":{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49010","name":"100th
+          Anniversary Special (2014) #1"}},{"id":110109,"title":"cover from 100th Anniversary
+          Special (2014) #5","description":"","resourceURI":"http://gateway.marvel.com/v1/public/stories/110109","type":"cover","modified":"2014-07-21T11:08:10-0400","thumbnail":null,"creators":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110109/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12392","name":"David
+          Lopez","role":"penciller (cover)"}],"returned":1},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110109/characters","items":[],"returned":0},"series":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110109/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/18454","name":"100th
+          Anniversary Special (2014)"}],"returned":1},"comics":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110109/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49011","name":"100th
+          Anniversary Special (2014) #1"}],"returned":1},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110109/events","items":[],"returned":0},"originalIssue":{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49011","name":"100th
+          Anniversary Special (2014) #1"}},{"id":110110,"title":"story from 100th Anniversary
+          Special (2014) #5","description":"","resourceURI":"http://gateway.marvel.com/v1/public/stories/110110","type":"story","modified":"2014-07-21T11:38:09-0400","thumbnail":null,"creators":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110110/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/485","name":"Andy
+          Lanning","role":"writer"}],"returned":1},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110110/characters","items":[],"returned":0},"series":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110110/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/18454","name":"100th
+          Anniversary Special (2014)"}],"returned":1},"comics":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110110/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49011","name":"100th
+          Anniversary Special (2014) #1"}],"returned":1},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/stories/110110/events","items":[],"returned":0},"originalIssue":{"resourceURI":"http://gateway.marvel.com/v1/public/comics/49011","name":"100th
+          Anniversary Special (2014) #1"}}]}}'
+    recorded_at: Thu, 09 Mar 2023 00:00:00 GMT
+recorded_with: VCR 6.1.0

@@ -1,0 +1,974 @@
+---
+http_interactions:
+  - request:
+      method: get
+      uri: https://gateway.marvel.com/v1/public/comics/17701/creators?apikey=abcd&hash=a09f8647b1786ba2816888715a24ccc6&ts=1678320000
+      body:
+        encoding: US-ASCII
+        string: ""
+      headers:
+        User-Agent:
+          - Faraday v2.7.4
+        Accept-Encoding:
+          - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+        Accept:
+          - "*/*"
+    response:
+      status:
+        code: 200
+        message: OK
+      headers:
+        Etag:
+          - 95ee4edd8e3fcd8416d61607b619257b3e613224
+        Content-Type:
+          - application/json; charset=utf-8
+        Date:
+          - Sun, 12 Mar 2023 02:24:50 GMT
+        Connection:
+          - keep-alive
+        Transfer-Encoding:
+          - chunked
+      body:
+        encoding: UTF-8
+        string:
+          '{"code":200,"status":"Ok","copyright":"© 2023 MARVEL","attributionText":"Data
+          provided by Marvel. © 2023 MARVEL","attributionHTML":"<a href=\"http://marvel.com\">Data
+          provided by Marvel. © 2023 MARVEL</a>","etag":"95ee4edd8e3fcd8416d61607b619257b3e613224","data":{"offset":0,"limit":20,"total":16,"count":16,"results":[{"id":11063,"firstName":"Terry","middleName":"Kevin","lastName":"Austin","suffix":"","fullName":"Terry
+          Kevin Austin","modified":"2020-01-27T14:17:23-0500","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/creators/11063","comics":{"available":217,"collectionURI":"http://gateway.marvel.com/v1/public/creators/11063/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17701","name":"Age
+          of Apocalypse: The Chosen (1995) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/29317","name":"ACTS
+          OF VENGEANCE CROSSOVERS OMNIBUS (Hardcover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/29318","name":"ACTS
+          OF VENGEANCE CROSSOVERS OMNIBUS (DM Only) (Hardcover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/66979","name":"Adventures
+          of Captain America (1991) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/66980","name":"Adventures
+          of Captain America (1991) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/66981","name":"Adventures
+          of Captain America (1991) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/12637","name":"Alpha
+          Flight (1983) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/12679","name":"Alpha
+          Flight (1983) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/12676","name":"Alpha
+          Flight (1983) #17"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/12709","name":"Alpha
+          Flight (1983) #47"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/6744","name":"The
+          Amazing Spider-Man (1963) #335"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/6746","name":"The
+          Amazing Spider-Man (1963) #337"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/16887","name":"Amazing
+          Spider-Man Annual (1964) #13"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/16889","name":"Amazing
+          Spider-Man Annual (1964) #15"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17842","name":"West
+          Coast Avengers Annual (1986) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/42867","name":"Bizarre
+          Adventures (1981) #25"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/8036","name":"Captain
+          Marvel (1968) #47"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/8037","name":"Captain
+          Marvel (1968) #48"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/8038","name":"Captain
+          Marvel (1968) #49"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/8039","name":"Captain
+          Marvel (1968) #50"}],"returned":20},"series":{"available":81,"collectionURI":"http://gateway.marvel.com/v1/public/creators/11063/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/9994","name":"ACTS
+          OF VENGEANCE CROSSOVERS OMNIBUS (2011)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/9995","name":"ACTS
+          OF VENGEANCE CROSSOVERS OMNIBUS (DM Only) (2011)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/24227","name":"Adventures
+          of Captain America (1991 - 1992)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3614","name":"Age
+          of Apocalypse: The Chosen (1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2116","name":"Alpha
+          Flight (1983 - 1994)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2984","name":"Amazing
+          Spider-Man Annual (1964 - 2018)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/16347","name":"Bizarre
+          Adventures (1981)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2000","name":"Captain
+          Marvel (1968 - 1979)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3751","name":"Classic
+          X-Men (1986 - 1990)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/7303","name":"Cloak
+          and Dagger (1983)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/14157","name":"Cloak
+          and Dagger (1985 - 1987)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/25724","name":"Cloak
+          and Dagger: Predator and Prey (2018)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2002","name":"Daredevil
+          (1964 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/19133","name":"Deadly
+          Hands of Kung Fu (1974 - 1977)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3743","name":"Defenders
+          (1972 - 1986)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3740","name":"Doctor
+          Strange (1974 - 1988)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1780","name":"Doctor
+          Strange Vs. Dracula: The Montesi Formula (2006)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2011","name":"Excalibur
+          (1988 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/24022","name":"Excalibur
+          Epic Collection: The Cross-Time Caper (2018)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3736","name":"Excalibur:
+          Mojo Mayhem (1989)"}],"returned":20},"stories":{"available":268,"collectionURI":"http://gateway.marvel.com/v1/public/creators/11063/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14076","name":"Amazing
+          Spider-Man (1963) #335","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14077","name":"Shocks!","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14080","name":"Amazing
+          Spider-Man (1963) #337","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14081","name":"Rites
+          and Wrongs","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14632","name":"Cover
+          #14632","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14634","name":"Cover
+          #14634","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/15435","name":"UNCANNY
+          X-MEN (1963) #125","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/15437","name":"UNCANNY
+          X-MEN (1963) #126","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/15439","name":"UNCANNY
+          X-MEN (1963) #127","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/15441","name":"UNCANNY
+          X-MEN (1963) #128","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/15443","name":"UNCANNY
+          X-MEN (1963) #129","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/15447","name":"UNCANNY
+          X-MEN (1963) #130","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/15449","name":"Cover
+          #15449","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/15451","name":"Cover
+          #15451","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/15455","name":"Heroes
+          and Hellfire","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/15457","name":"Defeated
+          by Dark Phoenix!","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/15463","name":"Exit
+          Cyclops!","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/15465","name":"Welcome
+          to the X-Men Kitty Pryde Hope You Survive the Experience!","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/15469","name":"Fist
+          to Fist With the Savage Fury of Wen-Di-Go!","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/16982","name":"[The
+          Last Viking]","type":"interiorStory"}],"returned":20},"events":{"available":9,"collectionURI":"http://gateway.marvel.com/v1/public/creators/11063/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/227","name":"Age
+          of Apocalypse"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/233","name":"Atlantis
+          Attacks"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/246","name":"Evolutionary
+          War"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/248","name":"Fall
+          of the Mutants"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/249","name":"Fatal
+          Attractions"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/252","name":"Inferno"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/29","name":"Infinity
+          War"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/270","name":"Secret
+          Wars"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/60","name":"World
+          War Hulks"}],"returned":9},"urls":[{"type":"detail","url":"http://marvel.com/comics/creators/11063/terry_kevin_austin?utm_campaign=apiRef&utm_source=abcd"}]},{"id":1192,"firstName":"Ian","middleName":"","lastName":"Churchill","suffix":"","fullName":"Ian
+          Churchill","modified":"2011-12-09T15:23:22-0500","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/9/80/4bb87fab88700","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/creators/1192","comics":{"available":98,"collectionURI":"http://gateway.marvel.com/v1/public/creators/1192/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17701","name":"Age
+          of Apocalypse: The Chosen (1995) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17758","name":"Avengers
+          (1996) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17759","name":"Avengers
+          (1996) #5"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17760","name":"Avengers
+          (1996) #6"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17761","name":"Avengers
+          (1996) #7"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/20628","name":"Avengers
+          Annual (2001) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/5844","name":"Avengers
+          Assemble Vol. 4 (Hardcover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/39770","name":"Avengers:
+          X-Sanction (2011) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/42304","name":"Avengers:
+          X-Sanction (2011) #3 (Churchill Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7404","name":"Cable
+          (1993) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7394","name":"Cable
+          (1993) #20"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7395","name":"Cable
+          (1993) #21"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7396","name":"Cable
+          (1993) #22"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7397","name":"Cable
+          (1993) #23"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7399","name":"Cable
+          (1993) #25"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7400","name":"Cable
+          (1993) #26"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7401","name":"Cable
+          (1993) #27"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7402","name":"Cable
+          (1993) #28"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7403","name":"Cable
+          (1993) #29"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7405","name":"Cable
+          (1993) #30"}],"returned":20},"series":{"available":53,"collectionURI":"http://gateway.marvel.com/v1/public/creators/1192/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/3614","name":"Age
+          of Apocalypse: The Chosen (1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3621","name":"Avengers
+          (1996 - 1997)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/26448","name":"Avengers
+          Annual (2001)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1816","name":"Avengers
+          Assemble Vol. 4 (2007)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/14703","name":"Avengers:
+          X-Sanction (2011 - 2012)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1995","name":"Cable
+          (1993 - 2002)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/24019","name":"Cable
+          & X-Force: Onslaught Rising (2018)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/26627","name":"Cable
+          & X-Force: Onslaught! (2019)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/17723","name":"Cable
+          and X-Force Classic (2013)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/4059","name":"Cable
+          Classic Vol. 1 (2008)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2004","name":"Deadpool
+          (1994)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/5701","name":"Deadpool
+          (2008 - 2012)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/24830","name":"Deadpool
+          Classic Companion Vol. 2 (2018)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/4605","name":"Deadpool
+          Classic Vol. 1 (2008)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/32337","name":"Deadpool
+          Epic Collection: The Circle Chase (2021)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/21304","name":"DEADPOOL
+          FIRSTS TPB (2016)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/29200","name":"Deadpool:
+          Hey, It''s Deadpool! Marvel Select (2021)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2011","name":"Excalibur
+          (1988 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1813","name":"Heroes
+          Reborn: Avengers (2006)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/29206","name":"HEROES
+          REBORN: AVENGERS TPB [NEW PRINTING] (2020)"}],"returned":20},"stories":{"available":140,"collectionURI":"http://gateway.marvel.com/v1/public/creators/1192/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/137","name":"A
+          wild evil mutant comes of age, celebrating with superhuman mayhem. And in
+          London, the X-Men must stop Mr. Clean, a self-styled","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/6608","name":"Uncanny
+          391-393; New X-Men 111-113","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/22608","name":"In
+          the Name of Love","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24207","name":"CABLE
+          (1993) #20","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24208","name":"A
+          Legion Quest Addendum: An Hour of Last Things","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24209","name":"CABLE
+          (1993) #21","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24211","name":"CABLE
+          (1993) #22","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24212","name":"Sanctuary","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24213","name":"CABLE
+          (1993) #23","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24214","name":"Family
+          Secrets","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24217","name":"CABLE
+          (1993) #25","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24218","name":"\"What
+          Was...What Is...\"","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24219","name":"CABLE
+          (1993) #26","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24221","name":"CABLE
+          (1993) #27","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24222","name":"Rebels","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24223","name":"CABLE
+          (1993) #28","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24226","name":"Man
+          in the Mirror","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24227","name":"Next
+          Issue: X-Man...Cable...''Nuff Said!","type":"pinup"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24229","name":"Twenty
+          Questions","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24231","name":"For
+          Every Action...","type":"interiorStory"}],"returned":20},"events":{"available":4,"collectionURI":"http://gateway.marvel.com/v1/public/creators/1192/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/227","name":"Age
+          of Apocalypse"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/310","name":"Avengers
+          VS X-Men"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/154","name":"Onslaught"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/60","name":"World
+          War Hulks"}],"returned":4},"urls":[{"type":"detail","url":"http://marvel.com/comics/creators/1192/ian_churchill?utm_campaign=apiRef&utm_source=abcd"}]},{"id":362,"firstName":"Scott","middleName":"","lastName":"Hanna","suffix":"","fullName":"Scott
+          Hanna","modified":"2018-07-25T12:07:39-0400","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/9/80/4bb87fab88700","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/creators/362","comics":{"available":775,"collectionURI":"http://gateway.marvel.com/v1/public/creators/362/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17701","name":"Age
+          of Apocalypse: The Chosen (1995) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/84350","name":"2020
+          Rescue (2020) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/84975","name":"2020
+          Rescue (2020) #1 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/84351","name":"2020
+          Rescue (2020) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/88411","name":"2020
+          Rescue (2020) #2 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/556","name":"4
+          (2004) #9"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/811","name":"4
+          (2004) #10"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/1550","name":"4
+          Vol. 2: The Stuff of Nightmares (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/74016","name":"Age
+          of Conan: Belit (2019) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/74017","name":"Age
+          of Conan: Belit (2019) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/74018","name":"Age
+          of Conan: Belit (2019) #5"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/77186","name":"Age
+          of Conan: Belit (2019) #5 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/77354","name":"Age
+          of Conan: Belit (2019) #5 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/60154","name":"ALL-NEW
+          WOLVERINE VOL. 3: ENEMY OF THE STATE II TPB (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/90779","name":"Amazing
+          Fantasy (2022) #1000"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/37894","name":"Amazing
+          Spider-Man (1999) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/3583","name":"Amazing
+          Spider-Man (1999) #30"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/277","name":"Amazing
+          Spider-Man (1999) #500"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/322","name":"Amazing
+          Spider-Man (1999) #501"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/392","name":"Amazing
+          Spider-Man (1999) #502"}],"returned":20},"series":{"available":279,"collectionURI":"http://gateway.marvel.com/v1/public/creators/362/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/29696","name":"2020
+          Rescue (2020)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/725","name":"4
+          (2004 - 2006)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1253","name":"4
+          Vol. 2: The Stuff of Nightmares (2005)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3614","name":"Age
+          of Apocalypse: The Chosen (1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/26676","name":"Age
+          of Conan: Belit (2019)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/22105","name":"ALL-NEW
+          WOLVERINE VOL. 3: ENEMY OF THE STATE II TPB (2017)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/31208","name":"Amazing
+          Fantasy (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/454","name":"Amazing
+          Spider-Man (1999 - 2013)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2984","name":"Amazing
+          Spider-Man Annual (1964 - 2018)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/32860","name":"Amazing
+          Spider-Man by Wells & Romita Jr. Vol. 1: World Without Love (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/32861","name":"Amazing
+          Spider-Man By Wells & Romita Jr. Vol. 2: The New Sinister (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/35576","name":"Amazing
+          Spider-Man Epic Collection: Invasion Of The Spider-Slayers (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/32029","name":"Amazing
+          Spider-Man Epic Collection: Lifetheft (2021)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/318","name":"Amazing
+          Spider-Man Vol. 6 (2004)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1292","name":"AMAZING
+          SPIDER-MAN VOL. 7: BOOK OF EZEKIEL TPB (2005)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1291","name":"Amazing
+          Spider-Man Vol. 7: The Book of Ezekiel (2004)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/31214","name":"Amazing
+          Spider-Man: Last Remains Companion (2021)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/19632","name":"Amazing
+          Spider-Man: Renew Your Vows (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/29604","name":"Amazing
+          Spider-Man: The Daily Bugle (2020)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/27985","name":"Annihilation
+          - Scourge: Fantastic Four (2019)"}],"returned":20},"stories":{"available":950,"collectionURI":"http://gateway.marvel.com/v1/public/creators/362/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/483","name":"Interior
+          #483","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/487","name":"Interior
+          #487","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/723","name":"Interior
+          #723","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/725","name":"Interior
+          #725","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/745","name":"1
+          of 2 - Mojo Rising","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/747","name":"2
+          of 2 - Mojo Rising","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/751","name":"2
+          of 2 - Mojo Rising","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1019","name":"Interior
+          #1019","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1021","name":"Interior
+          #1021","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1023","name":"Interior
+          #1023","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1138","name":"Interior
+          #1138","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1140","name":"Interior
+          #1140","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1142","name":"Interior
+          #1142","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1290","name":"Ultimate
+          Spider-Man (2000) #68","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1291","name":"1
+          of 2 - Human Torch","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1292","name":"Ultimate
+          Spider-Man (2000) #69","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1293","name":"2
+          of 2 - Human Torch","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1307","name":"Interior
+          #1307","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1309","name":"Interior
+          #1309","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1311","name":"Interior
+          #1311","type":"interiorStory"}],"returned":20},"events":{"available":19,"collectionURI":"http://gateway.marvel.com/v1/public/creators/362/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/227","name":"Age
+          of Apocalypse"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/293","name":"Annihilation:
+          Conquest"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/310","name":"Avengers
+          VS X-Men"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/238","name":"Civil
+          War"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/318","name":"Dark
+          Reign"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/302","name":"Fear
+          Itself"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/287","name":"Heroic
+          Age"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/251","name":"House
+          of M"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/255","name":"Initiative"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/151","name":"Maximum
+          Carnage"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/154","name":"Onslaught"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/336","name":"Secret
+          Empire"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/269","name":"Secret
+          Invasion"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/323","name":"Secret
+          Wars (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/59","name":"Shadowland"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/309","name":"Shattered
+          Heroes"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/273","name":"Siege"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/276","name":"War
+          of Kings"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/277","name":"World
+          War Hulk"}],"returned":19},"urls":[{"type":"detail","url":"http://marvel.com/comics/creators/362/scott_hanna?utm_campaign=apiRef&utm_source=abcd"}]},{"id":438,"firstName":"Karl","middleName":"","lastName":"Kesel","suffix":"","fullName":"Karl
+          Kesel","modified":"2014-03-19T17:35:37-0400","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/a0/4bc31910cdea5","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/creators/438","comics":{"available":168,"collectionURI":"http://gateway.marvel.com/v1/public/creators/438/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17701","name":"Age
+          of Apocalypse: The Chosen (1995) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/24371","name":"All
+          Winners Comics 70th Anniversary Special (2009) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/2532","name":"Amazing
+          Fantasy (2004) #13"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/2533","name":"Amazing
+          Fantasy (2004) #14"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/23568","name":"Amazing
+          Spider-Man (1999) #586"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/24133","name":"Amazing
+          Spider-Man (1999) #593"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/30322","name":"Amazing
+          Spider-Man (1999) #647"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/35523","name":"Amazing
+          Spider-Man (1999) #672"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/30196","name":"Amazing
+          Spider-Man Annual (2010) #37"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/82322","name":"AMAZING
+          SPIDER-MAN BY J. MICHAEL STRACZYNSKI OMNIBUS VOL. 2 HC DEODATO COVER (Hardcover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/21798","name":"Amazing
+          Spider-Man Family (2008) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/63309","name":"Marvel
+          Comics Digest Starring the Amazing Spider-Man Vol. 1 (Digest)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/59600","name":"Avengers
+          (2016) #5"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/67768","name":"Avengers
+          (2018) #11"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/67769","name":"Avengers
+          (2018) #12"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/5844","name":"Avengers
+          Assemble Vol. 4 (Hardcover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/41694","name":"Marvel
+          Universe Avengers: Earth''s Mightiest Heroes (2012) #7"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56322","name":"Avengers
+          Origins Presented by Adobe (2015) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/41688","name":"MARVEL
+          UNIVERSE AVENGERS EARTH''S MIGHTIEST HEROES VOL. 2 DIGEST (Digest)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7354","name":"Avengers:
+          The Ultron Imperative (2001) #1"}],"returned":20},"series":{"available":91,"collectionURI":"http://gateway.marvel.com/v1/public/creators/438/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/3614","name":"Age
+          of Apocalypse: The Chosen (1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/7534","name":"All
+          Winners Comics 70th Anniversary Special (2009)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/769","name":"Amazing
+          Fantasy (2004 - 2006)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/454","name":"Amazing
+          Spider-Man (1999 - 2013)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/9802","name":"Amazing
+          Spider-Man Annual (2010)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/29244","name":"AMAZING
+          SPIDER-MAN BY J. MICHAEL STRACZYNSKI OMNIBUS VOL. 2 HC DEODATO COVER (2020)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/5376","name":"Amazing
+          Spider-Man Family (2008 - 2009)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/22547","name":"Avengers
+          (2016 - 2018)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/24229","name":"Avengers
+          (2018 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1816","name":"Avengers
+          Assemble Vol. 4 (2007)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/20655","name":"Avengers
+          Origins Presented by Adobe (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/24456","name":"Avengers
+          Spotlight (1989 - 1991)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1992","name":"Avengers:
+          The Ultron Imperative (2001)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1503","name":"Best
+          of the Fantastic Four Vol. 1 (2005)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/29192","name":"Captain
+          America: Heroes Return - The Complete Collection Vol. 1 (2021)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/9870","name":"Captain
+          America: Patriot (2010)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/10083","name":"CAPTAIN
+          AMERICA: PATRIOT TPB (2011)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/12279","name":"Captain
+          America: Rebirth (2010 - 2011)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/9701","name":"Captain
+          America: The 1940s Newspaper Strip (2010)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/24020","name":"Captain
+          America: The Adventures of Captain America (2018)"}],"returned":20},"stories":{"available":237,"collectionURI":"http://gateway.marvel.com/v1/public/creators/438/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/701","name":"Interior
+          #701","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/802","name":"Fantastic
+          Four (1998) #509","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/803","name":"Interior
+          #803","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/898","name":"Fantastic
+          Four (1998) #520","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/899","name":"1
+          of 5 - Galactus","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/912","name":"Fantastic
+          Four (1998) #512","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/913","name":"Interior
+          #913","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/915","name":"Interior
+          #915","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/916","name":"Fantastic
+          Four (1998) #513","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/917","name":"Interior
+          #917","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/919","name":"Interior
+          #919","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/921","name":"Interior
+          #921","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/922","name":"Fantastic
+          Four (1998) #518","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/923","name":"AVENGERS
+          DISASSEMBLED TIE-IN! \"FOURTITUDE\" PART 2 (OF 3) With public opinion of the
+          FF at an all-time low and with all of Manhat","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/924","name":"Fantastic
+          Four (1998) #519","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/925","name":"AVENGERS
+          DISASSEMBLED TIE-IN! \"FOURTITUDE\" FINALE! PART 3 (OF 3) Galactus the World-Eater
+          is coming to Earth to choose one of th","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/926","name":"2
+          of 4 - Galactus","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/927","name":"2
+          of 4 - Galactus","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/928","name":"3
+          of 4 - Galactus","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/929","name":"3
+          of 4 - Galactus","type":"interiorStory"}],"returned":20},"events":{"available":7,"collectionURI":"http://gateway.marvel.com/v1/public/creators/438/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/227","name":"Age
+          of Apocalypse"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/234","name":"Avengers
+          Disassembled"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/318","name":"Dark
+          Reign"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/266","name":"Other
+          - Evolve or Die"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/269","name":"Secret
+          Invasion"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/273","name":"Siege"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/305","name":"Spider-Island"}],"returned":7},"urls":[{"type":"detail","url":"http://marvel.com/comics/creators/438/karl_kesel?utm_campaign=apiRef&utm_source=abcd"}]},{"id":11757,"firstName":"Salvador","middleName":"","lastName":"Larroca","suffix":"","fullName":"Salvador
+          Larroca","modified":"2019-05-13T15:44:43-0400","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/5/c0/51080a4fd40a9","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/creators/11757","comics":{"available":760,"collectionURI":"http://gateway.marvel.com/v1/public/creators/11757/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17701","name":"Age
+          of Apocalypse: The Chosen (1995) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/33011","name":"INVINCIBLE
+          IRON MAN VOL. 6: STARK RESILIENT BOOK 2 TPB (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/45764","name":"A+X
+          VOL. 2: = AMAZING TPB (MARVEL NOW) (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/43507","name":"A+X
+          (2012) #8"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/43508","name":"A+X
+          (2012) #9"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/103219","name":"A.X.E.:
+          Judgment Day (2022) #4 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/77096","name":"Absolute
+          Carnage: Lethal Protectors (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/89565","name":"Alien
+          (2021) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/89568","name":"Alien
+          (2021) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/93775","name":"Alien
+          (2021) #2 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/93974","name":"Alien
+          (2021) #2 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/89571","name":"Alien
+          (2021) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/94379","name":"Alien
+          (2021) #3 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/94380","name":"Alien
+          (2021) #3 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/89574","name":"Alien
+          (2021) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/94786","name":"Alien
+          (2021) #4 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/94787","name":"Alien
+          (2021) #4 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/89576","name":"Alien
+          (2021) #5"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/95517","name":"Alien
+          (2021) #5 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/95518","name":"Alien
+          (2021) #5 (Variant)"}],"returned":20},"series":{"available":274,"collectionURI":"http://gateway.marvel.com/v1/public/creators/11757/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/16450","name":"A+X
+          (2012 - 2014)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/17272","name":"A+X
+          VOL. 2: = AMAZING TPB (MARVEL NOW) (2013)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/34459","name":"A.X.E.:
+          Judgment Day (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/27646","name":"Absolute
+          Carnage: Lethal Protectors (2020)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3614","name":"Age
+          of Apocalypse: The Chosen (1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/30863","name":"Alien
+          (2021 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/34292","name":"Alien
+          Annual (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/30864","name":"Alien
+          Vol. 1: Bloodlines (2021)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/30866","name":"Alien
+          Vol. 2: Revival (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/18315","name":"All-New
+          Invaders (2014 - 2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/18729","name":"All-New
+          Marvel Now! Point One (2014)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/18136","name":"All-New
+          X-Factor (2014 - 2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/16449","name":"All-New
+          X-Men (2012 - 2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/19988","name":"All-New
+          X-Men (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/34554","name":"All-Out
+          Avengers (2022 - 2023)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/454","name":"Amazing
+          Spider-Man (1999 - 2013)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/18142","name":"Amazing
+          X-Men (2013 - 2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/18901","name":"Amazing
+          X-Men Annual (2014)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/19268","name":"Amazing
+          X-Men Vol. 3: Once and Future Juggernaut (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/19271","name":"Angela:
+          Asgard''s Assassin (2014 - 2015)"}],"returned":20},"stories":{"available":1117,"collectionURI":"http://gateway.marvel.com/v1/public/creators/11757/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/171","name":"One
+          of the X-Men, Jean Grey, has unwittingly attained power beyond imagination.  As
+          the Dark Phoenix, she is capable of incinera","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/455","name":"In
+          this special tribute to William Shakespeare’s most beloved work, Romeo & Juliet,
+          popular X-Men artist Salvador Larroca illust","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/456","name":"In
+          this special tribute to William Shakespeare’s most beloved work, Romeo & Juliet,
+          popular X-Men artist Salvador Larroca illust","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/594","name":"X-MEN
+          (2004) #164","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/595","name":"4
+          of 4 - Heroes and Villains","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/602","name":"Cover
+          #602","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/610","name":"Cover
+          #610","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/612","name":"Cover
+          #612","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/613","name":"Interior
+          #613","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/614","name":"X-MEN
+          (2004) #159","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/615","name":"Interior
+          #615","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/616","name":"X-MEN
+          (2004) #157","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/617","name":"Interior
+          #617","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/618","name":"X-MEN
+          (2004) #158","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/619","name":"Interior
+          #619","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/620","name":"X-MEN
+          (2004) #160","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/621","name":"Interior
+          #621","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/622","name":"X-MEN
+          (2004) #161","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/623","name":"\"HEROES
+          AND VILLIANS\" PART 1 (OF 4) Brand-new story arc! The Brotherhood of Mutants
+          is back with Nocturne from the Exiles, and a","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/624","name":"X-MEN
+          (2004) #162","type":"cover"}],"returned":20},"events":{"available":12,"collectionURI":"http://gateway.marvel.com/v1/public/creators/11757/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/227","name":"Age
+          of Apocalypse"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/320","name":"Axis"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/318","name":"Dark
+          Reign"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/302","name":"Fear
+          Itself"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/251","name":"House
+          of M"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/37","name":"Maximum
+          Security"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/333","name":"Monsters
+          Unleashed"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/337","name":"Monsters
+          Unleashed"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/309","name":"Shattered
+          Heroes"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/273","name":"Siege"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/327","name":"Star
+          Wars"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/276","name":"War
+          of Kings"}],"returned":12},"urls":[{"type":"detail","url":"http://marvel.com/comics/creators/11757/salvador_larroca?utm_campaign=apiRef&utm_source=abcd"}]},{"id":1163,"firstName":"Tom","middleName":"","lastName":"Lyle","suffix":"","fullName":"Tom
+          Lyle","modified":"2011-01-01T21:32:32-0500","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/f/d0/4bb6f66ce4f6d","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/creators/1163","comics":{"available":75,"collectionURI":"http://gateway.marvel.com/v1/public/creators/1163/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17701","name":"Age
+          of Apocalypse: The Chosen (1995) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/16902","name":"Amazing
+          Spider-Man Annual (1964) #27"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/103264","name":"Amazing
+          Spider-Man Epic Collection: Invasion Of The Spider-Slayers (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/93791","name":"Amazing
+          Spider-Man Epic Collection: Lifetheft (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/99925","name":"Carnage
+          Epic Collection: Born In Blood (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/8379","name":"Daredevil
+          (1964) #375"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/51618","name":"DAREDEVIL
+          EPIC COLLECTION: WIDOW''S KISS TPB (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/60677","name":"Guardians
+          of The Galaxy: Road to Annihilation Vol. 1 (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/19897","name":"Iron
+          Man (1998) #25"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/10142","name":"Marvel
+          Comics Presents (1988) #60"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/10160","name":"Marvel
+          Comics Presents (1988) #77"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/10161","name":"Marvel
+          Comics Presents (1988) #78"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/10162","name":"Marvel
+          Comics Presents (1988) #79"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/72871","name":"Mutant
+          X (1998) #20"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/72872","name":"Mutant
+          X (1998) #21"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/72873","name":"Mutant
+          X (1998) #22"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/72874","name":"Mutant
+          X (1998) #23"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/72876","name":"Mutant
+          X (1998) #25"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/72878","name":"Mutant
+          X (1998) #27"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/72880","name":"Mutant
+          X (1998) #29"}],"returned":20},"series":{"available":45,"collectionURI":"http://gateway.marvel.com/v1/public/creators/1163/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/3614","name":"Age
+          of Apocalypse: The Chosen (1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2984","name":"Amazing
+          Spider-Man Annual (1964 - 2018)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/35576","name":"Amazing
+          Spider-Man Epic Collection: Invasion Of The Spider-Slayers (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/32029","name":"Amazing
+          Spider-Man Epic Collection: Lifetheft (2021)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/34386","name":"Carnage
+          Epic Collection: Born In Blood (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2002","name":"Daredevil
+          (1964 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/19365","name":"DAREDEVIL
+          EPIC COLLECTION: WIDOW''S KISS TPB (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/22421","name":"Guardians
+          of The Galaxy: Road to Annihilation Vol. 1 (2017)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2572","name":"Iron
+          Man (1998 - 2004)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2039","name":"Marvel
+          Comics Presents (1988 - 1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/26325","name":"Mutant
+          X (1998 - 2001)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/28078","name":"Mutant
+          X: The Complete Collection Vol. 2 (2019)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/6681","name":"Punisher
+          (1995 - 1996)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2069","name":"Spider-Man
+          (1990 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1169","name":"Spider-Man
+          Maximum Carnage (2004)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/13695","name":"Spider-Man
+          Unlimited (1993)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/36417","name":"Spider-Man
+          Vs. Venom Omnibus  (2023)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/22527","name":"Spider-Man/Punisher:
+          Family Plot (1996)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/21779","name":"Spider-Man:
+          Maximum Clonage Omega (1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/14976","name":"Spider-Man:
+          Spider-Hunt (2011 - Present)"}],"returned":20},"stories":{"available":97,"collectionURI":"http://gateway.marvel.com/v1/public/creators/1163/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/6323","name":"ASM
+          378-380; Spect SM 201-203; SM 35-37; SM Unlimited 1, 2; Web of SM 101-103","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/16346","name":"With
+          a Little Help From My Friends","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/21733","name":"Spider-Man
+          Sketch File","type":"pinup"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/23562","name":"Rumanian
+          Rumble Part 1: Rude Awakening","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/23794","name":"Spider-Man
+          (1990) #35","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/23795","name":"Team
+          Venom (Maximum Carnage, Chapter Four)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/23796","name":"Crawl
+          Space","type":"letters"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/23797","name":"Spider-Man
+          (1990) #36","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/23798","name":"Hate
+          Is in the Air (Maximum Carnage, Part 8)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/23799","name":"Crawl
+          Space","type":"letters"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/23800","name":"Spider-Man
+          (1990) #37","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/23801","name":"The
+          Light! (Maximum Carnage, Chapter 12)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/23802","name":"Crawl
+          Space","type":"letters"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/23823","name":"Cover
+          #23823","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/23824","name":"The
+          Dream Before (Pursuit, Part One)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/42651","name":"Ultimate
+          Devastation","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/42652","name":"Ultimate
+          Devastation Chapter 2","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/42653","name":"Ultimate
+          Devastation Chapter 3","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/42654","name":"Ultimate
+          Devastation Interlude","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/42655","name":"Ultimate
+          Devastation Chapter 4","type":"interiorStory"}],"returned":20},"events":{"available":3,"collectionURI":"http://gateway.marvel.com/v1/public/creators/1163/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/227","name":"Age
+          of Apocalypse"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/151","name":"Maximum
+          Carnage"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/154","name":"Onslaught"}],"returned":3},"urls":[{"type":"detail","url":"http://marvel.com/comics/creators/1163/tom_lyle?utm_campaign=apiRef&utm_source=abcd"}]},{"id":1286,"firstName":"Howard","middleName":"","lastName":"Mackie","suffix":"","fullName":"Howard
+          Mackie","modified":"2010-11-22T11:42:53-0500","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/9/40/4bc46fe1552c5","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/creators/1286","comics":{"available":348,"collectionURI":"http://gateway.marvel.com/v1/public/creators/1286/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17701","name":"Age
+          of Apocalypse: The Chosen (1995) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/37894","name":"Amazing
+          Spider-Man (1999) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/65365","name":"Amazing
+          Spider-Man Annual (1999) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/65951","name":"Amazing
+          Spider-Man Annual (2000) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/93791","name":"Amazing
+          Spider-Man Epic Collection: Lifetheft (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/50802","name":"Astonishing
+          X-Men (1999) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/50803","name":"Astonishing
+          X-Men (1999) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/50804","name":"Astonishing
+          X-Men (1999) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17509","name":"Avengers
+          (1998) #27"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7282","name":"Avengers
+          (1963) #397"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/6932","name":"Avengers
+          Annual (1967) #18"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17774","name":"Avengers
+          Annual (1967) #19 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/4461","name":"Avengers
+          Assemble Vol. 3 (Hardcover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/67809","name":"Avengers
+          Spotlight (1989) #27"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/67810","name":"Avengers
+          Spotlight (1989) #28"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/67811","name":"Avengers
+          Spotlight (1989) #29"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17843","name":"West
+          Coast Avengers Annual (1986) #5"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/2215","name":"Avengers
+          West Coast: Vision Quest (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/47633","name":"AVENGERS/IRON
+          MAN: FIRST SIGN TPB (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/98370","name":"Captain
+          America Epic Collection: Arena Of Death (Trade Paperback)"}],"returned":20},"series":{"available":110,"collectionURI":"http://gateway.marvel.com/v1/public/creators/1286/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/3614","name":"Age
+          of Apocalypse: The Chosen (1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/454","name":"Amazing
+          Spider-Man (1999 - 2013)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/23794","name":"Amazing
+          Spider-Man Annual (1999)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/23657","name":"Amazing
+          Spider-Man Annual (2001)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/23925","name":"Amazing
+          Spider-Man Annual (2000)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/32029","name":"Amazing
+          Spider-Man Epic Collection: Lifetheft (2021)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/19016","name":"Astonishing
+          X-Men (1999)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/354","name":"Avengers
+          (1998 - 2004)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1991","name":"Avengers
+          (1963 - 1996)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1988","name":"Avengers
+          Annual (1967 - 1994)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1737","name":"Avengers
+          Assemble Vol. 3 (2006)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/24456","name":"Avengers
+          Spotlight (1989 - 1991)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1497","name":"Avengers
+          West Coast: Vision Quest (2005)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/17966","name":"AVENGERS/IRON
+          MAN: FIRST SIGN TPB (2013)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/33928","name":"Captain
+          America Epic Collection: Arena Of Death (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/29764","name":"Captain
+          Marvel: The Many Lives of Carol Danvers  (2020)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3747","name":"D.P.7
+          (1986 - 1989)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/32034","name":"Doctor
+          Strange Epic Collection: The Vampiric Verses (2021)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/8836","name":"Gambit
+          (1993)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/18055","name":"Gambit
+          (1997)"}],"returned":20},"stories":{"available":504,"collectionURI":"http://gateway.marvel.com/v1/public/creators/1286/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/17393","name":"Avengers
+          Annual (1967) #18","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/17394","name":"Avengers
+          Assembled","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/17395","name":"The
+          Initiation of Quasar","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/17396","name":"Cap''s
+          Avengerability Analysis","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/19451","name":"interior
+          to Iron Man #241","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/19456","name":"","type":""},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/19460","name":"","type":""},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/19470","name":"","type":""},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/19472","name":"","type":""},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/19474","name":"","type":""},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/19477","name":"","type":""},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/19480","name":"","type":""},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/22000","name":"Prelude:  The
+          Spider''s Thread","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/22001","name":"Sleight
+          of Mind!","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/22016","name":"Storm
+          Shadows (Spirits of Venom, Part 1)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/22018","name":"Enemies:  A
+          Hate Story (Spirits of Venom, Part 3)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/22030","name":"Cover
+          #22030","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/22031","name":"Enemies","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/22032","name":"Cover
+          #22032","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/22033","name":"Celebrity","type":"interiorStory"}],"returned":20},"events":{"available":6,"collectionURI":"http://gateway.marvel.com/v1/public/creators/1286/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/116","name":"Acts
+          of Vengeance!"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/227","name":"Age
+          of Apocalypse"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/233","name":"Atlantis
+          Attacks"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/29","name":"Infinity
+          War"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/37","name":"Maximum
+          Security"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/154","name":"Onslaught"}],"returned":6},"urls":[{"type":"detail","url":"http://marvel.com/comics/creators/1286/howard_mackie?utm_campaign=apiRef&utm_source=abcd"}]},{"id":13392,"firstName":"Sergio","middleName":"","lastName":"Melia-Borras","suffix":"","fullName":"Sergio
+          Melia-Borras","modified":"2022-05-24T09:32:47-0400","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/creators/13392","comics":{"available":7,"collectionURI":"http://gateway.marvel.com/v1/public/creators/13392/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17701","name":"Age
+          of Apocalypse: The Chosen (1995) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/98371","name":"Excalibur
+          Epic Collection: The Battle For Britain (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/101008","name":"Kitty
+          Pryde, Agent of S.H.I.E.L.D. (1997) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/101009","name":"Kitty
+          Pryde, Agent of S.H.I.E.L.D. (1997) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/101010","name":"Kitty
+          Pryde, Agent of S.H.I.E.L.D. (1997) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/93171","name":"X-MEN:
+          AGE OF APOCALYPSE OMNIBUS HC BILLY TAN COVER [NEW PRINTING 2] (Hardcover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/52957","name":"X-MEN:
+          AGE OF APOCALYPSE VOL. 3 - OMEGA TPB (Trade Paperback)"}],"returned":7},"series":{"available":5,"collectionURI":"http://gateway.marvel.com/v1/public/creators/13392/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/3614","name":"Age
+          of Apocalypse: The Chosen (1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/33929","name":"Excalibur
+          Epic Collection: The Battle For Britain (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/34607","name":"Kitty
+          Pryde, Agent of S.H.I.E.L.D. (1997 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/31871","name":"X-MEN:
+          AGE OF APOCALYPSE OMNIBUS HC BILLY TAN COVER [NEW PRINTING 2] (2021)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/19806","name":"X-MEN:
+          AGE OF APOCALYPSE VOL. 3 - OMEGA TPB (2015)"}],"returned":5},"stories":{"available":7,"collectionURI":"http://gateway.marvel.com/v1/public/creators/13392/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/117492","name":"story
+          from X-Men: Age of Apocalypse - Omega (2015)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/186887","name":"story
+          from AGE OF APOCALYPSE: THE CHOSEN 1 (1995) #1","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/207455","name":"story
+          from X-MEN: AGE OF APOCALYPSE OMNIBUS HC BILLY TAN COVER (2021) #1 (BILLY
+          TAN COVER)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/217812","name":"story
+          from EXCALIBUR EPIC COLLECTION: THE BATTLE FOR BRITAIN TPB (2022) #1","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/223119","name":"story
+          from Kitty Pryde, Agent of S.H.I.E.L.D. (1997) #1","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/223121","name":"story
+          from Kitty Pryde, Agent of S.H.I.E.L.D. (1997) #2","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/223123","name":"story
+          from Kitty Pryde, Agent of S.H.I.E.L.D. (1997) #3","type":"interiorStory"}],"returned":7},"events":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/creators/13392/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/227","name":"Age
+          of Apocalypse"}],"returned":1},"urls":[{"type":"detail","url":"http://marvel.com/comics/creators/13392/sergio_melia-borras?utm_campaign=apiRef&utm_source=abcd"}]},{"id":1914,"firstName":"Dan","middleName":"","lastName":"Panosian","suffix":"","fullName":"Dan
+          Panosian","modified":"2016-03-21T17:57:12-0400","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/5/f0/4bc33607ae624","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/creators/1914","comics":{"available":169,"collectionURI":"http://gateway.marvel.com/v1/public/creators/1914/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17701","name":"Age
+          of Apocalypse: The Chosen (1995) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/78474","name":"Absolute
+          Carnage Vs. Deadpool (2019) #1 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/76876","name":"Adventures
+          of the X-Men (1996) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/76878","name":"Adventures
+          of the X-Men (1996) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/24363","name":"Agents
+          of Atlas (2009) #9"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/27874","name":"Agents
+          of Atlas (2009) #9 (70TH FRAME VARIANT)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/24355","name":"Agents
+          of Atlas (2009) #11"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/28870","name":"Agents
+          of Atlas: Turf Wars (Hardcover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/31681","name":"Agents
+          of Atlas: Turf Wars (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/99929","name":"Alien
+          (2021) #10 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/12645","name":"Alpha
+          Flight (1983) #106"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/59525","name":"The
+          Amazing Spider-Man (2017) #15 (Panosian Mighty Men Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/103264","name":"Amazing
+          Spider-Man Epic Collection: Invasion Of The Spider-Slayers (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/50802","name":"Astonishing
+          X-Men (1999) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/50803","name":"Astonishing
+          X-Men (1999) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/50804","name":"Astonishing
+          X-Men (1999) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/6936","name":"Avengers
+          Annual (1967) #21"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/37353","name":"Avengers:
+          Citizen Kang (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/57653","name":"Black
+          Knight (2015) #2 (Panosian Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7755","name":"Captain
+          America (1968) #374"}],"returned":20},"series":{"available":104,"collectionURI":"http://gateway.marvel.com/v1/public/creators/1914/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/27720","name":"Absolute
+          Carnage Vs. Deadpool (2019)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/27588","name":"Adventures
+          of the X-Men (1996 - 1997)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3614","name":"Age
+          of Apocalypse: The Chosen (1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/6807","name":"Agents
+          of Atlas (2009)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/9197","name":"Agents
+          of Atlas: Turf Wars (2010 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/9373","name":"Agents
+          of Atlas: Turf Wars (2010)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/30863","name":"Alien
+          (2021 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2116","name":"Alpha
+          Flight (1983 - 1994)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/35576","name":"Amazing
+          Spider-Man Epic Collection: Invasion Of The Spider-Slayers (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/19016","name":"Astonishing
+          X-Men (1999)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1988","name":"Avengers
+          Annual (1967 - 1994)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/13411","name":"Avengers:
+          Citizen Kang (2010 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/20788","name":"Black
+          Knight (2015 - 2016)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1996","name":"Captain
+          America (1968 - 1996)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3629","name":"Captain
+          America Annual (1971 - 1991)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/31061","name":"Captain
+          America: Sharon Carter (2020)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/26673","name":"Captain
+          Marvel (2019 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/13468","name":"Chaos
+          War One-Shots (2010)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/13258","name":"Chaos
+          War: God Squad (2010)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/29272","name":"Conan
+          Chronicles Epic Collection: Horrors Beneath The Stones (2020)"}],"returned":20},"stories":{"available":201,"collectionURI":"http://gateway.marvel.com/v1/public/creators/1914/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/12999","name":"Strange
+          Interlude","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/14182","name":"Amazing
+          Spider-Man (1963) #376","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/15333","name":"[Contents
+          Page]","type":"contents"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/17418","name":"Boys''
+          Night Out","type":""},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/21114","name":"The
+          Walking Wounded","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/21638","name":"","type":"table
+          of contents"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/21639","name":"Pawns
+          of Senescence","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/22018","name":"Enemies:  A
+          Hate Story (Spirits of Venom, Part 3)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/22626","name":"Cover
+          #22626","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/26281","name":"A
+          Beginning","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/28114","name":"Uncanny
+          X-Men (1963) #302","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/28115","name":"Province","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/29168","name":"The
+          Puzzle Quest","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/29169","name":"The
+          Puzzle Box","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/29230","name":"It''s
+          an All-Out Battle When...Bishop Goes Wild !","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/29231","name":"Eyes
+          of a New York Woman","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/29328","name":"X-MEN
+          (1991) #91","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/29329","name":"Technical
+          Difficulties","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/33724","name":"Cover
+          #33724","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/37751","name":"Boys''
+          Night Out","type":""}],"returned":20},"events":{"available":7,"collectionURI":"http://gateway.marvel.com/v1/public/creators/1914/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/227","name":"Age
+          of Apocalypse"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/296","name":"Chaos
+          War"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/297","name":"Fall
+          of the Hulks"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/249","name":"Fatal
+          Attractions"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/29","name":"Infinity
+          War"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/32","name":"Kings
+          of Pain"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/154","name":"Onslaught"}],"returned":7},"urls":[{"type":"detail","url":"http://marvel.com/comics/creators/1914/dan_panosian?utm_campaign=apiRef&utm_source=abcd"}]},{"id":844,"firstName":"James","middleName":"","lastName":"Pascoe","suffix":"","fullName":"James
+          Pascoe","modified":"2007-01-01T00:00:00-0500","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/creators/844","comics":{"available":10,"collectionURI":"http://gateway.marvel.com/v1/public/creators/844/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17701","name":"Age
+          of Apocalypse: The Chosen (1995) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/1992","name":"Gambit
+          (2004) #11"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/2434","name":"Gambit:
+          Hath No Fury (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/99387","name":"Star
+          Wars Legends Epic Collection: The Empire Vol. 7 (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/70327","name":"THOR:
+          HEROES RETURN OMNIBUS VOL. 2 HC (Hardcover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/437","name":"Weapon
+          X (2002) #21"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/18172","name":"X-Men
+          Chronicles (1995) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/93171","name":"X-MEN:
+          AGE OF APOCALYPSE OMNIBUS HC BILLY TAN COVER [NEW PRINTING 2] (Hardcover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/52957","name":"X-MEN:
+          AGE OF APOCALYPSE VOL. 3 - OMEGA TPB (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/1780","name":"X-Men:
+          The Complete Age of Apocalypse Epic Book 1 (Trade Paperback)"}],"returned":10},"series":{"available":10,"collectionURI":"http://gateway.marvel.com/v1/public/creators/844/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/3614","name":"Age
+          of Apocalypse: The Chosen (1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/777","name":"Gambit
+          (2004 - 2005)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1476","name":"Gambit:
+          Hath No Fury (2005)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/34256","name":"Star
+          Wars Legends Epic Collection: The Empire Vol. 7 (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/25698","name":"THOR:
+          HEROES RETURN OMNIBUS VOL. 2 HC (2018)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/543","name":"Weapon
+          X (2002 - 2004)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3640","name":"X-Men
+          Chronicles (1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/31871","name":"X-MEN:
+          AGE OF APOCALYPSE OMNIBUS HC BILLY TAN COVER [NEW PRINTING 2] (2021)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/19806","name":"X-MEN:
+          AGE OF APOCALYPSE VOL. 3 - OMEGA TPB (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1452","name":"X-Men:
+          The Complete Age of Apocalypse Epic Book 1 (2005)"}],"returned":10},"stories":{"available":8,"collectionURI":"http://gateway.marvel.com/v1/public/creators/844/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1785","name":"Interior
+          #1785","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/3755","name":"2
+          of 3 - Hath No Fury","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/38625","name":"Beast","type":"pinup"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/117492","name":"story
+          from X-Men: Age of Apocalypse - Omega (2015)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/156444","name":"story
+          from THOR: HEROES RETURN OMNIBUS VOL. 2 HC (2018) #2","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/186887","name":"story
+          from AGE OF APOCALYPSE: THE CHOSEN 1 (1995) #1","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/207455","name":"story
+          from X-MEN: AGE OF APOCALYPSE OMNIBUS HC BILLY TAN COVER (2021) #1 (BILLY
+          TAN COVER)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/219872","name":"story
+          from STAR WARS LEGENDS EPIC COLLECTION: THE EMPIRE VOL. 7 TPB (2022) #7","type":"interiorStory"}],"returned":8},"events":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/creators/844/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/227","name":"Age
+          of Apocalypse"}],"returned":1},"urls":[{"type":"detail","url":"http://marvel.com/comics/creators/844/james_pascoe?utm_campaign=apiRef&utm_source=abcd"}]},{"id":19,"firstName":"Tim","middleName":"","lastName":"Sale","suffix":"","fullName":"Tim
+          Sale","modified":"2016-03-11T17:41:23-0500","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/2/60/4bc69b1e6fabf","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/creators/19","comics":{"available":90,"collectionURI":"http://gateway.marvel.com/v1/public/creators/19/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17701","name":"Age
+          of Apocalypse: The Chosen (1995) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7397","name":"Cable
+          (1993) #23"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/28486","name":"Captain
+          America: Reborn (2009) #2 (TIM SALE VARIANT)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/82323","name":"Captain
+          America: Sam Wilson - The Complete Collection Vol. 2 (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/21599","name":"Captain
+          America: White (2008)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/31745","name":"Captain
+          America: White (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/53618","name":"Captain
+          America: White (2015) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56575","name":"Captain
+          America: White (2015) #1 (Campbell Inhuman 50th Anniversary Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56576","name":"Captain
+          America: White (2015) #1 (Sale Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56577","name":"Captain
+          America: White (2015) #1 (Asrar Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56578","name":"Captain
+          America: White (2015) #1 (Young Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/53620","name":"Captain
+          America: White (2015) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/56579","name":"Captain
+          America: White (2015) #2 (Johnson Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/53621","name":"Captain
+          America: White (2015) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/53622","name":"Captain
+          America: White (2015) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/53623","name":"Captain
+          America: White (2015) #5"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/53619","name":"CAPTAIN
+          AMERICA: WHITE HC (Hardcover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/57549","name":"Daredevil
+          (2015) #1 (Sale Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/27414","name":"Daredevil
+          (1998) #501 (SALE VARIANT)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/947","name":"Daredevil
+          Legends Vol. I: Daredevil: Yellow (Trade Paperback)"}],"returned":20},"series":{"available":45,"collectionURI":"http://gateway.marvel.com/v1/public/creators/19/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/3614","name":"Age
+          of Apocalypse: The Chosen (1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/20468","name":"All-New
+          Hawkeye (2015 - 2016)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1995","name":"Cable
+          (1993 - 2002)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/8213","name":"Captain
+          America: Reborn (2009 - 2010)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/29245","name":"Captain
+          America: Sam Wilson - The Complete Collection Vol. 2 (2021)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/20065","name":"Captain
+          America: White (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/10090","name":"Captain
+          America: White (2016)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/5216","name":"Captain
+          America: White (2008)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/20066","name":"CAPTAIN
+          AMERICA: WHITE HC (2016)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/20780","name":"Daredevil
+          (2015 - 2018)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/449","name":"Daredevil
+          (1998 - 2011)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/12","name":"Daredevil
+          Legends Vol. I: Daredevil: Yellow (1999)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/377","name":"Daredevil:
+          Yellow (2001 - 2002)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/13249","name":"Daredevil:
+          Yellow (All-New Edition) (2010 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/6245","name":"Daredevil:
+          Yellow Premiere (2008 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2011","name":"Excalibur
+          (1988 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3374","name":"Hulk
+          (2008 - 2012)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/342","name":"Hulk
+          Gray Vol. 1 (2004)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1200","name":"Hulk:
+          Gray (2005)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/7870","name":"Hulk:
+          Gray (2009 - Present)"}],"returned":20},"stories":{"available":142,"collectionURI":"http://gateway.marvel.com/v1/public/creators/19/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/189","name":"Spider-Man:
+          Blue is a lavish look back at a pivotal era — including the introduction of
+          Peter''s first love Gwen Stacy, his buddi","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/190","name":"Spider-Man:
+          Blue is a lavish look back at a pivotal era — including the introduction of
+          Peter''s first love Gwen Stacy, his buddi","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/465","name":"The
+          creators behind the best-selling \"Marvel Spectrum\" stories – DAREDEVIL:
+          YELLOW and SPIDER-MAN: BLUE – examine in new detail ","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/466","name":"The
+          creators behind the best-selling \"Marvel Spectrum\" stories – DAREDEVIL:
+          YELLOW and SPIDER-MAN: BLUE – examine in new detail ","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/481","name":"X-Men
+          Gambit and Wolverine are drawn together in London by a string of brutal slayings
+          that may mark the return of 19th-century ","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/533","name":"Interior
+          #533","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/534","name":"Interior
+          #534","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/535","name":"Interior
+          #535","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/537","name":"Interior
+          #537","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/538","name":"Interior
+          #538","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/539","name":"Interior
+          #539","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/872","name":"HULK:
+          GRAY (2003) #2","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/873","name":"Interior
+          #873","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/874","name":"HULK:
+          GRAY (2003) #3","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/875","name":"Interior
+          #875","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/2259","name":"HULK:
+          GRAY (2003) #6","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/2260","name":"Interior
+          #2260","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/2335","name":"HULK:
+          GRAY (2003) #1","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/2336","name":"Interior
+          #2336","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/2631","name":"HULK:
+          GRAY (2003) #4","type":"cover"}],"returned":20},"events":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/creators/19/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/227","name":"Age
+          of Apocalypse"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/60","name":"World
+          War Hulks"}],"returned":2},"urls":[{"type":"detail","url":"http://marvel.com/comics/creators/19/tim_sale?utm_campaign=apiRef&utm_source=abcd"}]},{"id":4523,"firstName":"Val","middleName":"","lastName":"Semeiks","suffix":"","fullName":"Val
+          Semeiks","modified":"2007-01-01T00:00:00-0500","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/7/60/4bb587849e5c7","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/creators/4523","comics":{"available":41,"collectionURI":"http://gateway.marvel.com/v1/public/creators/4523/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17701","name":"Age
+          of Apocalypse: The Chosen (1995) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/22372","name":"Amazing
+          Spider-Man Family (2008) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/22979","name":"Amazing
+          Spider-Man Family (2008) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/23642","name":"Amazing
+          Spider-Man Family (2008) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/24439","name":"Amazing
+          Spider-Man Family (2008) #7"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/101280","name":"Conan
+          The Barbarian: The Original Marvel Years Omnibus Vol. 9 (Hardcover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/99836","name":"Generation
+          X Epic Collection: Emplate''s Revenge (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/20982","name":"She-Hulk
+          (2005) #28"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/21190","name":"She-Hulk
+          (2005) #29"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/21341","name":"She-Hulk
+          (2005) #30"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/98506","name":"She-Hulk
+          By Peter David Omnibus (Hardcover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/15238","name":"Silver
+          Surfer (1987) #97"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/76626","name":"Silver
+          Surfer Annual (1997) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/75424","name":"Silver
+          Surfer Epic Collection: Inner Demons (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/38126","name":"Spider-Man:
+          New York Stories (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/28918","name":"Spider-Man:
+          Return of the Black Cat (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/26472","name":"Spider-Man:
+          The Short Halloween (Hardcover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/28450","name":"Web
+          of Spider-Man (2009) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/28628","name":"Web
+          of Spider-Man (2009) #1 (ZOMBIE VARIANT)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/31668","name":"Web
+          of Spider-Man (2009) #8"}],"returned":20},"series":{"available":27,"collectionURI":"http://gateway.marvel.com/v1/public/creators/4523/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/3614","name":"Age
+          of Apocalypse: The Chosen (1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/5376","name":"Amazing
+          Spider-Man Family (2008 - 2009)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/34683","name":"Conan
+          The Barbarian: The Original Marvel Years Omnibus Vol. 9 (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/34360","name":"Generation
+          X Epic Collection: Emplate''s Revenge (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/886","name":"She-Hulk
+          (2005 - 2009)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/33987","name":"She-Hulk
+          By Peter David Omnibus (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2288","name":"Silver
+          Surfer (1987 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/27508","name":"Silver
+          Surfer Annual (1997)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/27123","name":"Silver
+          Surfer Epic Collection: Inner Demons (2019)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/13721","name":"Spider-Man:
+          New York Stories (2011 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/9603","name":"Spider-Man:
+          Return of the Black Cat (2010)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/8328","name":"Spider-Man:
+          The Short Halloween (2009 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/9234","name":"Web
+          of Spider-Man (2009 - 2010)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2262","name":"Wolverine
+          (1988 - 2003)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/19793","name":"Wolverine
+          Epic Collection: The Dying Game (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/34364","name":"Wolverine
+          Epic Collection: Tooth And Claw (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3643","name":"X-Man
+          (1995 - 2000)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3640","name":"X-Men
+          Chronicles (1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3637","name":"X-Men
+          Unlimited (1993 - 2003)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/19802","name":"X-Men/Avengers:
+          Onslaught (2015)"}],"returned":20},"stories":{"available":51,"collectionURI":"http://gateway.marvel.com/v1/public/creators/4523/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/28568","name":"The
+          Helix of an Age Foretold","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/28968","name":"Of
+          Mythic Metal Forged","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/30947","name":"Temptation:
+          Greed","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/38614","name":"Horse
+          Latitude","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/38632","name":"Angel","type":"pinup"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/38636","name":"The
+          Rescue of Chamber","type":"pinup"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/45394","name":"1
+          of 1 Here Today","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/46811","name":"Interior
+          #46811","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/47032","name":"Excalibur
+          100, Wolverine 104, X-Factor 125-126, Amazing Spider-Man 415, Green Goblin
+          12, Spider-Man 72, Punisher 11, X-Man 18, X","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/47133","name":"Interior
+          #47133","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/49246","name":"AMAZING
+          SPIDER-MAN FAMILY (2008) #2","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/49247","name":"Venom:
+          Lethal Protector 5, Spider-Man: Mysterio Manifesto 2","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/51003","name":"AMAZING
+          SPIDER-MAN FAMILY (2008) #3","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/51004","name":"Venom:
+          Lethal Protector 6, Spider-Man: Mysterio Manifesto 3","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/52357","name":"AMAZING
+          SPIDER-MAN FAMILY (2008) #4","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/52358","name":"Interior
+          #52358","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/53971","name":"AMAZING
+          SPIDER-MAN FAMILY (2008) #7","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/53972","name":"Interior
+          #53972","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/54680","name":"Interior
+          #54680","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/58250","name":"Interior
+          #58250","type":"interiorStory"}],"returned":20},"events":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/creators/4523/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/227","name":"Age
+          of Apocalypse"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/154","name":"Onslaught"}],"returned":2},"urls":[{"type":"detail","url":"http://marvel.com/comics/creators/4523/val_semeiks?utm_campaign=apiRef&utm_source=abcd"}]},{"id":1249,"firstName":"Steve","middleName":"","lastName":"Skroce","suffix":"","fullName":"Steve
+          Skroce","modified":"2011-12-09T15:23:30-0500","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/creators/1249","comics":{"available":74,"collectionURI":"http://gateway.marvel.com/v1/public/creators/1249/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17701","name":"Age
+          of Apocalypse: The Chosen (1995) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/95007","name":"Ben
+          Reilly: Spider-Man (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/94944","name":"Ben
+          Reilly: Spider-Man (2022) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/94945","name":"Ben
+          Reilly: Spider-Man (2022) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/94946","name":"Ben
+          Reilly: Spider-Man (2022) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/94947","name":"Ben
+          Reilly: Spider-Man (2022) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/94948","name":"Ben
+          Reilly: Spider-Man (2022) #5"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/91649","name":"Cable
+          (2020) #6 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7386","name":"Cable
+          (1993) #13"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7387","name":"Cable
+          (1993) #14"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7388","name":"Cable
+          (1993) #15"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7389","name":"Cable
+          (1993) #16"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7390","name":"Cable
+          (1993) #17"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7391","name":"Cable
+          (1993) #18"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7392","name":"Cable
+          (1993) #19"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7454","name":"Cable
+          (1993) #75"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/75148","name":"Cable
+          & X-Force Omnibus (Hardcover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/98408","name":"Clobberin''
+          Time (2023) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/102615","name":"Clobberin''
+          Time (2023) #1 (Variant)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/102616","name":"Clobberin''
+          Time (2023) #1 (Variant)"}],"returned":20},"series":{"available":33,"collectionURI":"http://gateway.marvel.com/v1/public/creators/1249/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/3614","name":"Age
+          of Apocalypse: The Chosen (1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/32335","name":"Ben
+          Reilly: Spider-Man (2022 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/32364","name":"Ben
+          Reilly: Spider-Man (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1995","name":"Cable
+          (1993 - 2002)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/28038","name":"Cable
+          (2020 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/27027","name":"Cable
+          & X-Force Omnibus (2019)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/33955","name":"Clobberin''
+          Time (2023 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/32871","name":"Death
+          Of Doctor Strange: Avengers (2021)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/27053","name":"Decades:
+          Marvel In The ''90s - The Mutant X-plosion (2019)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/21593","name":"Gambit
+          (1999 - 2001)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/24278","name":"Immortal
+          Hulk (2018 - 2021)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/19920","name":"MARVEL
+          FIRSTS: THE 1990S OMNIBUS HC (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/13695","name":"Spider-Man
+          Unlimited (1993)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/16291","name":"Spider-Man:
+          The Complete Ben Reilly Epic Book 6 (2012 - Present)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1987","name":"The
+          Amazing Spider-Man (1963 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2258","name":"Uncanny
+          X-Men (1963 - 2011)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2262","name":"Wolverine
+          (1988 - 2003)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/24104","name":"Wolverine
+          Epic Collection: Blood Debt (2018)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3643","name":"X-Man
+          (1995 - 2000)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/15269","name":"X-Man:
+          Dance with the Devil (2011 - Present)"}],"returned":20},"stories":{"available":109,"collectionURI":"http://gateway.marvel.com/v1/public/creators/1249/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24195","name":"CABLE
+          (1993) #15","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24197","name":"CABLE
+          (1993) #16","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24198","name":"The
+          Phalanx Sanction","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24199","name":"CABLE
+          (1993) #17","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24200","name":"The
+          Dark Ride Part 1: The Calling","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24201","name":"CABLE
+          (1993) #18","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24202","name":"The
+          Dark Ride Part 2: Judgement Day","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24203","name":"CABLE
+          (1993) #19","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24204","name":"The
+          Dark Ride Part 3: In the Name of the Father","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24339","name":"Cable
+          vs. Wolverine","type":"pinup"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24340","name":"Cable
+          vs. Apocalypse","type":"pinup"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/24341","name":"Cable
+          vs. Stryfe","type":"pinup"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/28676","name":"Revolution","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/28677","name":"Blood
+          Debt Part 1","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/28678","name":"Wolverine
+          With Steve Skroce","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/28679","name":"Cover
+          #28679","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/28680","name":"Blood
+          Debt Part 2","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/28681","name":"Cover
+          #28681","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/28682","name":"Blood
+          Debt Part 3","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/28683","name":"Cover
+          #28683","type":"cover"}],"returned":20},"events":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/creators/1249/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/227","name":"Age
+          of Apocalypse"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/154","name":"Onslaught"}],"returned":2},"urls":[{"type":"detail","url":"http://marvel.com/comics/creators/1249/steve_skroce?utm_campaign=apiRef&utm_source=abcd"}]},{"id":350,"firstName":"Richard","middleName":"","lastName":"Starkings","suffix":"","fullName":"Richard
+          Starkings","modified":"2013-01-31T23:23:04-0500","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/6/a0/4bc3335779e4b","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/creators/350","comics":{"available":1965,"collectionURI":"http://gateway.marvel.com/v1/public/creators/350/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17701","name":"Age
+          of Apocalypse: The Chosen (1995) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/66978","name":"Adventures
+          of Captain America (1991) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/66979","name":"Adventures
+          of Captain America (1991) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/66980","name":"Adventures
+          of Captain America (1991) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/66981","name":"Adventures
+          of Captain America (1991) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/37260","name":"Alias
+          (2001) #13"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/37261","name":"Alias
+          (2001) #14"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/37262","name":"Alias
+          (2001) #15"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/37263","name":"Alias
+          (2001) #16"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/37255","name":"Alias
+          Omnibus (Hardcover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/393","name":"Alpha
+          Flight (2004) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/456","name":"Alpha
+          Flight (2004) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/616","name":"Alpha
+          Flight (2004) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/677","name":"Alpha
+          Flight (2004) #4"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/613","name":"Alpha
+          Flight (2004) #5"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/572","name":"Alpha
+          Flight (2004) #6"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/790","name":"Alpha
+          Flight (2004) #7"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/866","name":"Alpha
+          Flight (2004) #8"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/67","name":"Alpha
+          Flight (2004) #9"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/1465","name":"Alpha
+          Flight (2004) #10"}],"returned":20},"series":{"available":404,"collectionURI":"http://gateway.marvel.com/v1/public/creators/350/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/24227","name":"Adventures
+          of Captain America (1991 - 1992)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3614","name":"Age
+          of Apocalypse: The Chosen (1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/672","name":"Alias
+          (2001 - 2003)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/13383","name":"Alias
+          Omnibus (2006)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/719","name":"Alpha
+          Flight (2004 - 2005)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/454","name":"Amazing
+          Spider-Man (1999 - 2013)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/23794","name":"Amazing
+          Spider-Man Annual (1999)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2984","name":"Amazing
+          Spider-Man Annual (1964 - 2018)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/35576","name":"Amazing
+          Spider-Man Epic Collection: Invasion Of The Spider-Slayers (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/32029","name":"Amazing
+          Spider-Man Epic Collection: Lifetheft (2021)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3618","name":"Amazing
+          X-Men (1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3619","name":"Astonishing
+          X-Men (1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3621","name":"Avengers
+          (1996 - 1997)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/354","name":"Avengers
+          (1998 - 2004)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/26449","name":"Avengers
+          Annual (2000)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/26448","name":"Avengers
+          Annual (2001)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1340","name":"Avengers
+          Assemble (2004)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1496","name":"Avengers
+          Assemble Vol. 2 (2005)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1737","name":"Avengers
+          Assemble Vol. 3 (2006)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1816","name":"Avengers
+          Assemble Vol. 4 (2007)"}],"returned":20},"stories":{"available":2223,"collectionURI":"http://gateway.marvel.com/v1/public/creators/350/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/168","name":"In
+          this collection, Wolverine probes the dark and seamy underbelly of the city,
+          and guts it.  Placing himself in the center of a","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/474","name":"Interior
+          #474","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/476","name":"5
+          of 6 - Breakout!","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/487","name":"Interior
+          #487","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/528","name":"Interior
+          #528","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/533","name":"Interior
+          #533","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/534","name":"Interior
+          #534","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/535","name":"Interior
+          #535","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/537","name":"Interior
+          #537","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/538","name":"Interior
+          #538","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/539","name":"Interior
+          #539","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/872","name":"HULK:
+          GRAY (2003) #2","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/874","name":"HULK:
+          GRAY (2003) #3","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/909","name":"Interior
+          #909","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/911","name":"Interior
+          #911","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1024","name":"Avengers
+          (1998) #80","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1026","name":"Avengers
+          (1998) #81","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1029","name":"Interior
+          #1029","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1031","name":"Interior
+          #1031","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/1041","name":"Avengers
+          (1998) #502","type":"interiorStory"}],"returned":20},"events":{"available":13,"collectionURI":"http://gateway.marvel.com/v1/public/creators/350/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/227","name":"Age
+          of Apocalypse"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/233","name":"Atlantis
+          Attacks"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/234","name":"Avengers
+          Disassembled"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/238","name":"Civil
+          War"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/245","name":"Enemy
+          of the State"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/297","name":"Fall
+          of the Hulks"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/249","name":"Fatal
+          Attractions"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/255","name":"Initiative"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/37","name":"Maximum
+          Security"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/154","name":"Onslaught"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/269","name":"Secret
+          Invasion"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/59","name":"Shadowland"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/60","name":"World
+          War Hulks"}],"returned":13},"urls":[{"type":"detail","url":"http://marvel.com/comics/creators/350/richard_starkings?utm_campaign=apiRef&utm_source=abcd"}]},{"id":5756,"firstName":"Ashley","middleName":"","lastName":"Underwood","suffix":"","fullName":"Ashley
+          Underwood","modified":"2007-01-01T00:00:00-0500","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/creators/5756","comics":{"available":5,"collectionURI":"http://gateway.marvel.com/v1/public/creators/5756/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17701","name":"Age
+          of Apocalypse: The Chosen (1995) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/83505","name":"Hellstorm:
+          Prince of Lies (1993) #10"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/84493","name":"Hellstrom:
+          Prince Of Lies (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/93171","name":"X-MEN:
+          AGE OF APOCALYPSE OMNIBUS HC BILLY TAN COVER [NEW PRINTING 2] (Hardcover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/52957","name":"X-MEN:
+          AGE OF APOCALYPSE VOL. 3 - OMEGA TPB (Trade Paperback)"}],"returned":5},"series":{"available":5,"collectionURI":"http://gateway.marvel.com/v1/public/creators/5756/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/3614","name":"Age
+          of Apocalypse: The Chosen (1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/29524","name":"Hellstorm:
+          Prince of Lies (1993 - 1994)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/29770","name":"Hellstrom:
+          Prince Of Lies (2020)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/31871","name":"X-MEN:
+          AGE OF APOCALYPSE OMNIBUS HC BILLY TAN COVER [NEW PRINTING 2] (2021)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/19806","name":"X-MEN:
+          AGE OF APOCALYPSE VOL. 3 - OMEGA TPB (2015)"}],"returned":5},"stories":{"available":5,"collectionURI":"http://gateway.marvel.com/v1/public/creators/5756/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/117492","name":"story
+          from X-Men: Age of Apocalypse - Omega (2015)","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/184785","name":"story
+          from Hellstorm: Prince of Lies (1993) #10","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/186786","name":"story
+          from HELLSTROM: PRINCE OF LIES TPB (2020) #1","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/186887","name":"story
+          from AGE OF APOCALYPSE: THE CHOSEN 1 (1995) #1","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/207455","name":"story
+          from X-MEN: AGE OF APOCALYPSE OMNIBUS HC BILLY TAN COVER (2021) #1 (BILLY
+          TAN COVER)","type":"interiorStory"}],"returned":5},"events":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/creators/5756/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/227","name":"Age
+          of Apocalypse"}],"returned":1},"urls":[{"type":"detail","url":"http://marvel.com/comics/creators/5756/ashley_underwood?utm_campaign=apiRef&utm_source=abcd"}]},{"id":2030,"firstName":"Bob","middleName":"","lastName":"Wiacek","suffix":"","fullName":"Bob
+          Wiacek","modified":"2018-07-24T15:12:24-0400","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/c/30/4bc35ee8cc081","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/creators/2030","comics":{"available":304,"collectionURI":"http://gateway.marvel.com/v1/public/creators/2030/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17701","name":"Age
+          of Apocalypse: The Chosen (1995) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/82258","name":"Acts
+          Of Vengeance: Spider-Man & The X-Men (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/92859","name":"Aliens:
+          The Original Years Omnibus Vol. 3 (Hardcover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/53307","name":"ALL-NEW
+          X-MEN VOL. 3 HC (Hardcover)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/12674","name":"Alpha
+          Flight (1983) #15"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/12675","name":"Alpha
+          Flight (1983) #16"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/12677","name":"Alpha
+          Flight (1983) #18"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/12681","name":"Alpha
+          Flight (1983) #21"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/12682","name":"Alpha
+          Flight (1983) #22"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/12686","name":"Alpha
+          Flight (1983) #26"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/12689","name":"Alpha
+          Flight (1983) #29"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/16895","name":"Amazing
+          Spider-Man Annual (1964) #20"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/63140","name":"Amazing
+          Spider-Man Epic Collection: Kraven''s Last Hunt (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/6930","name":"Avengers
+          Annual (1967) #16"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/17844","name":"West
+          Coast Avengers Annual (1986) #6"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/82262","name":"AVENGERS
+          WEST COAST EPIC COLLECTION: TALES TO ASTONISH TPB (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/71061","name":"Avengers/Squadron
+          Supreme Annual (1998) #1"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7393","name":"Cable
+          (1993) #2"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/7404","name":"Cable
+          (1993) #3"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/20946","name":"Cable
+          Classic Vol. 1 (Trade Paperback)"}],"returned":20},"series":{"available":110,"collectionURI":"http://gateway.marvel.com/v1/public/creators/2030/series","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/series/29180","name":"Acts
+          Of Vengeance: Spider-Man & The X-Men (2020)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3614","name":"Age
+          of Apocalypse: The Chosen (1995)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/31726","name":"Aliens:
+          The Original Years Omnibus Vol. 3 (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/19989","name":"ALL-NEW
+          X-MEN VOL. 3 HC (2015)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2116","name":"Alpha
+          Flight (1983 - 1994)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2984","name":"Amazing
+          Spider-Man Annual (1964 - 2018)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/23112","name":"Amazing
+          Spider-Man Epic Collection: Kraven''s Last Hunt (2017)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1988","name":"Avengers
+          Annual (1967 - 1994)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/29184","name":"AVENGERS
+          WEST COAST EPIC COLLECTION: TALES TO ASTONISH TPB (2020)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/25955","name":"Avengers/Squadron
+          Supreme Annual (1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1995","name":"Cable
+          (1993 - 2002)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/4059","name":"Cable
+          Classic Vol. 1 (2008)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/1997","name":"Captain
+          America (1998 - 2002)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2000","name":"Captain
+          Marvel (1968 - 1979)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/690","name":"Captain
+          Marvel (2000 - 2002)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/30952","name":"Captain
+          Marvel vs. Rogue (2020)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/29764","name":"Captain
+          Marvel: The Many Lives of Carol Danvers  (2020)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/2002","name":"Daredevil
+          (1964 - 1998)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/34246","name":"Daredevil
+          Epic Collection: It Comes With The Claws (2022)"},{"resourceURI":"http://gateway.marvel.com/v1/public/series/3740","name":"Doctor
+          Strange (1974 - 1988)"}],"returned":20},"stories":{"available":361,"collectionURI":"http://gateway.marvel.com/v1/public/creators/2030/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/15281","name":"The
+          End of the Inhumans...and the Fantastic Four","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/16993","name":"THOR
+          (1966) #348","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/16994","name":"The
+          Dark and the Light","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/17389","name":"The
+          Day Death Died","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/18307","name":"Crisis!","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/18318","name":"Captain
+          Marvel.. Wanted!","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/18320","name":"The
+          War Of The Three Galaxies!","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/18324","name":"Beneath
+          The Mask...A Man!","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/18325","name":"Cover
+          #18325","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/18326","name":"Survival
+          Quest!","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/18327","name":"Cover
+          #18327","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/18328","name":"Star
+          Burst","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/18331","name":"Cover
+          #18331","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/19186","name":"Pieces
+          of Hate!","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/19879","name":"Blood
+          Feud!","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/20624","name":"Cover
+          #20624","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/20625","name":"The
+          All-New Ms. Marvel","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/20966","name":"Cover
+          #20966","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/21019","name":"Cover
+          #21019","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/21178","name":"Blind
+          Date","type":"interiorStory"}],"returned":20},"events":{"available":9,"collectionURI":"http://gateway.marvel.com/v1/public/creators/2030/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/116","name":"Acts
+          of Vengeance!"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/227","name":"Age
+          of Apocalypse"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/240","name":"Days
+          of Future Present"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/246","name":"Evolutionary
+          War"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/248","name":"Fall
+          of the Mutants"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/252","name":"Inferno"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/263","name":"Mutant
+          Massacre"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/154","name":"Onslaught"},{"resourceURI":"http://gateway.marvel.com/v1/public/events/270","name":"Secret
+          Wars"}],"returned":9},"urls":[{"type":"detail","url":"http://marvel.com/comics/creators/2030/bob_wiacek?utm_campaign=apiRef&utm_source=abcd"}]}]}}'
+    recorded_at: Thu, 09 Mar 2023 00:00:00 GMT
+recorded_with: VCR 6.1.0

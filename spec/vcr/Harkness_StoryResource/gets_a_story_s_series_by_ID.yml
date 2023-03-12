@@ -1,0 +1,44 @@
+---
+http_interactions:
+  - request:
+      method: get
+      uri: https://gateway.marvel.com/v1/public/stories/30/series?apikey=abcd&hash=a09f8647b1786ba2816888715a24ccc6&ts=1678320000
+      body:
+        encoding: US-ASCII
+        string: ""
+      headers:
+        User-Agent:
+          - Faraday v2.7.4
+        Accept-Encoding:
+          - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+        Accept:
+          - "*/*"
+    response:
+      status:
+        code: 200
+        message: OK
+      headers:
+        Etag:
+          - 33002f3149f651d69d15473e70af27000edca120
+        Content-Type:
+          - application/json; charset=utf-8
+        Date:
+          - Sun, 12 Mar 2023 15:19:34 GMT
+        Connection:
+          - keep-alive
+        Transfer-Encoding:
+          - chunked
+      body:
+        encoding: UTF-8
+        string:
+          '{"code":200,"status":"Ok","copyright":"© 2023 MARVEL","attributionText":"Data
+          provided by Marvel. © 2023 MARVEL","attributionHTML":"<a href=\"http://marvel.com\">Data
+          provided by Marvel. © 2023 MARVEL</a>","etag":"33002f3149f651d69d15473e70af27000edca120","data":{"offset":0,"limit":20,"total":1,"count":1,"results":[{"id":29,"title":"Essential
+          Incredible Hulk Vol. II (1999)","description":null,"resourceURI":"http://gateway.marvel.com/v1/public/series/29","urls":[{"type":"detail","url":"http://marvel.com/comics/series/29/essential_incredible_hulk_vol_ii_1999?utm_campaign=apiRef&utm_source=abcd"}],"startYear":1999,"endYear":1999,"rating":"ALL
+          AGES","type":"collection","modified":"-0001-11-30T00:00:00-0500","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/9/10/4bc66f4b0e505","extension":"jpg"},"creators":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/series/29/creators","items":[],"returned":0},"characters":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/series/29/characters","items":[],"returned":0},"stories":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/series/29/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/30","name":"The
+          second volume containing the Hulk''s early adventures with appearances by
+          the Sub-Mariner, the Mandarin, Ka-Zar and Nick Fury","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/65107","name":"ESSENTIAL
+          INCREDIBLE HULK VOL. II TPB 0 cover","type":"cover"}],"returned":2},"comics":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/series/29/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/965","name":"Essential
+          Incredible Hulk Vol. II (Trade Paperback)"}],"returned":1},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/series/29/events","items":[],"returned":0},"next":null,"previous":null}]}}'
+    recorded_at: Thu, 09 Mar 2023 00:00:00 GMT
+recorded_with: VCR 6.1.0
