@@ -139,7 +139,7 @@ client.stories.series(story_id: 1234)
 
 ## Docs
 
-- Browse the painstakingly documented [RubyDoc](https://rubydoc.info/gems/harkness).
+- Browse the [painstakingly documented code](https://duffn.github.io/harkness/).
 - View the interactive [API tester at Marvel](https://developer.marvel.com/docs).
 
 ## Contributing
