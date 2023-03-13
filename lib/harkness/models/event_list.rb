@@ -1,9 +1,11 @@
 # frozen_string_literal: true
 
 module Harkness
+  # The summary of an event.
   class EventSummary < Harkness::Base::Summary
   end
 
+  # A list of events.
   class EventList < Shale::Mapper
     # @!attribute [r] available
     # @return [Integer] the number of total available events in this list.

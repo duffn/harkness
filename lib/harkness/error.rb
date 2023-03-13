@@ -2,6 +2,7 @@
 
 module Harkness
   module Error
+    # Base Harkness error class.
     class Error < StandardError; end
 
     # Raised when the API endpoint returns the HTTP status code 400.

@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 module Harkness
+  # The data of a comic.
   class ComicDate < Shale::Mapper
     # @!attribute [r] type
     # @return [String] a description of the date (e.g. onsale date, FOC date).
@@ -10,6 +11,7 @@ module Harkness
     attribute :date, Shale::Type::String
   end
 
+  # The price of a comic.
   class ComicPrice < Shale::Mapper
     # @!attribute [r] type
     # @return [String] a description of the price (e.g. print price, digital price).
@@ -19,6 +21,7 @@ module Harkness
     attribute :price, Shale::Type::Float
   end
 
+  # An individual character.
   class Comic < Shale::Mapper
     # @!attribute [r] id
     # @return [Integer] the unique ID of the comic resource.
@@ -114,12 +117,14 @@ module Harkness
     attribute :events, Harkness::EventList
   end
 
+  # Container class that holds pagination information and results.
   class ComicDataContainer < Harkness::Base::DataContainer
     # @!attribute [r] results
     # @return [Array<Harkness::Comic>] the list of comics returned by the call.
     attribute :results, Harkness::Comic, collection: true
   end
 
+  # The top level wrapper of a response from the API.
   class ComicDataWrapper < Harkness::Base::DataWrapper
     # @!attribute [r] data
     # @return [Harkness::ComicDataContainer] The results returned by the call.
