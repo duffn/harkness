@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  File: README
+  
+    &mdash; Documentation by YARD 0.9.28
+  
+</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+  <link rel="stylesheet" href="css/common.css" type="text/css" />
+
+<script type="text/javascript">
+  pathId = "README";
+  relpath = '';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="file_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="_index.html">Index</a> &raquo; 
+    <span class="title">File: README</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><div id='filecontents'><h1 id="harkness">Harkness</h1>
+
+<p>A full-featured and painstakingly documented library for working (playing) with the <a href="https://developer.marvel.com/docs">Marvel API</a>.</p>
+
+<p><img src="https://github.com/duffn/harkness/actions/workflows/test.yml/badge.svg" alt="main"> <a href="https://codecov.io/gh/duffn/harkness"><img src="https://codecov.io/gh/duffn/harkness/branch/main/graph/badge.svg?token=9XUA33QIM2" alt="codecov"></a> <a href="https://badge.fury.io/rb/harkness"><img src="https://badge.fury.io/rb/harkness.svg" alt="Gem Version"></a></p>
+
+<h2 id="installation">Installation</h2>
+
+<p>Install the gem and add to the application&#39;s Gemfile by executing:</p>
+
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_bundle'>bundle</span> <span class='id identifier rubyid_add'>add</span> <span class='id identifier rubyid_harkness'>harkness</span>
+</code></pre>
+
+<p>If bundler is not being used to manage dependencies, install the gem by executing:</p>
+
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_gem'>gem</span> <span class='id identifier rubyid_install'>install</span> <span class='id identifier rubyid_harkness'>harkness</span>
+</code></pre>
+
+<h2 id="usage">Usage</h2>
+
+<ul>
+<li><p>Get your Marvel API public key and private key on your <a href="https://developer.marvel.com/account">Marvel developer account</a>.</p></li>
+<li><p>Set your public key and private key as environment variables using your preferred method.</p></li>
+</ul>
+
+<pre class="code bash"><code class="bash">export MARVEL_PUBLIC_KEY=my_public_key
+export MARVEL_PRIVATE_KEY=my_private_key
+</code></pre>
+
+<ul>
+<li>Create a Harkness client.</li>
+</ul>
+
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_require'>require</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>harkness</span><span class='tstring_end'>&quot;</span></span>
+
+<span class='id identifier rubyid_client'>client</span> <span class='op'>=</span> <span class='const'><span class='object_link'><a href="Harkness.html" title="Harkness (module)">Harkness</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="Harkness/Client.html" title="Harkness::Client (class)">Client</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'><span class='object_link'><a href="Harkness/Client.html#initialize-instance_method" title="Harkness::Client#initialize (method)">new</a></span></span><span class='lparen'>(</span><span class='label'>public_key:</span> <span class='const'>ENV</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>MARVEL_PUBLIC_KEY</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='comma'>,</span> <span class='label'>private_key:</span> <span class='const'>ENV</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>MARVEL_PRIVATE_KEY</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+</code></pre>
+
+<ul>
+<li><p>Use the client to access API resources.</p>
+
+<ul>
+<li>Use <code>list</code> on any resource to get all, paginated, items for that resource.</li>
+<li>Pass any <a href="https://developer.marvel.com/docs">valid parameters</a> to the <code>list</code> method.</li>
+</ul>
+
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_characters'>characters</span><span class='period'>.</span><span class='id identifier rubyid_list'>list</span><span class='lparen'>(</span><span class='label'>nameStartsWith:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Ant-</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='label'>limit:</span> <span class='int'>10</span><span class='comma'>,</span> <span class='label'>orderBy:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>-modified</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+</code></pre>
+
+<ul>
+<li>Use <code>retrieve</code> to get a single resource by ID.</li>
+<li>Get related resources, too!</li>
+<li>Ex. <code>client.comics.characters(comic_id: 1234)</code> will get all characters for the comic with ID <code>1234</code>.</li>
+</ul></li>
+<li><p>All resources are classes in the <code>Harkness</code> module and attributes can be easily accessed just as you would access them normally.</p></li>
+</ul>
+
+<pre class="code ruby"><code class="ruby">irb(main):001:0&gt; client = Harkness::Client.new(public_key: ENV[&quot;MARVEL_PUBLIC_KEY&quot;], private_key: ENV[&quot;MARVEL_PRIVATE_KEY&quot;])
+=&gt;
+#&lt;Harkness::Client:0x00000001083a93d8
+...
+irb(main):002:0&gt; character = client.characters.list(nameStartsWith: &quot;Ant-&quot;, limit: 1, orderBy: &quot;modified&quot;)
+=&gt;
+#&lt;Harkness::CharacterDataWrapper:0x0000000108c740f8
+...
+irb(main):003:0&gt; character.data.results[0].name
+=&gt; &quot;Ant-Man (Eric O&#39;Grady)&quot;
+</code></pre>
+
+<h3 id="resources">Resources</h3>
+
+<h4 id="characters">Characters</h4>
+
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_characters'>characters</span><span class='period'>.</span><span class='id identifier rubyid_list'>list</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_characters'>characters</span><span class='period'>.</span><span class='id identifier rubyid_retrieve'>retrieve</span><span class='lparen'>(</span><span class='label'>character_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_characters'>characters</span><span class='period'>.</span><span class='id identifier rubyid_comics'>comics</span><span class='lparen'>(</span><span class='label'>character_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_characters'>characters</span><span class='period'>.</span><span class='id identifier rubyid_events'>events</span><span class='lparen'>(</span><span class='label'>character_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_characters'>characters</span><span class='period'>.</span><span class='id identifier rubyid_series'>series</span><span class='lparen'>(</span><span class='label'>character_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_characters'>characters</span><span class='period'>.</span><span class='id identifier rubyid_stories'>stories</span><span class='lparen'>(</span><span class='label'>character_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+</code></pre>
+
+<h4 id="comics">Comics</h4>
+
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_comics'>comics</span><span class='period'>.</span><span class='id identifier rubyid_list'>list</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_comics'>comics</span><span class='period'>.</span><span class='id identifier rubyid_retrieve'>retrieve</span><span class='lparen'>(</span><span class='label'>comic_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_comics'>comics</span><span class='period'>.</span><span class='id identifier rubyid_characters'>characters</span><span class='lparen'>(</span><span class='label'>comic_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_comics'>comics</span><span class='period'>.</span><span class='id identifier rubyid_creators'>creators</span><span class='lparen'>(</span><span class='label'>comic_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_comics'>comics</span><span class='period'>.</span><span class='id identifier rubyid_events'>events</span><span class='lparen'>(</span><span class='label'>comic_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_comics'>comics</span><span class='period'>.</span><span class='id identifier rubyid_stories'>stories</span><span class='lparen'>(</span><span class='label'>comic_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+</code></pre>
+
+<h4 id="creators">Creators</h4>
+
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_creators'>creators</span><span class='period'>.</span><span class='id identifier rubyid_list'>list</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_creators'>creators</span><span class='period'>.</span><span class='id identifier rubyid_retrieve'>retrieve</span><span class='lparen'>(</span><span class='label'>comic_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_creators'>creators</span><span class='period'>.</span><span class='id identifier rubyid_comics'>comics</span><span class='lparen'>(</span><span class='label'>creator_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_creators'>creators</span><span class='period'>.</span><span class='id identifier rubyid_events'>events</span><span class='lparen'>(</span><span class='label'>creator_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_creators'>creators</span><span class='period'>.</span><span class='id identifier rubyid_series'>series</span><span class='lparen'>(</span><span class='label'>creator_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_creators'>creators</span><span class='period'>.</span><span class='id identifier rubyid_stories'>stories</span><span class='lparen'>(</span><span class='label'>creator_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+</code></pre>
+
+<h4 id="events">Events</h4>
+
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_events'>events</span><span class='period'>.</span><span class='id identifier rubyid_list'>list</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_events'>events</span><span class='period'>.</span><span class='id identifier rubyid_retrieve'>retrieve</span><span class='lparen'>(</span><span class='label'>event_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_events'>events</span><span class='period'>.</span><span class='id identifier rubyid_comics'>comics</span><span class='lparen'>(</span><span class='label'>event_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_events'>events</span><span class='period'>.</span><span class='id identifier rubyid_series'>series</span><span class='lparen'>(</span><span class='label'>event_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_events'>events</span><span class='period'>.</span><span class='id identifier rubyid_creators'>creators</span><span class='lparen'>(</span><span class='label'>event_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_events'>events</span><span class='period'>.</span><span class='id identifier rubyid_characters'>characters</span><span class='lparen'>(</span><span class='label'>event_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_events'>events</span><span class='period'>.</span><span class='id identifier rubyid_stories'>stories</span><span class='lparen'>(</span><span class='label'>event_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+</code></pre>
+
+<h4 id="series">Series</h4>
+
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_series'>series</span><span class='period'>.</span><span class='id identifier rubyid_list'>list</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_series'>series</span><span class='period'>.</span><span class='id identifier rubyid_retrieve'>retrieve</span><span class='lparen'>(</span><span class='label'>series_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_series'>series</span><span class='period'>.</span><span class='id identifier rubyid_comics'>comics</span><span class='lparen'>(</span><span class='label'>series_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_series'>series</span><span class='period'>.</span><span class='id identifier rubyid_events'>events</span><span class='lparen'>(</span><span class='label'>series_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_series'>series</span><span class='period'>.</span><span class='id identifier rubyid_creators'>creators</span><span class='lparen'>(</span><span class='label'>series_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_series'>series</span><span class='period'>.</span><span class='id identifier rubyid_characters'>characters</span><span class='lparen'>(</span><span class='label'>series_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_series'>series</span><span class='period'>.</span><span class='id identifier rubyid_stories'>stories</span><span class='lparen'>(</span><span class='label'>series_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+</code></pre>
+
+<h4 id="stories">Stories</h4>
+
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_stories'>stories</span><span class='period'>.</span><span class='id identifier rubyid_list'>list</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_stories'>stories</span><span class='period'>.</span><span class='id identifier rubyid_retrieve'>retrieve</span><span class='lparen'>(</span><span class='label'>story_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_stories'>stories</span><span class='period'>.</span><span class='id identifier rubyid_comics'>comics</span><span class='lparen'>(</span><span class='label'>story_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_stories'>stories</span><span class='period'>.</span><span class='id identifier rubyid_events'>events</span><span class='lparen'>(</span><span class='label'>story_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_stories'>stories</span><span class='period'>.</span><span class='id identifier rubyid_creators'>creators</span><span class='lparen'>(</span><span class='label'>story_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_stories'>stories</span><span class='period'>.</span><span class='id identifier rubyid_characters'>characters</span><span class='lparen'>(</span><span class='label'>story_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_client'>client</span><span class='period'>.</span><span class='id identifier rubyid_stories'>stories</span><span class='period'>.</span><span class='id identifier rubyid_series'>series</span><span class='lparen'>(</span><span class='label'>story_id:</span> <span class='int'>1234</span><span class='rparen'>)</span>
+</code></pre>
+
+<h2 id="docs">Docs</h2>
+
+<ul>
+<li>Browse the painstakingly documented <a href="https://rubydoc.info/gems/harkness">RubyDoc</a>.</li>
+<li>View the interactive <a href="https://developer.marvel.com/docs">API tester at Marvel</a>.</li>
+</ul>
+
+<h2 id="contributing">Contributing</h2>
+
+<p>See <a href="CONTRIBUTING.md">contributing</a>.</p>
+
+<h2 id="license">License</h2>
+
+<p>The gem is available as open source under the terms of the <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
+
+<h2 id="code-of-conduct">Code of Conduct</h2>
+
+<p>Everyone interacting with the Harkness project is expected to follow the <a href="https://github.com/duffn/harkness/blob/main/CODE_OF_CONDUCT.md">code of conduct</a>.</p>
+</div></div>
+
+      <div id="footer">
+  Generated on Mon Mar 13 01:31:13 2023 by
+  <a href="https://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.28 (ruby-3.2.1).
+</div>
+
+    </div>
+  </body>
+</html>

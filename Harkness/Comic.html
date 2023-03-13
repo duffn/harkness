@@ -1,0 +1,2561 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  Class: Harkness::Comic
+  
+    &mdash; Documentation by YARD 0.9.28
+  
+</title>
+
+  <link rel="stylesheet" href="../css/style.css" type="text/css" />
+
+  <link rel="stylesheet" href="../css/common.css" type="text/css" />
+
+<script type="text/javascript">
+  pathId = "Harkness::Comic";
+  relpath = '../';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="../js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="../js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="../class_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="../_index.html">Index (C)</a> &raquo;
+    <span class='title'><span class='object_link'><a href="../Harkness.html" title="Harkness (module)">Harkness</a></span></span>
+     &raquo; 
+    <span class="title">Comic</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="../class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><h1>Class: Harkness::Comic
+  
+  
+  
+</h1>
+<div class="box_info">
+  
+  <dl>
+    <dt>Inherits:</dt>
+    <dd>
+      <span class="inheritName">Shale::Mapper</span>
+      
+        <ul class="fullTree">
+          <li>Object</li>
+          
+            <li class="next">Shale::Mapper</li>
+          
+            <li class="next">Harkness::Comic</li>
+          
+        </ul>
+        <a href="#" class="inheritanceTree">show all</a>
+      
+    </dd>
+  </dl>
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  <dl>
+    <dt>Defined in:</dt>
+    <dd>lib/harkness/models/comic.rb</dd>
+  </dl>
+  
+</div>
+
+<h2>Overview</h2><div class="docstring">
+  <div class="discussion">
+    <p>An individual character.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+
+
+
+  <h2>Instance Attribute Summary <small><a href="#" class="summary_toggle">collapse</a></small></h2>
+  <ul class="summary">
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#characters-instance_method" title="#characters (instance method)">#<strong>characters</strong>  &#x21d2; Harkness::CharacterList </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>A resource list containing the characters which appear in this comic.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#collectedIssues-instance_method" title="#collectedIssues (instance method)">#<strong>collectedIssues</strong>  &#x21d2; Array&lt;Harkness::ComicSummary&gt; </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>A list of issues collected in this comic (will generally be empty for periodical formats such as &quot;comic&quot; or &quot;magazine&quot;).</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#collections-instance_method" title="#collections (instance method)">#<strong>collections</strong>  &#x21d2; Array&lt;Harkness::ComicSummary&gt; </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>A list of collections which include this comic (will generally be empty if the comic&#39;s format is a collection).</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#creators-instance_method" title="#creators (instance method)">#<strong>creators</strong>  &#x21d2; Harkness::CreatorList </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>A resource list containing the creators associated with this comic.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#dates-instance_method" title="#dates (instance method)">#<strong>dates</strong>  &#x21d2; Array&lt;Harkness::ComicDate] a list of key dates for this comic. </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>Array&lt;Harkness::ComicDate] a list of key dates for this comic.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#description-instance_method" title="#description (instance method)">#<strong>description</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>The preferred description of the comic.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#diamondCode-instance_method" title="#diamondCode (instance method)">#<strong>diamondCode</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>The Diamond code for the comic.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#digitalId-instance_method" title="#digitalId (instance method)">#<strong>digitalId</strong>  &#x21d2; Integer </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>The ID of the digital comic representation of this comic.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#ean-instance_method" title="#ean (instance method)">#<strong>ean</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>The EAN barcode for the comic.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#events-instance_method" title="#events (instance method)">#<strong>events</strong>  &#x21d2; Harkness::EventList </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>A resource list containing the events in which this comic appears.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#format-instance_method" title="#format (instance method)">#<strong>format</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>The publication format of the comic e.g.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#id-instance_method" title="#id (instance method)">#<strong>id</strong>  &#x21d2; Integer </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>The unique ID of the comic resource.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#images-instance_method" title="#images (instance method)">#<strong>images</strong>  &#x21d2; Array&lt;Harkness::Image&gt; </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>A list of promotional images associated with this comic.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#isbn-instance_method" title="#isbn (instance method)">#<strong>isbn</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>The ISBN for the comic (generally only populated for collection formats).</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#issn-instance_method" title="#issn (instance method)">#<strong>issn</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>The ISSN barcode for the comic.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#issueNumber-instance_method" title="#issueNumber (instance method)">#<strong>issueNumber</strong>  &#x21d2; Integer </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>The number of the issue in the series (will generally be 0 for collection formats).</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#modified-instance_method" title="#modified (instance method)">#<strong>modified</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>The date the resource was most recently modified.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#pageCount-instance_method" title="#pageCount (instance method)">#<strong>pageCount</strong>  &#x21d2; Integer </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>The number of story pages in the comic.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#prices-instance_method" title="#prices (instance method)">#<strong>prices</strong>  &#x21d2; Array&lt;Harkness::ComicPrice&gt; </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>A list of prices for this comic.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#resourceURI-instance_method" title="#resourceURI (instance method)">#<strong>resourceURI</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>The canonical URL identifier for this resource.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#series-instance_method" title="#series (instance method)">#<strong>series</strong>  &#x21d2; Array&lt;Harkness::SeriesSummary&gt; </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>A summary representation of the series to which this comic belongs.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#stories-instance_method" title="#stories (instance method)">#<strong>stories</strong>  &#x21d2; Harkness::StoryList </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>A resource list containing the stories which appear in this comic.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#textObjects-instance_method" title="#textObjects (instance method)">#<strong>textObjects</strong>  &#x21d2; Array&lt;Harkness::TextObject&gt; </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>A set of descriptive text blurbs for the comic.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#thumbnail-instance_method" title="#thumbnail (instance method)">#<strong>thumbnail</strong>  &#x21d2; Harkness::Image </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>The representative image for this comic.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#title-instance_method" title="#title (instance method)">#<strong>title</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>The canonical title of the comic.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#upc-instance_method" title="#upc (instance method)">#<strong>upc</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>The UPC barcode number for the comic (generally only populated for periodical formats).</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#urls-instance_method" title="#urls (instance method)">#<strong>urls</strong>  &#x21d2; Array&lt;Harkness::URL&gt; </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>A set of public web site URLs for the resource.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#variantDescription-instance_method" title="#variantDescription (instance method)">#<strong>variantDescription</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>If the issue is a variant (e.g. an alternate cover, second printing, or director’s cut), a text description of the variant.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#variants-instance_method" title="#variants (instance method)">#<strong>variants</strong>  &#x21d2; Array&lt;Harkness::ComicSummary&gt; </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>A list of variant issues for this comic (includes the &quot;original&quot; issue if the current issue is a variant).</p>
+</div></span>
+  
+</li>
+
+    
+  </ul>
+
+
+
+
+
+  
+  <div id="instance_attr_details" class="attr_details">
+    <h2>Instance Attribute Details</h2>
+    
+      
+      <span id=""></span>
+      <div class="method_details first">
+  <h3 class="signature first" id="characters-instance_method">
+  
+    #<strong>characters</strong>  &#x21d2; <tt><span class='object_link'><a href="CharacterList.html" title="Harkness::CharacterList (class)">Harkness::CharacterList</a></span></tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns a resource list containing the characters which appear in this comic.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="CharacterList.html" title="Harkness::CharacterList (class)">Harkness::CharacterList</a></span></tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>a resource list containing the characters which appear in this comic.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+111</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 111</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:characters</span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="../Harkness.html" title="Harkness (module)">Harkness</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="CharacterList.html" title="Harkness::CharacterList (class)">CharacterList</a></span></span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="collectedIssues-instance_method">
+  
+    #<strong>collectedIssues</strong>  &#x21d2; <tt>Array&lt;<span class='object_link'><a href="ComicSummary.html" title="Harkness::ComicSummary (class)">Harkness::ComicSummary</a></span>&gt;</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns a list of issues collected in this comic (will generally
+be empty for periodical formats such as &quot;comic&quot; or &quot;magazine&quot;).</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array&lt;<span class='object_link'><a href="ComicSummary.html" title="Harkness::ComicSummary (class)">Harkness::ComicSummary</a></span>&gt;</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>a list of issues collected in this comic (will generally
+be empty for periodical formats such as &quot;comic&quot; or &quot;magazine&quot;).</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+93</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 93</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:collectedIssues</span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="../Harkness.html" title="Harkness (module)">Harkness</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="ComicSummary.html" title="Harkness::ComicSummary (class)">ComicSummary</a></span></span><span class='comma'>,</span> <span class='label'>collection:</span> <span class='kw'>true</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="collections-instance_method">
+  
+    #<strong>collections</strong>  &#x21d2; <tt>Array&lt;<span class='object_link'><a href="ComicSummary.html" title="Harkness::ComicSummary (class)">Harkness::ComicSummary</a></span>&gt;</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns A list of collections which include this comic (will generally
+be empty if the comic&#39;s format is a collection).</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array&lt;<span class='object_link'><a href="ComicSummary.html" title="Harkness::ComicSummary (class)">Harkness::ComicSummary</a></span>&gt;</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>A list of collections which include this comic (will generally
+be empty if the comic&#39;s format is a collection).</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+89</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 89</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:collections</span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="../Harkness.html" title="Harkness (module)">Harkness</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="ComicSummary.html" title="Harkness::ComicSummary (class)">ComicSummary</a></span></span><span class='comma'>,</span> <span class='label'>collection:</span> <span class='kw'>true</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="creators-instance_method">
+  
+    #<strong>creators</strong>  &#x21d2; <tt><span class='object_link'><a href="CreatorList.html" title="Harkness::CreatorList (class)">Harkness::CreatorList</a></span></tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns a resource list containing the creators associated with this comic.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="CreatorList.html" title="Harkness::CreatorList (class)">Harkness::CreatorList</a></span></tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>a resource list containing the creators associated with this comic.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+108</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 108</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:creators</span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="../Harkness.html" title="Harkness (module)">Harkness</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="CreatorList.html" title="Harkness::CreatorList (class)">CreatorList</a></span></span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="dates-instance_method">
+  
+    #<strong>dates</strong>  &#x21d2; <tt>Array&lt;<span class='object_link'><a href="ComicDate.html" title="Harkness::ComicDate (class)">Harkness::ComicDate</a></span>] a list of key <span class='object_link'><a href="#dates-instance_method" title="Harkness::Comic#dates (method)">dates</a></span> for this comic.</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns Array&lt;Harkness::ComicDate] a list of key dates for this comic.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array&lt;<span class='object_link'><a href="ComicDate.html" title="Harkness::ComicDate (class)">Harkness::ComicDate</a></span>] a list of key <span class='object_link'><a href="#dates-instance_method" title="Harkness::Comic#dates (method)">dates</a></span> for this comic.</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>Array&lt;Harkness::ComicDate] a list of key dates for this comic.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+96</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 96</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:dates</span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="../Harkness.html" title="Harkness (module)">Harkness</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="ComicDate.html" title="Harkness::ComicDate (class)">ComicDate</a></span></span><span class='comma'>,</span> <span class='label'>collection:</span> <span class='kw'>true</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="description-instance_method">
+  
+    #<strong>description</strong>  &#x21d2; <tt>String</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns the preferred description of the comic.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>the preferred description of the comic.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+45</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 45</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:description</span><span class='comma'>,</span> <span class='const'>Shale</span><span class='op'>::</span><span class='const'>Type</span><span class='op'>::</span><span class='const'>String</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="diamondCode-instance_method">
+  
+    #<strong>diamondCode</strong>  &#x21d2; <tt>String</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns the Diamond code for the comic.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>the Diamond code for the comic.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+57</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 57</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:diamondCode</span><span class='comma'>,</span> <span class='const'>Shale</span><span class='op'>::</span><span class='const'>Type</span><span class='op'>::</span><span class='const'>String</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="digitalId-instance_method">
+  
+    #<strong>digitalId</strong>  &#x21d2; <tt>Integer</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns the ID of the digital comic representation of this comic. Will be 0 if the comic is
+not available digitally.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Integer</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>the ID of the digital comic representation of this comic. Will be 0 if the comic is
+not available digitally.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+32</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 32</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:digitalId</span><span class='comma'>,</span> <span class='const'>Shale</span><span class='op'>::</span><span class='const'>Type</span><span class='op'>::</span><span class='const'>Integer</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="ean-instance_method">
+  
+    #<strong>ean</strong>  &#x21d2; <tt>String</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns the EAN barcode for the comic.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>the EAN barcode for the comic.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+60</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 60</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:ean</span><span class='comma'>,</span> <span class='const'>Shale</span><span class='op'>::</span><span class='const'>Type</span><span class='op'>::</span><span class='const'>String</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="events-instance_method">
+  
+    #<strong>events</strong>  &#x21d2; <tt><span class='object_link'><a href="EventList.html" title="Harkness::EventList (class)">Harkness::EventList</a></span></tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns a resource list containing the events in which this comic appears.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="EventList.html" title="Harkness::EventList (class)">Harkness::EventList</a></span></tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>a resource list containing the events in which this comic appears.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+117</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 117</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:events</span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="../Harkness.html" title="Harkness (module)">Harkness</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="EventList.html" title="Harkness::EventList (class)">EventList</a></span></span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="format-instance_method">
+  
+    #<strong>format</strong>  &#x21d2; <tt>String</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns the publication format of the comic e.g. comic, hardcover, trade paperback.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>the publication format of the comic e.g. comic, hardcover, trade paperback.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+66</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 66</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:format</span><span class='comma'>,</span> <span class='const'>Shale</span><span class='op'>::</span><span class='const'>Type</span><span class='op'>::</span><span class='const'>String</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="id-instance_method">
+  
+    #<strong>id</strong>  &#x21d2; <tt>Integer</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns the unique ID of the comic resource.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Integer</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>the unique ID of the comic resource.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+28</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 28</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:id</span><span class='comma'>,</span> <span class='const'>Shale</span><span class='op'>::</span><span class='const'>Type</span><span class='op'>::</span><span class='const'>Integer</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="images-instance_method">
+  
+    #<strong>images</strong>  &#x21d2; <tt>Array&lt;<span class='object_link'><a href="Image.html" title="Harkness::Image (class)">Harkness::Image</a></span>&gt;</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns a list of promotional images associated with this comic.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array&lt;<span class='object_link'><a href="Image.html" title="Harkness::Image (class)">Harkness::Image</a></span>&gt;</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>a list of promotional images associated with this comic.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+105</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 105</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:images</span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="../Harkness.html" title="Harkness (module)">Harkness</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="Image.html" title="Harkness::Image (class)">Image</a></span></span><span class='comma'>,</span> <span class='label'>collection:</span> <span class='kw'>true</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="isbn-instance_method">
+  
+    #<strong>isbn</strong>  &#x21d2; <tt>String</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns the ISBN for the comic (generally only populated for collection formats).</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>the ISBN for the comic (generally only populated for collection formats).</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+51</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 51</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:isbn</span><span class='comma'>,</span> <span class='const'>Shale</span><span class='op'>::</span><span class='const'>Type</span><span class='op'>::</span><span class='const'>String</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="issn-instance_method">
+  
+    #<strong>issn</strong>  &#x21d2; <tt>String</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns the ISSN barcode for the comic.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>the ISSN barcode for the comic.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+63</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 63</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:issn</span><span class='comma'>,</span> <span class='const'>Shale</span><span class='op'>::</span><span class='const'>Type</span><span class='op'>::</span><span class='const'>String</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="issueNumber-instance_method">
+  
+    #<strong>issueNumber</strong>  &#x21d2; <tt>Integer</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns the number of the issue in the series (will generally be 0 for collection formats).</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Integer</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>the number of the issue in the series (will generally be 0 for collection formats).</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+38</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 38</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:issueNumber</span><span class='comma'>,</span> <span class='const'>Shale</span><span class='op'>::</span><span class='const'>Type</span><span class='op'>::</span><span class='const'>Integer</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="modified-instance_method">
+  
+    #<strong>modified</strong>  &#x21d2; <tt>String</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns the date the resource was most recently modified.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>the date the resource was most recently modified.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+48</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 48</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:modified</span><span class='comma'>,</span> <span class='const'>Shale</span><span class='op'>::</span><span class='const'>Type</span><span class='op'>::</span><span class='const'>String</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="pageCount-instance_method">
+  
+    #<strong>pageCount</strong>  &#x21d2; <tt>Integer</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns the number of story pages in the comic.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Integer</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>the number of story pages in the comic.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+69</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 69</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:pageCount</span><span class='comma'>,</span> <span class='const'>Shale</span><span class='op'>::</span><span class='const'>Type</span><span class='op'>::</span><span class='const'>Integer</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="prices-instance_method">
+  
+    #<strong>prices</strong>  &#x21d2; <tt>Array&lt;<span class='object_link'><a href="ComicPrice.html" title="Harkness::ComicPrice (class)">Harkness::ComicPrice</a></span>&gt;</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns a list of prices for this comic.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array&lt;<span class='object_link'><a href="ComicPrice.html" title="Harkness::ComicPrice (class)">Harkness::ComicPrice</a></span>&gt;</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>a list of prices for this comic.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+99</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 99</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:prices</span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="../Harkness.html" title="Harkness (module)">Harkness</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="ComicPrice.html" title="Harkness::ComicPrice (class)">ComicPrice</a></span></span><span class='comma'>,</span> <span class='label'>collection:</span> <span class='kw'>true</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="resourceURI-instance_method">
+  
+    #<strong>resourceURI</strong>  &#x21d2; <tt>String</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns the canonical URL identifier for this resource.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>the canonical URL identifier for this resource.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+75</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 75</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:resourceURI</span><span class='comma'>,</span> <span class='const'>Shale</span><span class='op'>::</span><span class='const'>Type</span><span class='op'>::</span><span class='const'>String</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="series-instance_method">
+  
+    #<strong>series</strong>  &#x21d2; <tt>Array&lt;<span class='object_link'><a href="SeriesSummary.html" title="Harkness::SeriesSummary (class)">Harkness::SeriesSummary</a></span>&gt;</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns a summary representation of the series to which this comic belongs.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array&lt;<span class='object_link'><a href="SeriesSummary.html" title="Harkness::SeriesSummary (class)">Harkness::SeriesSummary</a></span>&gt;</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>a summary representation of the series to which this comic belongs.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+81</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 81</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:series</span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="../Harkness.html" title="Harkness (module)">Harkness</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="SeriesSummary.html" title="Harkness::SeriesSummary (class)">SeriesSummary</a></span></span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="stories-instance_method">
+  
+    #<strong>stories</strong>  &#x21d2; <tt><span class='object_link'><a href="StoryList.html" title="Harkness::StoryList (class)">Harkness::StoryList</a></span></tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns a resource list containing the stories which appear in this comic.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="StoryList.html" title="Harkness::StoryList (class)">Harkness::StoryList</a></span></tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>a resource list containing the stories which appear in this comic.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+114</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 114</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:stories</span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="../Harkness.html" title="Harkness (module)">Harkness</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="StoryList.html" title="Harkness::StoryList (class)">StoryList</a></span></span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="textObjects-instance_method">
+  
+    #<strong>textObjects</strong>  &#x21d2; <tt>Array&lt;<span class='object_link'><a href="TextObject.html" title="Harkness::TextObject (class)">Harkness::TextObject</a></span>&gt;</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns a set of descriptive text blurbs for the comic.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array&lt;<span class='object_link'><a href="TextObject.html" title="Harkness::TextObject (class)">Harkness::TextObject</a></span>&gt;</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>a set of descriptive text blurbs for the comic.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+72</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 72</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:textObjects</span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="../Harkness.html" title="Harkness (module)">Harkness</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="TextObject.html" title="Harkness::TextObject (class)">TextObject</a></span></span><span class='comma'>,</span> <span class='label'>collection:</span> <span class='kw'>true</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="thumbnail-instance_method">
+  
+    #<strong>thumbnail</strong>  &#x21d2; <tt><span class='object_link'><a href="Image.html" title="Harkness::Image (class)">Harkness::Image</a></span></tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns the representative image for this comic.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="Image.html" title="Harkness::Image (class)">Harkness::Image</a></span></tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>the representative image for this comic.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+102</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 102</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:thumbnail</span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="../Harkness.html" title="Harkness (module)">Harkness</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="Image.html" title="Harkness::Image (class)">Image</a></span></span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="title-instance_method">
+  
+    #<strong>title</strong>  &#x21d2; <tt>String</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns the canonical title of the comic.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>the canonical title of the comic.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+35</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 35</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:title</span><span class='comma'>,</span> <span class='const'>Shale</span><span class='op'>::</span><span class='const'>Type</span><span class='op'>::</span><span class='const'>String</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="upc-instance_method">
+  
+    #<strong>upc</strong>  &#x21d2; <tt>String</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns the UPC barcode number for the comic (generally only populated for periodical formats).</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>the UPC barcode number for the comic (generally only populated for periodical formats).</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+54</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 54</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:upc</span><span class='comma'>,</span> <span class='const'>Shale</span><span class='op'>::</span><span class='const'>Type</span><span class='op'>::</span><span class='const'>String</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="urls-instance_method">
+  
+    #<strong>urls</strong>  &#x21d2; <tt>Array&lt;<span class='object_link'><a href="URL.html" title="Harkness::URL (class)">Harkness::URL</a></span>&gt;</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns a set of public web site URLs for the resource.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array&lt;<span class='object_link'><a href="URL.html" title="Harkness::URL (class)">Harkness::URL</a></span>&gt;</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>a set of public web site URLs for the resource.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+78</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 78</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:urls</span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="../Harkness.html" title="Harkness (module)">Harkness</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="URL.html" title="Harkness::URL (class)">URL</a></span></span><span class='comma'>,</span> <span class='label'>collection:</span> <span class='kw'>true</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="variantDescription-instance_method">
+  
+    #<strong>variantDescription</strong>  &#x21d2; <tt>String</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns If the issue is a variant (e.g. an alternate cover, second printing, or director’s cut),
+a text description of the variant.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>If the issue is a variant (e.g. an alternate cover, second printing, or director’s cut),
+a text description of the variant.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+42</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 42</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:variantDescription</span><span class='comma'>,</span> <span class='const'>Shale</span><span class='op'>::</span><span class='const'>Type</span><span class='op'>::</span><span class='const'>String</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id=""></span>
+      <div class="method_details ">
+  <h3 class="signature " id="variants-instance_method">
+  
+    #<strong>variants</strong>  &#x21d2; <tt>Array&lt;<span class='object_link'><a href="ComicSummary.html" title="Harkness::ComicSummary (class)">Harkness::ComicSummary</a></span>&gt;</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Returns a list of variant issues for this comic (includes the &quot;original&quot; issue
+if the current issue is a variant).</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array&lt;<span class='object_link'><a href="ComicSummary.html" title="Harkness::ComicSummary (class)">Harkness::ComicSummary</a></span>&gt;</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>a list of variant issues for this comic (includes the &quot;original&quot; issue
+if the current issue is a variant).</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+85</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/harkness/models/comic.rb', line 85</span>
+
+<span class='id identifier rubyid_attribute'>attribute</span> <span class='symbol'>:variants</span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="../Harkness.html" title="Harkness (module)">Harkness</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="ComicSummary.html" title="Harkness::ComicSummary (class)">ComicSummary</a></span></span><span class='comma'>,</span> <span class='label'>collection:</span> <span class='kw'>true</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+
+</div>
+
+      <div id="footer">
+  Generated on Mon Mar 13 01:31:14 2023 by
+  <a href="https://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.28 (ruby-3.2.1).
+</div>
+
+    </div>
+  </body>
+</html>
